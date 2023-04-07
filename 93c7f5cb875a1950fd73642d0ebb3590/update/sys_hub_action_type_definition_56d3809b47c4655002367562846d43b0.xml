@@ -13,7 +13,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>convert_string_to_array</internal_name>
-        <label_cache>[{"name":"{{action.comma_seperated_string}}","label":"action➛Comma Seperated String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c61c4a7-1fb0-4ba1-bfec-8d4a99724e01"}},{"name":"{{step[4d495532-49d7-40ae-ae37-1f9d2bba41e4].converted_array}}","label":"step➛Script step➛Converted Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD09c400dbbfc46550bfddaf4674868956","child_label":"Converted Array_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"converted_array_child0","child_uiUniqueId":"546b2dae-f592-4d55-80c4-8916ac00784e","uiUniqueId":"94b3ca6f-6e72-4d05-9c64-b530d55b6e5c"}}]</label_cache>
+        <label_cache>[{"name":"{{action.comma_seperated_string}}","label":"action➛Comma Seperated String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c61c4a7-1fb0-4ba1-bfec-8d4a99724e01"}},{"name":"{{step[4d495532-49d7-40ae-ae37-1f9d2bba41e4].converted_array}}","label":"step➛Script step➛Converted Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD738ad3e5df4a251088518d098795e05c","child_label":"Converted Array_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"converted_array_child0","child_uiUniqueId":"546b2dae-f592-4d55-80c4-8916ac00784e","uiUniqueId":"94b3ca6f-6e72-4d05-9c64-b530d55b6e5c"}}]</label_cache>
         <master_snapshot>de4508db47c4655002367562846d43ec</master_snapshot>
         <name>Convert String to Array</name>
         <natlang/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56d3809b47c4655002367562846d43b0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Convert String to Array</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_56d3809b47c4655002367562846d43b0</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:17:13</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:18:46</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -50,10 +50,24 @@
         <sys_created_on>2023-01-02 14:48:11</sys_created_on>
         <sys_id>662584db47c4655002367562846d4385</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:17:00</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 05:56:45</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">1e2584db47c4655002367562846d4339</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>56d3809b47c4655002367562846d43b0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shreenag.araga@snc</sys_created_by>
+        <sys_created_on>2023-04-07 06:06:31</sys_created_on>
+        <sys_id>8fcc1ba9834a251067a211b6feaad3d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:06:45</sys_updated_on>
+        <value/>
+        <variable display_value="Convert Array">95c400db47c4655002367562846d4369</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -76,9 +90,9 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:46:28</sys_created_on>
         <sys_id>59c400db47c4655002367562846d4389</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-02 14:46:28</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:06:45</sys_updated_on>
         <table>var__m_sys_hub_action_output_56d3809b47c4655002367562846d43b0</table>
         <value>{{step[4d495532-49d7-40ae-ae37-1f9d2bba41e4].converted_array}}</value>
     </sys_element_mapping>
@@ -124,10 +138,10 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:46:27</sys_created_on>
         <sys_id>cdc400db47c4655002367562846d434a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-04 13:25:52</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:15:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cdc400db47c4655002367562846d434a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -152,11 +166,11 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:46:28</sys_created_on>
         <sys_id>55c400db47c4655002367562846d4363</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-04 13:25:52</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:15:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-
+	//To create an Array from the given comma seperated string
     var cs = (inputs.comma_string).toString().trim();
     var csArray = cs.split(",");
     var outputArray = [];
@@ -164,7 +178,6 @@
         outputArray.push((csArray[i]).toString().trim());
     }
     outputs.converted_array = outputArray;
-
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -272,7 +285,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Converted Array_child0,child_name=converted_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=546b2dae-f592-4d55-80c4-8916ac00784e,co_type_name=FDec357901694a2910a6fac5a57880696a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=94b3ca6f-6e72-4d05-9c64-b530d55b6e5c</attributes>
+        <attributes>child_label=Converted Array_child0,child_name=converted_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=546b2dae-f592-4d55-80c4-8916ac00784e,co_type_name=FD738ad3e5df4a251088518d098795e05c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=94b3ca6f-6e72-4d05-9c64-b530d55b6e5c</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -331,14 +344,14 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:46:27</sys_created_on>
         <sys_id>4dc400db47c4655002367562846d4359</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:16:55</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:06:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -365,14 +378,14 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:46:27</sys_created_on>
         <sys_id>d1c400db47c4655002367562846d435e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Converted Array</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-02 14:46:27</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:06:45</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -553,7 +566,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Convert Array_child0,child_name=convert_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=d8edbe31-016f-4253-b474-8f9479d1c7ab,co_type_name=FD0d3579015e4a2910b2dd5d09f33df78f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=a1f8fc69-849c-4237-90c8-eabc1ad0343a</attributes>
+        <attributes>child_label=Convert Array_child0,child_name=convert_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=d8edbe31-016f-4253-b474-8f9479d1c7ab,co_type_name=FD778ad3e5064a25101b71893a1b799080,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=a1f8fc69-849c-4237-90c8-eabc1ad0343a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -620,8 +633,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:16:57</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 05:56:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -749,7 +762,7 @@
         <sys_created_on>2023-01-02 14:46:26</sys_created_on>
         <sys_id>c9c400db47c4655002367562846d4348</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Seperated String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -774,7 +787,7 @@
         <sys_created_on>2023-01-02 14:48:10</sys_created_on>
         <sys_id>1a2584db47c4655002367562846d433d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -797,7 +810,7 @@
         <sys_created_on>2023-01-02 14:48:11</sys_created_on>
         <sys_id>2a2584db47c4655002367562846d4382</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -820,7 +833,7 @@
         <sys_created_on>2023-01-02 14:46:28</sys_created_on>
         <sys_id>d1c400db47c4655002367562846d4387</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Convert Array</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -835,17 +848,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Convert String to Array">56d3809b47c4655002367562846d43b0</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0f4548db47c4655002367562846d43b8","name":"plan","plan_signature":null}}</plan>
-        <snapshot>7845b901834a29102aac11b6feaad3f0</snapshot>
+        <snapshot>03dc9ba9834a251067a211b6feaad387</snapshot>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:48:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0f4548db47c4655002367562846d43b8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:17:21</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:06:49</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -859,7 +872,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>convert_string_to_array</internal_name>
-        <label_cache>[{"name":"{{action.comma_seperated_string}}","label":"action➛Comma Seperated String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c61c4a7-1fb0-4ba1-bfec-8d4a99724e01"}},{"name":"{{step[4d495532-49d7-40ae-ae37-1f9d2bba41e4].converted_array}}","label":"step➛Script step➛Converted Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD09c400dbbfc46550bfddaf4674868956","child_label":"Converted Array_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"converted_array_child0","child_uiUniqueId":"546b2dae-f592-4d55-80c4-8916ac00784e","uiUniqueId":"94b3ca6f-6e72-4d05-9c64-b530d55b6e5c"}}]</label_cache>
+        <label_cache>[{"name":"{{action.comma_seperated_string}}","label":"action➛Comma Seperated String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c61c4a7-1fb0-4ba1-bfec-8d4a99724e01"}},{"name":"{{step[4d495532-49d7-40ae-ae37-1f9d2bba41e4].converted_array}}","label":"step➛Script step➛Converted Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD738ad3e5df4a251088518d098795e05c","child_label":"Converted Array_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"converted_array_child0","child_uiUniqueId":"546b2dae-f592-4d55-80c4-8916ac00784e","uiUniqueId":"94b3ca6f-6e72-4d05-9c64-b530d55b6e5c"}}]</label_cache>
         <master>true</master>
         <name>Convert String to Array</name>
         <natlang/>
@@ -872,15 +885,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de4508db47c4655002367562846d43ec</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:17:06</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:06:47</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -895,9 +908,9 @@
         <sys_created_on>2023-01-02 14:48:44</sys_created_on>
         <sys_id>a64548db47c4655002367562846d4346</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:17:12</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 05:56:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">6a4548db47c4655002367562846d4338</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -969,10 +982,10 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:48:43</sys_created_on>
         <sys_id>de4548db47c4655002367562846d430e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-04 13:26:22</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:15:47</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=de4548db47c4655002367562846d430e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -983,11 +996,11 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 14:48:43</sys_created_on>
         <sys_id>264548db47c4655002367562846d432d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-04 13:26:22</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 06:15:47</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-
+	//To create an Array from the given comma seperated string
     var cs = (inputs.comma_string).toString().trim();
     var csArray = cs.split(",");
     var outputArray = [];
@@ -995,7 +1008,6 @@
         outputArray.push((csArray[i]).toString().trim());
     }
     outputs.converted_array = outputArray;
-
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -1117,7 +1129,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Converted Array_child0,child_name=converted_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=546b2dae-f592-4d55-80c4-8916ac00784e,co_type_name=FD7335b9017e4a291015b67566471492b3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=94b3ca6f-6e72-4d05-9c64-b530d55b6e5c</attributes>
+        <attributes>child_label=Converted Array_child0,child_name=converted_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=546b2dae-f592-4d55-80c4-8916ac00784e,co_type_name=FD609a17e5844a25103e7c6c508722fb0d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=94b3ca6f-6e72-4d05-9c64-b530d55b6e5c</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1182,8 +1194,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:17:09</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 05:56:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1211,7 +1223,7 @@
         <sys_created_on>2023-01-02 14:48:43</sys_created_on>
         <sys_id>124548db47c4655002367562846d431d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Converted Array</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1311,7 +1323,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Convert Array_child0,child_name=convert_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=d8edbe31-016f-4253-b474-8f9479d1c7ab,co_type_name=FD5445b901eb4a2910476e300499e7d5ca,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=a1f8fc69-849c-4237-90c8-eabc1ad0343a</attributes>
+        <attributes>child_label=Convert Array_child0,child_name=convert_array_child0,child_type=string,child_type_label=String,child_uiUniqueId=d8edbe31-016f-4253-b474-8f9479d1c7ab,co_type_name=FD389a17e5524a2510106b4c4e69287517,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=a1f8fc69-849c-4237-90c8-eabc1ad0343a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1378,8 +1390,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:17:10</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 05:56:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1594,7 +1606,7 @@
         <sys_created_on>2023-01-02 14:48:43</sys_created_on>
         <sys_id>924548db47c4655002367562846d430d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Seperated String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1619,7 +1631,7 @@
         <sys_created_on>2023-01-02 14:48:44</sys_created_on>
         <sys_id>224548db47c4655002367562846d4343</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1642,7 +1654,7 @@
         <sys_created_on>2023-01-02 14:48:44</sys_created_on>
         <sys_id>264548db47c4655002367562846d433c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1665,7 +1677,7 @@
         <sys_created_on>2023-01-02 14:48:44</sys_created_on>
         <sys_id>aa4548db47c4655002367562846d4337</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Convert Array</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
