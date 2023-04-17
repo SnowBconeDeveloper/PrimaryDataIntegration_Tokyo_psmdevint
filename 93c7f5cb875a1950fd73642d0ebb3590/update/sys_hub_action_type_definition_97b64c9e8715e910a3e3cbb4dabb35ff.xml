@@ -15,7 +15,7 @@
         <internal_name>segregate_cost_center_data_for_text</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD73870cdec615e910f2238a4e0cc591cd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"860df4e4-c301-438f-8127-adc5b0cc9dc4"}},{"name":"{{action.delimeter}}","label":"action➛Delimeter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b6d82d8e-d4f3-4ae6-83e4-242b6f5fd5a1"}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data}}","label":"step➛Processing Input String➛Cost Center Data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD08970cde4e15e910583b25fea7bd33f4","child_label":"Cost Center Data_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"cost_center_data_child0","child_uiUniqueId":"723ffb1b-48e4-493d-8bb7-436f74ac9ff0","uiUniqueId":"e098fe09-8bde-422b-ba05-4c61a956c17c"}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].total_rows}}","label":"step➛Processing Input String➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"bc06536d-9368-4997-913f-fb61a36ea455"}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].__step_status__.code}}","label":"step➛Processing Input String➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].__step_status__.message}}","label":"step➛Processing Input String➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>21974cde8715e910a3e3cbb4dabb3581</master_snapshot>
-        <name>Segregate Cost Center Data For Text</name>
+        <name>Segregate Cost Center Text Data Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97b64c9e8715e910a3e3cbb4dabb35ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Segregate Cost Center Data For Text</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Segregate Cost Center Text Data Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_97b64c9e8715e910a3e3cbb4dabb35ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:07:34</sys_updated_on>
+        <sys_updated_on>2023-04-17 06:47:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -77,10 +77,10 @@
         <sys_created_by>varun</sys_created_by>
         <sys_created_on>2023-04-07 04:52:08</sys_created_on>
         <sys_id>edcbcb21c38ee11031c77addd4013173</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 04:52:08</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 06:47:39</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">ddcbcb21c38ee11031c77addd4013166</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=97b64c9e8715e910a3e3cbb4dabb35ff"/>
@@ -134,7 +134,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT INc4970cde8715e910a3e3cbb4dabb35da"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</action>
+        <action display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</action>
         <cid>e83ce4b4-f39c-4384-a724-674c67765aa9</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -566,7 +566,7 @@
         <sys_created_on>2023-03-02 15:43:14</sys_created_on>
         <sys_id>88970cde8715e910a3e3cbb4dabb35fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cost Center Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -589,7 +589,7 @@
         <sys_created_on>2023-03-02 15:43:15</sys_created_on>
         <sys_id>88970cde8715e910a3e3cbb4dabb35fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -640,7 +640,7 @@
         <label>Delimeter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</model>
         <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff</name>
@@ -724,7 +724,7 @@
         <label>JSON String</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</model>
         <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff</name>
@@ -811,7 +811,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</model>
         <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
@@ -898,7 +898,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</model>
         <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
@@ -985,7 +985,7 @@
         <label>Cost Center Data</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</model>
         <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
@@ -1072,7 +1072,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</model>
         <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
@@ -1120,7 +1120,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=97b64c9e8715e910a3e3cbb4dabb35ff"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT IN74974cde8715e910a3e3cbb4dabb3517"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</action_type_id>
+        <action_type_id display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</action_type_id>
         <sys_created_by>Varun</sys_created_by>
         <sys_created_on>2023-03-02 15:43:18</sys_created_on>
         <sys_id>74974cde8715e910a3e3cbb4dabb3517</sys_id>
@@ -1157,7 +1157,7 @@
         <sys_created_on>2023-03-02 15:43:14</sys_created_on>
         <sys_id>04970cde8715e910a3e3cbb4dabb35d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimeter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1180,7 +1180,7 @@
         <sys_created_on>2023-03-02 15:43:14</sys_created_on>
         <sys_id>fb870cde8715e910a3e3cbb4dabb35d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1205,7 +1205,7 @@
         <sys_created_on>2023-03-02 15:43:15</sys_created_on>
         <sys_id>58974cde8715e910a3e3cbb4dabb350d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cost Center Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1228,11 +1228,11 @@
         <sys_created_on>2023-04-07 04:52:08</sys_created_on>
         <sys_id>61cbcb21c38ee11031c77addd4013170</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff___dont_treat_as_error___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-04-07 04:52:08</sys_updated_on>
         <url/>
@@ -1251,7 +1251,7 @@
         <sys_created_on>2023-03-02 15:43:15</sys_created_on>
         <sys_id>90974cde8715e910a3e3cbb4dabb3512</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1274,11 +1274,11 @@
         <sys_created_on>2023-04-07 04:52:08</sys_created_on>
         <sys_id>d9cbcb21c38ee11031c77addd401316a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff___action_status___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-04-07 04:52:08</sys_updated_on>
         <url/>
@@ -1287,19 +1287,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT IN2ecb0f21c38ee11031c77addd401317e"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</action_id>
+        <action_id display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2ecb0f21c38ee11031c77addd401317e","name":"plan","plan_signature":null}}</plan>
-        <snapshot>56cb0f21c38ee11031c77addd401310f</snapshot>
+        <snapshot>f92687b8c39ae15068187addd4013113</snapshot>
         <sys_created_by>varun</sys_created_by>
         <sys_created_on>2023-04-07 04:52:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2ecb0f21c38ee11031c77addd401317e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 04:52:13</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 06:47:52</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1315,26 +1315,26 @@
         <internal_name>segregate_cost_center_data_for_text</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD73870cdec615e910f2238a4e0cc591cd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"860df4e4-c301-438f-8127-adc5b0cc9dc4"}},{"name":"{{action.delimeter}}","label":"action➛Delimeter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b6d82d8e-d4f3-4ae6-83e4-242b6f5fd5a1"}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data}}","label":"step➛Processing Input String➛Cost Center Data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD08970cde4e15e910583b25fea7bd33f4","child_label":"Cost Center Data_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"cost_center_data_child0","child_uiUniqueId":"723ffb1b-48e4-493d-8bb7-436f74ac9ff0","uiUniqueId":"e098fe09-8bde-422b-ba05-4c61a956c17c"}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].total_rows}}","label":"step➛Processing Input String➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"bc06536d-9368-4997-913f-fb61a36ea455"}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].__step_status__.code}}","label":"step➛Processing Input String➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].__step_status__.message}}","label":"step➛Processing Input String➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>Segregate Cost Center Data For Text</name>
+        <name>Segregate Cost Center Text Data Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</parent_action>
+        <parent_action display_value="Segregate Cost Center Text Data Response">97b64c9e8715e910a3e3cbb4dabb35ff</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>Varun</sys_created_by>
         <sys_created_on>2023-03-02 15:43:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>21974cde8715e910a3e3cbb4dabb3581</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 04:53:51</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 06:47:50</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1433,7 +1433,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=21974cde8715e910a3e3cbb4dabb3581^sys_idNOT IN5e974cde8715e910a3e3cbb4dabb35db"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action>
+        <action display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</action>
         <cid>e83ce4b4-f39c-4384-a724-674c67765aa9</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1865,7 +1865,7 @@
         <sys_created_on>2023-03-02 15:43:24</sys_created_on>
         <sys_id>56974cde8715e910a3e3cbb4dabb35fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cost Center Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1888,7 +1888,7 @@
         <sys_created_on>2023-03-02 15:43:24</sys_created_on>
         <sys_id>66974cde8715e910a3e3cbb4dabb35fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1939,7 +1939,7 @@
         <label>JSON String</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</model>
         <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581</name>
@@ -2023,7 +2023,7 @@
         <label>Delimeter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</model>
         <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581</name>
@@ -2110,7 +2110,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</model>
         <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
@@ -2197,7 +2197,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</model>
         <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
@@ -2284,7 +2284,7 @@
         <label>Cost Center Data</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</model>
         <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
@@ -2371,7 +2371,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</model>
         <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
@@ -2419,7 +2419,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=21974cde8715e910a3e3cbb4dabb3581"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=21974cde8715e910a3e3cbb4dabb3581^sys_idNOT INfa978cde8715e910a3e3cbb4dabb352f"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action_type_id>
+        <action_type_id display_value="Segregate Cost Center Text Data Response">21974cde8715e910a3e3cbb4dabb3581</action_type_id>
         <sys_created_by>Varun</sys_created_by>
         <sys_created_on>2023-03-02 15:43:25</sys_created_on>
         <sys_id>fa978cde8715e910a3e3cbb4dabb352f</sys_id>
@@ -2427,7 +2427,7 @@
         <sys_updated_by>Varun</sys_updated_by>
         <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=fa978cde8715e910a3e3cbb4dabb352f^sys_idNOT INb62c4361c38ee11031c77addd40131d3"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=fa978cde8715e910a3e3cbb4dabb352f^sys_idNOT INb12687b8c39ae15068187addd4013113"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2023-03-02 07:43:25">fa978cde8715e910a3e3cbb4dabb352f</action_status_metadata_id>
         <condition>{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].__step_status__.code}}!=0</condition>
@@ -2435,12 +2435,12 @@
         <label>Processing Input String</label>
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-04-07 04:53:52</sys_created_on>
-        <sys_id>b62c4361c38ee11031c77addd40131d3</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 06:47:51</sys_created_on>
+        <sys_id>b12687b8c39ae15068187addd4013113</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 04:53:52</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 06:47:51</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581^sys_idNOT IN52974cde8715e910a3e3cbb4dabb35d5,5a974cde8715e910a3e3cbb4dabb35d9"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -2456,7 +2456,7 @@
         <sys_created_on>2023-03-02 15:43:23</sys_created_on>
         <sys_id>52974cde8715e910a3e3cbb4dabb35d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2479,7 +2479,7 @@
         <sys_created_on>2023-03-02 15:43:23</sys_created_on>
         <sys_id>5a974cde8715e910a3e3cbb4dabb35d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimeter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2504,7 +2504,7 @@
         <sys_created_on>2023-03-02 15:43:25</sys_created_on>
         <sys_id>26978cde8715e910a3e3cbb4dabb350d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cost Center Data</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2527,7 +2527,7 @@
         <sys_created_on>2023-03-02 15:43:25</sys_created_on>
         <sys_id>26978cde8715e910a3e3cbb4dabb3516</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2550,7 +2550,7 @@
         <sys_created_on>2023-03-02 15:43:25</sys_created_on>
         <sys_id>2e978cde8715e910a3e3cbb4dabb3511</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2573,7 +2573,7 @@
         <sys_created_on>2023-03-02 15:43:25</sys_created_on>
         <sys_id>66978cde8715e910a3e3cbb4dabb3529</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>

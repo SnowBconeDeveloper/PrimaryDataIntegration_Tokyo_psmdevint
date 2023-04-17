@@ -15,7 +15,7 @@
         <internal_name>segreggate_payment_term_net_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"d1d70b9a-95bd-4a0c-a047-3696c8a05525"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f940ffb0-9d1a-4712-be70-967aa08430fd"}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].__step_status__.code}}","label":"step➛Segreggate Payment Term Net Response➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].__step_status__.message}}","label":"step➛Segreggate Payment Term Net Response➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].payment_terms}}","label":"step➛Segreggate Payment Term Net Response➛Payment Terms","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDb0c93581ea46a110c5af03d29dfd145a","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"payment_term","child_uiUniqueId":"0cf48dd9-8154-4152-aacf-3e659aec13e3","uiUniqueId":"8ee3488b-2e10-4bcf-bb94-93f94fe92464"}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].total_rows}}","label":"step➛Segreggate Payment Term Net Response➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"0ea40057-d46f-4a54-9d31-50705f0e1440"}}]</label_cache>
         <master_snapshot>851b9610c3c2219031c77addd40131c5</master_snapshot>
-        <name>Segreggate Payment Term Net Response</name>
+        <name>Segregate Payment Term Net Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a89acf17c37d2d5031c77addd401318c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Segreggate Payment Term Net Response</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Segregate Payment Term Net Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a89acf17c37d2d5031c77addd401318c</sys_update_name>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:37:50</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-17 08:02:26</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -63,9 +63,9 @@
         <sys_created_by>Krishna</sys_created_by>
         <sys_created_on>2023-04-03 03:45:34</sys_created_on>
         <sys_id>9b26521cc382219031c77addd40131fc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:26:25</sys_updated_on>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-17 08:02:17</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">cb26521cc382219031c77addd40131f0</variable>
     </sys_variable_value>
@@ -148,7 +148,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=a89acf17c37d2d5031c77addd401318c^sys_idNOT IN8b26521cc382219031c77addd40131c6"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</action>
+        <action display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</action>
         <cid>95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -581,7 +581,7 @@
         <sys_created_on>2023-04-03 03:59:43</sys_created_on>
         <sys_id>a269de9cc382219031c77addd40131a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -604,7 +604,7 @@
         <sys_created_on>2023-04-03 03:45:33</sys_created_on>
         <sys_id>cf26521cc382219031c77addd40131da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Payment Terms</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -655,7 +655,7 @@
         <label>JSON String</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
+        <model display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
         <model_id>a89acf17c37d2d5031c77addd401318c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_a89acf17c37d2d5031c77addd401318c</name>
@@ -739,7 +739,7 @@
         <label>Delimiter</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
+        <model display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
         <model_id>a89acf17c37d2d5031c77addd401318c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_a89acf17c37d2d5031c77addd401318c</name>
@@ -826,7 +826,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
+        <model display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
         <model_id>a89acf17c37d2d5031c77addd401318c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c</name>
@@ -913,7 +913,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
+        <model display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
         <model_id>a89acf17c37d2d5031c77addd401318c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c</name>
@@ -1000,7 +1000,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
+        <model display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
         <model_id>a89acf17c37d2d5031c77addd401318c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c</name>
@@ -1087,7 +1087,7 @@
         <label>Payment Terms</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
+        <model display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</model>
         <model_id>a89acf17c37d2d5031c77addd401318c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c</name>
@@ -1135,7 +1135,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a89acf17c37d2d5031c77addd401318c"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a89acf17c37d2d5031c77addd401318c^sys_idNOT IN5726521cc382219031c77addd40131fe"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</action_type_id>
+        <action_type_id display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</action_type_id>
         <sys_created_by>Krishna</sys_created_by>
         <sys_created_on>2023-04-03 03:45:34</sys_created_on>
         <sys_id>5726521cc382219031c77addd40131fe</sys_id>
@@ -1172,7 +1172,7 @@
         <sys_created_on>2023-04-03 03:45:33</sys_created_on>
         <sys_id>0f26521cc382219031c77addd40131c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1195,7 +1195,7 @@
         <sys_created_on>2023-04-03 03:45:33</sys_created_on>
         <sys_id>0f26521cc382219031c77addd40131c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimiter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1220,7 +1220,7 @@
         <sys_created_on>2023-04-03 03:45:34</sys_created_on>
         <sys_id>1b26521cc382219031c77addd40131f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1243,7 +1243,7 @@
         <sys_created_on>2023-04-03 04:06:05</sys_created_on>
         <sys_id>bbdad210c3c2219031c77addd40131c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Payment Terms</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1266,7 +1266,7 @@
         <sys_created_on>2023-04-03 04:06:06</sys_created_on>
         <sys_id>c0ead210c3c2219031c77addd40131ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1289,7 +1289,7 @@
         <sys_created_on>2023-04-03 03:45:34</sys_created_on>
         <sys_id>df26521cc382219031c77addd40131f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1302,19 +1302,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a89acf17c37d2d5031c77addd401318c"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=a89acf17c37d2d5031c77addd401318c^sys_idNOT IN621bd610c3c2219031c77addd40131bf"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</action_id>
+        <action_id display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"621bd610c3c2219031c77addd40131bf","name":"plan","plan_signature":null}}</plan>
-        <snapshot>17c975818346a11067a211b6feaad39f</snapshot>
+        <snapshot>a23793f08352e5502aac11b6feaad32d</snapshot>
         <sys_created_by>Krishna</sys_created_by>
         <sys_created_on>2023-04-03 04:07:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>621bd610c3c2219031c77addd40131bf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>Krishna</sys_updated_by>
-        <sys_updated_on>2023-04-05 09:37:08</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-17 08:02:30</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1330,26 +1330,26 @@
         <internal_name>segreggate_payment_term_net_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"d1d70b9a-95bd-4a0c-a047-3696c8a05525"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f940ffb0-9d1a-4712-be70-967aa08430fd"}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].__step_status__.code}}","label":"step➛Segreggate Payment Term Net Response➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].__step_status__.message}}","label":"step➛Segreggate Payment Term Net Response➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].payment_terms}}","label":"step➛Segreggate Payment Term Net Response➛Payment Terms","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDb0c93581ea46a110c5af03d29dfd145a","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"payment_term","child_uiUniqueId":"0cf48dd9-8154-4152-aacf-3e659aec13e3","uiUniqueId":"8ee3488b-2e10-4bcf-bb94-93f94fe92464"}},{"name":"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].total_rows}}","label":"step➛Segreggate Payment Term Net Response➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"0ea40057-d46f-4a54-9d31-50705f0e1440"}}]</label_cache>
         <master>true</master>
-        <name>Segreggate Payment Term Net Response</name>
+        <name>Segregate Payment Term Net Response</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Segreggate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</parent_action>
+        <parent_action display_value="Segregate Payment Term Net Response">a89acf17c37d2d5031c77addd401318c</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>Krishna</sys_created_by>
         <sys_created_on>2023-04-03 04:06:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>851b9610c3c2219031c77addd40131c5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:26:27</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-17 08:02:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1448,7 +1448,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=851b9610c3c2219031c77addd40131c5^sys_idNOT IN951b9610c3c2219031c77addd40131d1"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</action>
+        <action display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</action>
         <cid>95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1881,7 +1881,7 @@
         <sys_created_on>2023-04-03 04:07:01</sys_created_on>
         <sys_id>2d1bd610c3c2219031c77addd4013121</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1904,7 +1904,7 @@
         <sys_created_on>2023-04-03 04:07:01</sys_created_on>
         <sys_id>6d1bd610c3c2219031c77addd401311e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Payment Terms</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1955,7 +1955,7 @@
         <label>JSON String</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
+        <model display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
         <model_id>851b9610c3c2219031c77addd40131c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_851b9610c3c2219031c77addd40131c5</name>
@@ -2039,7 +2039,7 @@
         <label>Delimiter</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
+        <model display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
         <model_id>851b9610c3c2219031c77addd40131c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_851b9610c3c2219031c77addd40131c5</name>
@@ -2126,7 +2126,7 @@
         <label>Total Rows</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
+        <model display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
         <model_id>851b9610c3c2219031c77addd40131c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5</name>
@@ -2213,7 +2213,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
+        <model display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
         <model_id>851b9610c3c2219031c77addd40131c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5</name>
@@ -2300,7 +2300,7 @@
         <label>Payment Terms</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
+        <model display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
         <model_id>851b9610c3c2219031c77addd40131c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5</name>
@@ -2387,7 +2387,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
+        <model display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</model>
         <model_id>851b9610c3c2219031c77addd40131c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_851b9610c3c2219031c77addd40131c5</name>
@@ -2435,7 +2435,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=851b9610c3c2219031c77addd40131c5"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=851b9610c3c2219031c77addd40131c5^sys_idNOT INc21bd610c3c2219031c77addd4013173"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Segreggate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</action_type_id>
+        <action_type_id display_value="Segregate Payment Term Net Response">851b9610c3c2219031c77addd40131c5</action_type_id>
         <sys_created_by>Krishna</sys_created_by>
         <sys_created_on>2023-04-03 04:07:03</sys_created_on>
         <sys_id>c21bd610c3c2219031c77addd4013173</sys_id>
@@ -2443,7 +2443,7 @@
         <sys_updated_by>Krishna</sys_updated_by>
         <sys_updated_on>2023-04-03 04:07:03</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c21bd610c3c2219031c77addd4013173^sys_idNOT INd0a35fed830a251067a211b6feaad37d"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c21bd610c3c2219031c77addd4013173^sys_idNOT IN563793f08352e5502aac11b6feaad32c"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2023-04-02 21:07:03">c21bd610c3c2219031c77addd4013173</action_status_metadata_id>
         <condition>{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].__step_status__.code}}!=0</condition>
@@ -2451,12 +2451,12 @@
         <label>Segreggate Payment Term Net Response Step fails</label>
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[95740a0c-bf73-4e6a-a4d3-f3c9c07a17a5].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
-        <sys_created_by>Prama</sys_created_by>
-        <sys_created_on>2023-04-07 05:26:28</sys_created_on>
-        <sys_id>d0a35fed830a251067a211b6feaad37d</sys_id>
+        <sys_created_by>krishna</sys_created_by>
+        <sys_created_on>2023-04-17 08:02:26</sys_created_on>
+        <sys_id>563793f08352e5502aac11b6feaad32c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-04-07 05:26:28</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-04-17 08:02:26</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_851b9610c3c2219031c77addd40131c5^sys_idNOT IN051b9610c3c2219031c77addd40131cc,991b9610c3c2219031c77addd40131cf"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -2472,7 +2472,7 @@
         <sys_created_on>2023-04-03 04:07:00</sys_created_on>
         <sys_id>051b9610c3c2219031c77addd40131cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2495,7 +2495,7 @@
         <sys_created_on>2023-04-03 04:07:00</sys_created_on>
         <sys_id>991b9610c3c2219031c77addd40131cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimiter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2520,7 +2520,7 @@
         <sys_created_on>2023-04-03 04:07:03</sys_created_on>
         <sys_id>311bd610c3c2219031c77addd4013158</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2543,7 +2543,7 @@
         <sys_created_on>2023-04-03 04:07:03</sys_created_on>
         <sys_id>461bd610c3c2219031c77addd4013169</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2566,7 +2566,7 @@
         <sys_created_on>2023-04-03 04:07:02</sys_created_on>
         <sys_id>791bd610c3c2219031c77addd4013154</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Payment Terms</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2589,7 +2589,7 @@
         <sys_created_on>2023-04-03 04:07:03</sys_created_on>
         <sys_id>8a1bd610c3c2219031c77addd401316c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
