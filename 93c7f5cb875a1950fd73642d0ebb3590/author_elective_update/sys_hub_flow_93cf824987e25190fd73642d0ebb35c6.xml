@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>454cd2c953711010a86dddeeff7b122a</copied_from>
+        <copied_from_name>Template Integration Service</copied_from_name>
+        <description/>
+        <internal_name>template_integration_service</internal_name>
+        <label_cache>[{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__dont_treat_as_error__","label":"1 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__action_status__","label":"1 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>ac509e4987e25190fd73642d0ebb359f</master_snapshot>
+        <name>Template Integration Service</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93cf824987e25190fd73642d0ebb35c6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Template Integration Service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_hub_flow_93cf824987e25190fd73642d0ebb35c6</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:08</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_variable_value action="DELETE" query="document_key=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^id=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN93cf824987e25190fd73642d0ebb35c9"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>93cf824987e25190fd73642d0ebb35c6</id>
+        <name>Template Integration Service</name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:24</sys_created_on>
+        <sys_id>93cf824987e25190fd73642d0ebb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:33:24</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=93cf824987e25190fd73642d0ebb35c9"/>
+    <sys_hub_flow_input action="DELETE" query="model=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN9bcf824987e25190fd73642d0ebb35d1,afcf824987e25190fd73642d0ebb35db,b8afd116475a2190c26f8945d36d433c,c0f1ed1347225110a4be65a5d36d43c4"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dbd4b5b0-3992-40c7-9844-5bb1565888b8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_sap_data_int_integration_service_job_tracker</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>service_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Service Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</model>
+        <model_id>93cf824987e25190fd73642d0ebb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_sap_data_int_integration_service_job_tracker">sn_sap_data_int_integration_service_job_tracker</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:24</sys_created_on>
+        <sys_id>9bcf824987e25190fd73642d0ebb35d1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f0e3a440-3599-437c-a060-17b03e46aba3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_sap_data_int_integration_service_job_tracker</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>last_successful_service_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Last Successful Service Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</model>
+        <model_id>93cf824987e25190fd73642d0ebb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_sap_data_int_integration_service_job_tracker">sn_sap_data_int_integration_service_job_tracker</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:25</sys_created_on>
+        <sys_id>afcf824987e25190fd73642d0ebb35db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=55681888-f541-485f-9a2a-57984ff06b6f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_fcms_intg_source</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>erp_source</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>ERP Source</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</model>
+        <model_id>93cf824987e25190fd73642d0ebb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_fcms_intg_source">sn_fcms_intg_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:10:49</sys_created_on>
+        <sys_id>b8afd116475a2190c26f8945d36d433c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=cd811886-f020-4acd-abb0-39d6c0b3f200</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_alias</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connection_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Connection name</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</model>
+        <model_id>93cf824987e25190fd73642d0ebb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 07:59:21</sys_created_on>
+        <sys_id>c0f1ed1347225110a4be65a5d36d43c4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN6f55a91e475a2190c26f8945d36d433b,ef55a91e475a2190c26f8945d36d4337"/>
+    <sys_hub_flow_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=cda69326-c4c0-422c-9eba-1ac2942c62e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Error</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</model>
+        <model_id>93cf824987e25190fd73642d0ebb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:52</sys_created_on>
+        <sys_id>6f55a91e475a2190c26f8945d36d433b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:49:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fcebb02b-0124-4d3a-8e30-cf0070917e0e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</model>
+        <model_id>93cf824987e25190fd73642d0ebb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:52</sys_created_on>
+        <sys_id>ef55a91e475a2190c26f8945d36d4337</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:49:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_hub_action_instance action="DELETE" query="flow=93cf824987e25190fd73642d0ebb35c6^sys_idNOT INc8dfc24987e25190fd73642d0ebb3520"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:27</sys_created_on>
+        <sys_id>c8dfc24987e25190fd73642d0ebb3520</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:08</sys_updated_on>
+        <ui_id>4f4a11d9-a157-4fe0-9ca3-35bee214b657</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c8dfc24987e25190fd73642d0ebb3520"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c8dfc24987e25190fd73642d0ebb3520</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:27</sys_created_on>
+        <sys_id>ccdfc24987e25190fd73642d0ebb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:33:27</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=c8dfc24987e25190fd73642d0ebb3520"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=c8dfc24987e25190fd73642d0ebb3520"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=c8dfc24987e25190fd73642d0ebb3520"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN27cfc24987e25190fd73642d0ebb3519"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">c088691e835261102aac11b6feaad31f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>error,status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:25</sys_created_on>
+        <sys_id>27cfc24987e25190fd73642d0ebb3519</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:08</sys_updated_on>
+        <ui_id>e04bf518-f17f-47f1-9017-1c336ac3960f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=27cfc24987e25190fd73642d0ebb3519"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^id=27cfc24987e25190fd73642d0ebb3519"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=27cfc24987e25190fd73642d0ebb3519"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=27cfc24987e25190fd73642d0ebb3519"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_hub_flow_variable action="DELETE" query="model=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN2bcf824987e25190fd73642d0ebb35e0,34af5516475a2190c26f8945d36d4332,58f1ed1347225110a4be65a5d36d43ca,6bcf824987e25190fd73642d0ebb35da"/>
+    <sys_documentation action="DELETE">
+        <element>last_successful_service_record</element>
+        <help/>
+        <hint/>
+        <label>Last Successful Service Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:25</sys_created_on>
+        <sys_id>2bcf824987e25190fd73642d0ebb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:33:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>erp_source</element>
+        <help/>
+        <hint/>
+        <label>ERP Source</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:10:49</sys_created_on>
+        <sys_id>34af5516475a2190c26f8945d36d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>connection_name</element>
+        <help/>
+        <hint/>
+        <label>Connection name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 07:59:21</sys_created_on>
+        <sys_id>58f1ed1347225110a4be65a5d36d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:59:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>service_record</element>
+        <help/>
+        <hint/>
+        <label>Service Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:33:25</sys_created_on>
+        <sys_id>6bcf824987e25190fd73642d0ebb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:33:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN2355a91e475a2190c26f8945d36d433b,b355a91e475a2190c26f8945d36d4340"/>
+    <sys_documentation action="DELETE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:52</sys_created_on>
+        <sys_id>2355a91e475a2190c26f8945d36d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:35:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:52</sys_created_on>
+        <sys_id>b355a91e475a2190c26f8945d36d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:35:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN67cfc24987e25190fd73642d0ebb3511,6fcfc24987e25190fd73642d0ebb3511"/>
+    <sys_choice action="DELETE" field="status" table="var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-13 11:33:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67cfc24987e25190fd73642d0ebb3511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-13 11:33:25</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-13 11:33:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fcfc24987e25190fd73642d0ebb3511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-13 11:33:25</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=93cf824987e25190fd73642d0ebb35c6"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN1150de4987e25190fd73642d0ebb3542"/>
+    <sys_flow_subflow_plan action="DELETE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@f679ad</plan>
+        <plan_id display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</plan_id>
+        <snapshot>ac509e4987e25190fd73642d0ebb359f</snapshot>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1150de4987e25190fd73642d0ebb3542</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:08</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>template_integration_service</internal_name>
+        <label_cache>[{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__dont_treat_as_error__","label":"1 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__action_status__","label":"1 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Template Integration Service</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac509e4987e25190fd73642d0ebb359f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:08</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_variable_value action="DELETE" query="document_key=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^id=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN60509e4987e25190fd73642d0ebb35a1"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>ac509e4987e25190fd73642d0ebb359f</id>
+        <name>Template Integration Service</name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:40</sys_created_on>
+        <sys_id>60509e4987e25190fd73642d0ebb35a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:35:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=60509e4987e25190fd73642d0ebb35a1"/>
+    <sys_hub_flow_input action="DELETE" query="model=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN55af5516475a2190c26f8945d36d43ec,74f1215347225110a4be65a5d36d4371,a0509e4987e25190fd73642d0ebb35a2,b8509e4987e25190fd73642d0ebb35db"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=55681888-f541-485f-9a2a-57984ff06b6f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_fcms_intg_source</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>erp_source</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>ERP Source</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</model>
+        <model_id>ac509e4987e25190fd73642d0ebb359f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_fcms_intg_source">sn_fcms_intg_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:10:51</sys_created_on>
+        <sys_id>55af5516475a2190c26f8945d36d43ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=cd811886-f020-4acd-abb0-39d6c0b3f200</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_alias</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connection_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Connection name</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</model>
+        <model_id>ac509e4987e25190fd73642d0ebb359f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 07:59:23</sys_created_on>
+        <sys_id>74f1215347225110a4be65a5d36d4371</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dbd4b5b0-3992-40c7-9844-5bb1565888b8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_sap_data_int_integration_service_job_tracker</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>service_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Service Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</model>
+        <model_id>ac509e4987e25190fd73642d0ebb359f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_sap_data_int_integration_service_job_tracker">sn_sap_data_int_integration_service_job_tracker</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:40</sys_created_on>
+        <sys_id>a0509e4987e25190fd73642d0ebb35a2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f0e3a440-3599-437c-a060-17b03e46aba3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_sap_data_int_integration_service_job_tracker</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>last_successful_service_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Last Successful Service Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</model>
+        <model_id>ac509e4987e25190fd73642d0ebb359f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_sap_data_int_integration_service_job_tracker">sn_sap_data_int_integration_service_job_tracker</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:41</sys_created_on>
+        <sys_id>b8509e4987e25190fd73642d0ebb35db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN0c65a91e475a2190c26f8945d36d43f5,4065a91e475a2190c26f8945d36d43fe"/>
+    <sys_hub_flow_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fcebb02b-0124-4d3a-8e30-cf0070917e0e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</model>
+        <model_id>ac509e4987e25190fd73642d0ebb359f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:54</sys_created_on>
+        <sys_id>0c65a91e475a2190c26f8945d36d43f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:49:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=cda69326-c4c0-422c-9eba-1ac2942c62e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Error</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</model>
+        <model_id>ac509e4987e25190fd73642d0ebb359f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:54</sys_created_on>
+        <sys_id>4065a91e475a2190c26f8945d36d43fe</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:49:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_hub_action_instance action="DELETE" query="flow=ac509e4987e25190fd73642d0ebb359f^sys_idNOT INd150de4987e25190fd73642d0ebb3535"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:43</sys_created_on>
+        <sys_id>d150de4987e25190fd73642d0ebb3535</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:08</sys_updated_on>
+        <ui_id>4f4a11d9-a157-4fe0-9ca3-35bee214b657</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d150de4987e25190fd73642d0ebb3535"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d150de4987e25190fd73642d0ebb3535</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:43</sys_created_on>
+        <sys_id>1550de4987e25190fd73642d0ebb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:35:43</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=d150de4987e25190fd73642d0ebb3535"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=d150de4987e25190fd73642d0ebb3535"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=d150de4987e25190fd73642d0ebb3535"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN7450de4987e25190fd73642d0ebb3514"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">c088691e835261102aac11b6feaad31f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>error,status</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:41</sys_created_on>
+        <sys_id>7450de4987e25190fd73642d0ebb3514</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:08</sys_updated_on>
+        <ui_id>e04bf518-f17f-47f1-9017-1c336ac3960f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=7450de4987e25190fd73642d0ebb3514"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^id=7450de4987e25190fd73642d0ebb3514"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=7450de4987e25190fd73642d0ebb3514"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=7450de4987e25190fd73642d0ebb3514"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_hub_flow_variable action="DELETE" query="model=ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN19af9516475a2190c26f8945d36d430c,34509e4987e25190fd73642d0ebb35e4,41f1215347225110a4be65a5d36d437a,70509e4987e25190fd73642d0ebb35d8"/>
+    <sys_documentation action="DELETE">
+        <element>erp_source</element>
+        <help/>
+        <hint/>
+        <label>ERP Source</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:10:51</sys_created_on>
+        <sys_id>19af9516475a2190c26f8945d36d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:10:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>last_successful_service_record</element>
+        <help/>
+        <hint/>
+        <label>Last Successful Service Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:41</sys_created_on>
+        <sys_id>34509e4987e25190fd73642d0ebb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:35:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>connection_name</element>
+        <help/>
+        <hint/>
+        <label>Connection name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-20 07:59:24</sys_created_on>
+        <sys_id>41f1215347225110a4be65a5d36d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:59:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>service_record</element>
+        <help/>
+        <hint/>
+        <label>Service Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-13 11:35:41</sys_created_on>
+        <sys_id>70509e4987e25190fd73642d0ebb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-13 11:35:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN5065e91e475a2190c26f8945d36d4307,8865a91e475a2190c26f8945d36d43fa"/>
+    <sys_documentation action="DELETE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:54</sys_created_on>
+        <sys_id>5065e91e475a2190c26f8945d36d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:35:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 15:35:54</sys_created_on>
+        <sys_id>8865a91e475a2190c26f8945d36d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 15:35:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^sys_idNOT INf850de4987e25190fd73642d0ebb3505,b850de4987e25190fd73642d0ebb3507"/>
+    <sys_choice action="DELETE" field="status" table="var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-13 11:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f850de4987e25190fd73642d0ebb3505</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-13 11:35:41</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-13 11:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b850de4987e25190fd73642d0ebb3507</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-13 11:35:41</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_hub_flow action="DELETE">
+        <sys_id>93cf824987e25190fd73642d0ebb35c6</sys_id>
+        <latest_snapshot>ac509e4987e25190fd73642d0ebb359f</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sys_hub_flow_93cf824987e25190fd73642d0ebb35c6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from&gt;454cd2c953711010a86dddeeff7b122a&lt;/copied_from&gt;&lt;copied_from_name&gt;Template Integration Service&lt;/copied_from_name&gt;&lt;description/&gt;&lt;internal_name&gt;template_integration_service&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__dont_treat_as_error__","label":"1 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__action_status__","label":"1 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;ac509e4987e25190fd73642d0ebb359f&lt;/master_snapshot&gt;&lt;name&gt;Template Integration Service&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Template Integration Service&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_93cf824987e25190fd73642d0ebb35c6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 16:03:08&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^id=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN93cf824987e25190fd73642d0ebb35c9"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/id&gt;&lt;name&gt;Template Integration Service&lt;/name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:24&lt;/sys_created_on&gt;&lt;sys_id&gt;93cf824987e25190fd73642d0ebb35c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:33:24&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=93cf824987e25190fd73642d0ebb35c9"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN9bcf824987e25190fd73642d0ebb35d1,afcf824987e25190fd73642d0ebb35db,b8afd116475a2190c26f8945d36d433c,c0f1ed1347225110a4be65a5d36d43c4"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dbd4b5b0-3992-40c7-9844-5bb1565888b8&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sn_sap_data_int_integration_service_job_tracker&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;service_record&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Service Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model&gt;&lt;model_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sn_sap_data_int_integration_service_job_tracker"&gt;sn_sap_data_int_integration_service_job_tracker&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:24&lt;/sys_created_on&gt;&lt;sys_id&gt;9bcf824987e25190fd73642d0ebb35d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type/&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f0e3a440-3599-437c-a060-17b03e46aba3&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sn_sap_data_int_integration_service_job_tracker&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;last_successful_service_record&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Last Successful Service Record&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model&gt;&lt;model_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sn_sap_data_int_integration_service_job_tracker"&gt;sn_sap_data_int_integration_service_job_tracker&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:25&lt;/sys_created_on&gt;&lt;sys_id&gt;afcf824987e25190fd73642d0ebb35db&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type/&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=55681888-f541-485f-9a2a-57984ff06b6f&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sn_fcms_intg_source&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;erp_source&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;ERP Source&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model&gt;&lt;model_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sn_fcms_intg_source"&gt;sn_fcms_intg_source&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:10:49&lt;/sys_created_on&gt;&lt;sys_id&gt;b8afd116475a2190c26f8945d36d433c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=cd811886-f020-4acd-abb0-39d6c0b3f200&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sys_alias&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Connection name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model&gt;&lt;model_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;4&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_alias"&gt;sys_alias&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-20 07:59:21&lt;/sys_created_on&gt;&lt;sys_id&gt;c0f1ed1347225110a4be65a5d36d43c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type/&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN6f55a91e475a2190c26f8945d36d433b,ef55a91e475a2190c26f8945d36d4337"/&gt;&lt;sys_hub_flow_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=cda69326-c4c0-422c-9eba-1ac2942c62e9&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;3&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;Error&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;label&gt;Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model&gt;&lt;model_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:52&lt;/sys_created_on&gt;&lt;sys_id&gt;6f55a91e475a2190c26f8945d36d433b&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:49:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_output&gt;&lt;sys_hub_flow_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fcebb02b-0124-4d3a-8e30-cf0070917e0e&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;error&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model&gt;&lt;model_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:52&lt;/sys_created_on&gt;&lt;sys_id&gt;ef55a91e475a2190c26f8945d36d4337&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:49:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_output&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=93cf824987e25190fd73642d0ebb35c6^sys_idNOT INc8dfc24987e25190fd73642d0ebb3520"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Log"&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/action_type&gt;&lt;action_type_parent display_value="Log"&gt;0e0ae8c2531003003bf1d9109ec587c8&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:27&lt;/sys_created_on&gt;&lt;sys_id&gt;c8dfc24987e25190fd73642d0ebb3520&lt;/sys_id&gt;&lt;sys_mod_count&gt;40&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 16:03:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;4f4a11d9-a157-4fe0-9ca3-35bee214b657&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c8dfc24987e25190fd73642d0ebb3520"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c8dfc24987e25190fd73642d0ebb3520&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:27&lt;/sys_created_on&gt;&lt;sys_id&gt;ccdfc24987e25190fd73642d0ebb3522&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:33:27&lt;/sys_updated_on&gt;&lt;value&gt;Template&lt;/value&gt;&lt;variable display_value="Message"&gt;23c1bcc6531003003bf1d9109ec587e5&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=c8dfc24987e25190fd73642d0ebb3520"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=c8dfc24987e25190fd73642d0ebb3520"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=c8dfc24987e25190fd73642d0ebb3520"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN27cfc24987e25190fd73642d0ebb3519"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;c088691e835261102aac11b6feaad31f&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Assign Subflow Outputs"&gt;df4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned&gt;error,status&lt;/outputs_assigned&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:25&lt;/sys_created_on&gt;&lt;sys_id&gt;27cfc24987e25190fd73642d0ebb3519&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 16:03:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;e04bf518-f17f-47f1-9017-1c336ac3960f&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=27cfc24987e25190fd73642d0ebb3519"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^id=27cfc24987e25190fd73642d0ebb3519"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=27cfc24987e25190fd73642d0ebb3519"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=27cfc24987e25190fd73642d0ebb3519"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN2bcf824987e25190fd73642d0ebb35e0,34af5516475a2190c26f8945d36d4332,58f1ed1347225110a4be65a5d36d43ca,6bcf824987e25190fd73642d0ebb35da"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;last_successful_service_record&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Last Successful Service Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:25&lt;/sys_created_on&gt;&lt;sys_id&gt;2bcf824987e25190fd73642d0ebb35e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:33:25&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;erp_source&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;ERP Source&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:10:49&lt;/sys_created_on&gt;&lt;sys_id&gt;34af5516475a2190c26f8945d36d4332&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:49&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;connection_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Connection name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-20 07:59:21&lt;/sys_created_on&gt;&lt;sys_id&gt;58f1ed1347225110a4be65a5d36d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-20 07:59:21&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;service_record&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Service Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:25&lt;/sys_created_on&gt;&lt;sys_id&gt;6bcf824987e25190fd73642d0ebb35da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:33:25&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN2355a91e475a2190c26f8945d36d433b,b355a91e475a2190c26f8945d36d4340"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;error&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:52&lt;/sys_created_on&gt;&lt;sys_id&gt;2355a91e475a2190c26f8945d36d433b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:35:52&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;status&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:52&lt;/sys_created_on&gt;&lt;sys_id&gt;b355a91e475a2190c26f8945d36d4340&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:35:52&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN67cfc24987e25190fd73642d0ebb3511,6fcfc24987e25190fd73642d0ebb3511"/&gt;&lt;sys_choice field="status" table="var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6"&gt;&lt;sys_choice action="INSERT_OR_UPDATE"&gt;&lt;dependent_value/&gt;&lt;element&gt;status&lt;/element&gt;&lt;hint/&gt;&lt;inactive&gt;false&lt;/inactive&gt;&lt;label&gt;Success&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;sequence&gt;1&lt;/sequence&gt;&lt;synonyms/&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;67cfc24987e25190fd73642d0ebb3511&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:33:25&lt;/sys_updated_on&gt;&lt;value&gt;Success&lt;/value&gt;&lt;/sys_choice&gt;&lt;sys_choice action="INSERT_OR_UPDATE"&gt;&lt;dependent_value/&gt;&lt;element&gt;status&lt;/element&gt;&lt;hint/&gt;&lt;inactive&gt;false&lt;/inactive&gt;&lt;label&gt;Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_93cf824987e25190fd73642d0ebb35c6&lt;/name&gt;&lt;sequence&gt;2&lt;/sequence&gt;&lt;synonyms/&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:33:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6fcfc24987e25190fd73642d0ebb3511&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:33:25&lt;/sys_updated_on&gt;&lt;value&gt;Error&lt;/value&gt;&lt;/sys_choice&gt;&lt;/sys_choice&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=93cf824987e25190fd73642d0ebb35c6"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=93cf824987e25190fd73642d0ebb35c6^sys_idNOT IN1150de4987e25190fd73642d0ebb3542"/&gt;&lt;sys_flow_subflow_plan action="INSERT_OR_UPDATE"&gt;&lt;plan&gt;com.snc.process_flow.engine.ProcessPlan@f679ad&lt;/plan&gt;&lt;plan_id display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/plan_id&gt;&lt;snapshot&gt;ac509e4987e25190fd73642d0ebb359f&lt;/snapshot&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1150de4987e25190fd73642d0ebb3542&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 16:03:08&lt;/sys_updated_on&gt;&lt;/sys_flow_subflow_plan&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;template_integration_service&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__dont_treat_as_error__","label":"1 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4f4a11d9-a157-4fe0-9ca3-35bee214b657.__action_status__","label":"1 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Template Integration Service&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Template Integration Service"&gt;93cf824987e25190fd73642d0ebb35c6&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 16:03:08&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^id=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN60509e4987e25190fd73642d0ebb35a1"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/id&gt;&lt;name&gt;Template Integration Service&lt;/name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:40&lt;/sys_created_on&gt;&lt;sys_id&gt;60509e4987e25190fd73642d0ebb35a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:35:40&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=60509e4987e25190fd73642d0ebb35a1"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN55af5516475a2190c26f8945d36d43ec,74f1215347225110a4be65a5d36d4371,a0509e4987e25190fd73642d0ebb35a2,b8509e4987e25190fd73642d0ebb35db"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=55681888-f541-485f-9a2a-57984ff06b6f&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sn_fcms_intg_source&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;erp_source&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;ERP Source&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model&gt;&lt;model_id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sn_fcms_intg_source"&gt;sn_fcms_intg_source&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:10:51&lt;/sys_created_on&gt;&lt;sys_id&gt;55af5516475a2190c26f8945d36d43ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=cd811886-f020-4acd-abb0-39d6c0b3f200&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sys_alias&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Connection name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model&gt;&lt;model_id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;4&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_alias"&gt;sys_alias&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-20 07:59:23&lt;/sys_created_on&gt;&lt;sys_id&gt;74f1215347225110a4be65a5d36d4371&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type/&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dbd4b5b0-3992-40c7-9844-5bb1565888b8&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sn_sap_data_int_integration_service_job_tracker&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;service_record&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Service Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model&gt;&lt;model_id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sn_sap_data_int_integration_service_job_tracker"&gt;sn_sap_data_int_integration_service_job_tracker&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:40&lt;/sys_created_on&gt;&lt;sys_id&gt;a0509e4987e25190fd73642d0ebb35a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type/&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f0e3a440-3599-437c-a060-17b03e46aba3&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sn_sap_data_int_integration_service_job_tracker&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;last_successful_service_record&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Last Successful Service Record&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model&gt;&lt;model_id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sn_sap_data_int_integration_service_job_tracker"&gt;sn_sap_data_int_integration_service_job_tracker&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:41&lt;/sys_created_on&gt;&lt;sys_id&gt;b8509e4987e25190fd73642d0ebb35db&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type/&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN0c65a91e475a2190c26f8945d36d43f5,4065a91e475a2190c26f8945d36d43fe"/&gt;&lt;sys_hub_flow_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fcebb02b-0124-4d3a-8e30-cf0070917e0e&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;error&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model&gt;&lt;model_id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:54&lt;/sys_created_on&gt;&lt;sys_id&gt;0c65a91e475a2190c26f8945d36d43f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:49:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_output&gt;&lt;sys_hub_flow_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=cda69326-c4c0-422c-9eba-1ac2942c62e9&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;3&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;Error&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;label&gt;Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model&gt;&lt;model_id&gt;ac509e4987e25190fd73642d0ebb359f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:54&lt;/sys_created_on&gt;&lt;sys_id&gt;4065a91e475a2190c26f8945d36d43fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:49:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_output&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=ac509e4987e25190fd73642d0ebb359f^sys_idNOT INd150de4987e25190fd73642d0ebb3535"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Log"&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/action_type&gt;&lt;action_type_parent display_value="Log"&gt;0e0ae8c2531003003bf1d9109ec587c8&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:43&lt;/sys_created_on&gt;&lt;sys_id&gt;d150de4987e25190fd73642d0ebb3535&lt;/sys_id&gt;&lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 16:03:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;4f4a11d9-a157-4fe0-9ca3-35bee214b657&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d150de4987e25190fd73642d0ebb3535"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d150de4987e25190fd73642d0ebb3535&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:43&lt;/sys_created_on&gt;&lt;sys_id&gt;1550de4987e25190fd73642d0ebb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:35:43&lt;/sys_updated_on&gt;&lt;value&gt;Template&lt;/value&gt;&lt;variable display_value="Message"&gt;23c1bcc6531003003bf1d9109ec587e5&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=d150de4987e25190fd73642d0ebb3535"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=d150de4987e25190fd73642d0ebb3535"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=d150de4987e25190fd73642d0ebb3535"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN7450de4987e25190fd73642d0ebb3514"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;c088691e835261102aac11b6feaad31f&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Template Integration Service"&gt;ac509e4987e25190fd73642d0ebb359f&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Assign Subflow Outputs"&gt;df4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned&gt;error,status&lt;/outputs_assigned&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:41&lt;/sys_created_on&gt;&lt;sys_id&gt;7450de4987e25190fd73642d0ebb3514&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 16:03:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;e04bf518-f17f-47f1-9017-1c336ac3960f&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=7450de4987e25190fd73642d0ebb3514"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^id=7450de4987e25190fd73642d0ebb3514"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7450de4987e25190fd73642d0ebb3514"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=7450de4987e25190fd73642d0ebb3514"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN19af9516475a2190c26f8945d36d430c,34509e4987e25190fd73642d0ebb35e4,41f1215347225110a4be65a5d36d437a,70509e4987e25190fd73642d0ebb35d8"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;erp_source&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;ERP Source&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:10:51&lt;/sys_created_on&gt;&lt;sys_id&gt;19af9516475a2190c26f8945d36d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:10:51&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;last_successful_service_record&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Last Successful Service Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:41&lt;/sys_created_on&gt;&lt;sys_id&gt;34509e4987e25190fd73642d0ebb35e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:35:41&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;connection_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Connection name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-20 07:59:24&lt;/sys_created_on&gt;&lt;sys_id&gt;41f1215347225110a4be65a5d36d437a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-20 07:59:24&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;service_record&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Service Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:41&lt;/sys_created_on&gt;&lt;sys_id&gt;70509e4987e25190fd73642d0ebb35d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:35:41&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ac509e4987e25190fd73642d0ebb359f"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^sys_idNOT IN5065e91e475a2190c26f8945d36d4307,8865a91e475a2190c26f8945d36d43fa"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;status&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:54&lt;/sys_created_on&gt;&lt;sys_id&gt;5065e91e475a2190c26f8945d36d4307&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:35:54&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;error&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-21 15:35:54&lt;/sys_created_on&gt;&lt;sys_id&gt;8865a91e475a2190c26f8945d36d43fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 15:35:54&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f^sys_idNOT INf850de4987e25190fd73642d0ebb3505,b850de4987e25190fd73642d0ebb3507"/&gt;&lt;sys_choice field="status" table="var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f"&gt;&lt;sys_choice action="INSERT_OR_UPDATE"&gt;&lt;dependent_value/&gt;&lt;element&gt;status&lt;/element&gt;&lt;hint/&gt;&lt;inactive&gt;false&lt;/inactive&gt;&lt;label&gt;Success&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;sequence&gt;1&lt;/sequence&gt;&lt;synonyms/&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f850de4987e25190fd73642d0ebb3505&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:35:41&lt;/sys_updated_on&gt;&lt;value&gt;Success&lt;/value&gt;&lt;/sys_choice&gt;&lt;sys_choice action="INSERT_OR_UPDATE"&gt;&lt;dependent_value/&gt;&lt;element&gt;status&lt;/element&gt;&lt;hint/&gt;&lt;inactive&gt;false&lt;/inactive&gt;&lt;label&gt;Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_output_ac509e4987e25190fd73642d0ebb359f&lt;/name&gt;&lt;sequence&gt;2&lt;/sequence&gt;&lt;synonyms/&gt;&lt;sys_created_by&gt;Mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-13 11:35:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b850de4987e25190fd73642d0ebb3507&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-13 11:35:41&lt;/sys_updated_on&gt;&lt;value&gt;Error&lt;/value&gt;&lt;/sys_choice&gt;&lt;/sys_choice&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;93cf824987e25190fd73642d0ebb35c6&lt;/sys_id&gt;&lt;latest_snapshot&gt;ac509e4987e25190fd73642d0ebb359f&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;/sys_hub_flow&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1197057403</payload_hash>
+        <record_name>Template Integration Service</record_name>
+        <reverted_from/>
+        <source>3677e5da835261102aac11b6feaad3e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 16:03:10</sys_created_on>
+        <sys_id>a79b6112839261102aac11b6feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187a48e1e8a0000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:03:10</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>1f9b6112a29261109d9796f1e2065163</update_guid>
+        <update_guid_history>1f9b6112a29261109d9796f1e2065163:1197057403,629b21120992611085ed07a1f746364e:1911403763,d588a91ed95261109fb2427b6149e842:1024222797,5888691e1752611052cf11ddd2103351:-1748608528,80d5655e2f5a21904f940e3b8613afa4:762329128,57c5255e875a21904ab22e9f07399f99:1008335937,e865e91e195a21906185f770fdb0a887:-1047512820,c865a91e905a21906593108f50e8d6c1:1939477008,5394a1da1d5a2190606a9d308f23f28e:-224300221,369461da825a2190839f2856c9f751d8:-1847344191,f09421da7c5a219023e8673cb47090f8:-1919650117,8d72611a265a219037b591e44fb0d158:-1718816351,1c72211a3a5a21909d1f9ca79ed3cd77:-209799804,f9af9516065a219065fdd0260ed43ec0:-38187260,85af55163a5a2190bc8a3d371be1517e:1669965897,af1c9913ebe9a1104acf73ef2bbe05f0:0,231c991314e9a1108cf5244981569ff0:-138379683,3261caf1da15e110b5c10cd9792457d0:0,3661caf19915e110656493aad4d8e0cf:-293730921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-21 16:13:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>12126de058fc46a381b05cdca27330e1</sys_id>
+        <sys_metadata>93cf824987e25190fd73642d0ebb35c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Template Integration Service</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_93cf824987e25190fd73642d0ebb35c6</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_93cf824987e25190fd73642d0ebb35c6">a79b6112839261102aac11b6feaad364</sys_update_version>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-21 16:13:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
