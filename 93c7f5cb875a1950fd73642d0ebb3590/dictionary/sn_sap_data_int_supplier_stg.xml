@@ -295,8 +295,8 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Uniform resource locator" label="Uniform resource locator" max_length="40" name="uniform_resource_locator" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Unit of Measure Group" label="Unit of measure group" max_length="40" name="unit_of_measure_group" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=US Federal Government Vendor Master Data Additional Fields" label="Us federal government vendor master data additional fields" max_length="40" name="us_federal_government_vendor_master_data_additional_fields" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time of Last Change Confirmation (GV)" label="Time of last change confirmation gv" max_length="40" name="u_time_of_last_change_confirmation_gv" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title (EG)" label="Title eg" max_length="40" name="u_title_eg" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time of Last Change Confirmation (GV)" label="Time of last change confirmation gv" max_length="40" name="time_of_last_change_confirmation_gv" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title (EG)" label="Title eg" max_length="40" name="title_eg" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Validity date for withholding tax exemption certificate" label="Validity date for withholding tax exemption certificate" max_length="40" name="validity_date_for_withholding_tax_exemption_certificate" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Validity date of certification" label="Validity date of certification" max_length="40" name="validity_date_of_certification" type="string"/>
         <element label="Valid from" max_length="40" name="valid_from" type="string"/>

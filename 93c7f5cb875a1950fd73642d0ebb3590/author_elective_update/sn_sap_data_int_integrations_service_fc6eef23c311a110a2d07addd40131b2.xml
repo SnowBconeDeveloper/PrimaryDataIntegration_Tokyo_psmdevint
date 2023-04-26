@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
+    <sn_sap_data_int_integrations_service action="DELETE">
+        <active>false</active>
+        <erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+        <flow display_value="Fetch Purchasing Groups from SAP S4Hana">ce008c0947375d10f41e5d22736d43ee</flow>
+        <import_set_tables>sn_sap_data_int_purc_grp_stg</import_set_tables>
+        <name>Purchase Group</name>
+        <order>10</order>
+        <properties/>
+        <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+        <sys_created_by>shreenag.araga@snc</sys_created_by>
+        <sys_created_on>2023-03-07 05:44:47</sys_created_on>
+        <sys_id>fc6eef23c311a110a2d07addd40131b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Purchase Group</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_service_fc6eef23c311a110a2d07addd40131b2</sys_update_name>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-04-25 05:19:42</sys_updated_on>
+    </sn_sap_data_int_integrations_service>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>24d8d4b4db4a6d904d2bac44d49619f5</instance_id>
+        <instance_name>psmtokidocdev2</instance_name>
+        <name>sn_sap_data_int_integrations_service_fc6eef23c311a110a2d07addd40131b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service"><sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE"><active>false</active><erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration><flow display_value="Fetch Purchasing Groups from SAP S4Hana">ce008c0947375d10f41e5d22736d43ee</flow><import_set_tables>sn_sap_data_int_purc_grp_stg</import_set_tables><name>Purchase Group</name><order>10</order><properties/><sys_class_name>sn_sap_data_int_integrations_service</sys_class_name><sys_created_by>shreenag.araga@snc</sys_created_by><sys_created_on>2023-03-07 05:44:47</sys_created_on><sys_id>fc6eef23c311a110a2d07addd40131b2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Purchase Group</sys_name><sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package><sys_policy/><sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope><sys_update_name>sn_sap_data_int_integrations_service_fc6eef23c311a110a2d07addd40131b2</sys_update_name><sys_updated_by>Varun</sys_updated_by><sys_updated_on>2023-04-25 05:19:42</sys_updated_on></sn_sap_data_int_integrations_service></record_update>]]></payload>
+        <payload_hash>-814033256</payload_hash>
+        <record_name>Purchase Group</record_name>
+        <reverted_from/>
+        <source>68be775b47de29105e5faca2026d43d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-04-25 05:19:42</sys_created_on>
+        <sys_id>f4bef75b47de29105e5faca2026d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b6da72ff0000001</sys_recorded_at>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-04-25 05:19:42</sys_updated_on>
+        <type>Integration Service</type>
+        <update_guid>30bef75bdfde2910f9d0fa3a7802a1e8</update_guid>
+        <update_guid_history>30bef75bdfde2910f9d0fa3a7802a1e8:-814033256,33c9e09fed52291023c00678d68a8834:0,9a2422fa2456a51036090afef4984e5e:-814033256,fa60e636a156a510715a7e8dd19d07b9:0,1cc70e7aefd2a510374914b49a0280d6:-814033256,3f6246e22092651014e4e4305d2ef300:-289863627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Purchase Group">e238eca747d269105e5faca2026d4329</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 08:21:08</sys_created_on>
+        <sys_db_object display_value="" name="sn_sap_data_int_integrations_service">sn_sap_data_int_integrations_service</sys_db_object>
+        <sys_id>8ea7ee90b7ce47cc91afb93c8c920959</sys_id>
+        <sys_metadata>fc6eef23c311a110a2d07addd40131b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchase Group</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sn_sap_data_int_integrations_service_fc6eef23c311a110a2d07addd40131b2</sys_update_name>
+        <sys_update_version display_value="sn_sap_data_int_integrations_service_fc6eef23c311a110a2d07addd40131b2">f4bef75b47de29105e5faca2026d43e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 08:21:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

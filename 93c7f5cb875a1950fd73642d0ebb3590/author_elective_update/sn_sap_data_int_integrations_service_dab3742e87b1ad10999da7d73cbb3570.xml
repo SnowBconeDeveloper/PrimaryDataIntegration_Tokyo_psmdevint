@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
+    <sn_sap_data_int_integrations_service action="DELETE">
+        <active>false</active>
+        <erp_source_configuration display_value="SAP ECC">b8277d61738213008f12d9be2bf6a784</erp_source_configuration>
+        <flow display_value="Parallel Subflow Caller  for Materials">f9a4adfe8714ed50a3e3cbb4dabb35b2</flow>
+        <import_set_tables>sn_psm_sap_int_prodct_stg</import_set_tables>
+        <name>Material</name>
+        <order>130</order>
+        <properties>{"low":"1000","high":"","sign":"I","option":"EQ","full_pull":"True"}</properties>
+        <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-28 10:07:05</sys_created_on>
+        <sys_id>dab3742e87b1ad10999da7d73cbb3570</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Material</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_service_dab3742e87b1ad10999da7d73cbb3570</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 13:38:40</sys_updated_on>
+    </sn_sap_data_int_integrations_service>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>24d8d4b4db4a6d904d2bac44d49619f5</instance_id>
+        <instance_name>psmtokidocdev2</instance_name>
+        <name>sn_sap_data_int_integrations_service_dab3742e87b1ad10999da7d73cbb3570</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
+    <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <erp_source_configuration display_value="SAP ECC">b8277d61738213008f12d9be2bf6a784</erp_source_configuration>
+        <flow display_value="Parallel Subflow Caller  for Materials">f9a4adfe8714ed50a3e3cbb4dabb35b2</flow>
+        <import_set_tables>sn_psm_sap_int_prodct_stg</import_set_tables>
+        <name>Material</name>
+        <order>130</order>
+        <properties>{"low":"1000","high":"","sign":"I","option":"EQ","full_pull":"True"}</properties>
+        <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-28 10:07:05</sys_created_on>
+        <sys_id>dab3742e87b1ad10999da7d73cbb3570</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Material</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_service_dab3742e87b1ad10999da7d73cbb3570</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 13:38:40</sys_updated_on>
+    </sn_sap_data_int_integrations_service>
+</record_update>]]></payload>
+        <payload_hash>-1012747047</payload_hash>
+        <record_name>Material</record_name>
+        <reverted_from/>
+        <source>24d9756a471265105e5faca2026d43a2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-22 12:21:19</sys_created_on>
+        <sys_id>e36206e2479265105e5faca2026d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187a8e95f5b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-22 12:21:19</sys_updated_on>
+        <type>Integration Service</type>
+        <update_guid>a36206e2fa926510fbcbecfc39eb83fb</update_guid>
+        <update_guid_history>a36206e2fa926510fbcbecfc39eb83fb:-1012747047</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Material">3dccdc67479269105e5faca2026d4378</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 07:31:06</sys_created_on>
+        <sys_db_object display_value="" name="sn_sap_data_int_integrations_service">sn_sap_data_int_integrations_service</sys_db_object>
+        <sys_id>9c15225510034a38b98114737129ee40</sys_id>
+        <sys_metadata>dab3742e87b1ad10999da7d73cbb3570</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Material</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sn_sap_data_int_integrations_service_dab3742e87b1ad10999da7d73cbb3570</sys_update_name>
+        <sys_update_version display_value="sn_sap_data_int_integrations_service_dab3742e87b1ad10999da7d73cbb3570">e36206e2479265105e5faca2026d43fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 07:31:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -8,6 +8,6 @@
         <element attributes="edge_encryption_enabled=true" label="Ratio for the from currency units" max_length="500" name="from_ratio" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="To currency" max_length="100" name="to_currency" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Ratio for the to currency units" max_length="500" name="to_ratio" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Erp source" max_length="32" name="u_erp_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Erp source" max_length="32" name="erp_source" type="string"/>
     </element>
 </database>

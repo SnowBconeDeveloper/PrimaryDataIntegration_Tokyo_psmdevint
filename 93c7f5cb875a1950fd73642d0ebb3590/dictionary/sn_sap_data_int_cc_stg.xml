@@ -75,8 +75,8 @@
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Usage of the condition table" max_length="40" name="usage_of_the_condition_table" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="User responsible" max_length="40" name="user_responsible" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Valid from date" max_length="40" name="valid_from_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Valid to date" max_length="40" name="valid_to_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Valid from date" max_length="40" name="valid_from_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Valid to date" max_length="40" name="valid_to_date" type="string"/>
         <index name="index">
             <element name="erp_source"/>
         </index>
