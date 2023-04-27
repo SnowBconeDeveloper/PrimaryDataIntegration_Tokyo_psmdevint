@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="DELETE" element="u_interest_calculation_indicator" table="sn_sap_data_int_gl_stg">
+    <sys_dictionary action="DELETE" element="u_cash_receipt_account" table="sn_sap_data_int_gl_stg">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Interest calculation indicator</column_label>
+        <column_label>Cash receipt account</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_interest_calculation_indicator</element>
+        <element>u_cash_receipt_account</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>5</max_length>
+        <max_length>1</max_length>
         <name>sn_sap_data_int_gl_stg</name>
         <next_element/>
         <primary>false</primary>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-01 11:05:15</sys_created_on>
-        <sys_name>Interest calculation indicator</sys_name>
+        <sys_created_on>2023-03-01 11:05:14</sys_created_on>
+        <sys_name>Cash receipt account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_u_interest_calculation_indicator</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_u_cash_receipt_account</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 11:05:15</sys_updated_on>
+        <sys_updated_on>2023-03-01 11:05:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -72,9 +72,9 @@
         <file_path/>
         <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
         <instance_name>psmdevint</instance_name>
-        <name>sys_dictionary_sn_sap_data_int_gl_stg_u_interest_calculation_indicator</name>
+        <name>sys_dictionary_sn_sap_data_int_gl_stg_u_cash_receipt_account</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_interest_calculation_indicator" table="sn_sap_data_int_gl_stg">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_cash_receipt_account" table="sn_sap_data_int_gl_stg">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
@@ -83,7 +83,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Interest calculation indicator</column_label>
+        <column_label>Cash receipt account</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -96,7 +96,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_interest_calculation_indicator</element>
+        <element>u_cash_receipt_account</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -104,7 +104,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>5</max_length>
+        <max_length>1</max_length>
         <name>sn_sap_data_int_gl_stg</name>
         <next_element/>
         <primary>false</primary>
@@ -121,14 +121,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-01 11:05:15</sys_created_on>
-        <sys_name>Interest calculation indicator</sys_name>
+        <sys_created_on>2023-03-01 11:05:14</sys_created_on>
+        <sys_name>Cash receipt account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_u_interest_calculation_indicator</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_u_cash_receipt_account</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 11:05:15</sys_updated_on>
+        <sys_updated_on>2023-03-01 11:05:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -142,41 +142,41 @@
         <xml_view>false</xml_view>
     </sys_dictionary>
 </record_update>]]></payload>
-        <payload_hash>1794256305</payload_hash>
-        <record_name>Ledger Accounts.Interest calculation indicator</record_name>
+        <payload_hash>159242761</payload_hash>
+        <record_name>Ledger Accounts.Cash receipt account</record_name>
         <reverted_from/>
         <source>fdcf8f3783d2e5102aac11b6feaad36e</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
         <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2023-04-26 15:21:52</sys_created_on>
-        <sys_id>1b12d37f83d2e5102aac11b6feaad369</sys_id>
+        <sys_created_on>2023-04-26 15:21:43</sys_created_on>
+        <sys_id>c112537f83d2e5102aac11b6feaad3b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>187be281cc40000001</sys_recorded_at>
+        <sys_recorded_at>187be27f92f0000001</sys_recorded_at>
         <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-26 15:21:52</sys_updated_on>
+        <sys_updated_on>2023-04-26 15:21:43</sys_updated_on>
         <type>Dictionary</type>
-        <update_guid>5712d37fc0d2e5103d674f13a1a00369</update_guid>
-        <update_guid_history>5712d37fc0d2e5103d674f13a1a00369:0,d187821adc1e2190868e15452c5cc7ba:-1918541957,7c5ad55727a9a110fc83f0c15baed397:0,b45ad5571ca9a1100a6a32b45bd4bb92:-1918541957,f78acf746eb96550a4a992e8d3c5c6a9:0,d3674864d5252510b84b347f33e563f6:-1918541957</update_guid_history>
+        <update_guid>0112537fdfd2e510a8fd7b4eaab2d7b5</update_guid>
+        <update_guid_history>0112537fdfd2e510a8fd7b4eaab2d7b5:0,f087821a001e2190f2e72e9dea626348:528975159,445a9557eea9a11095f0aa9164961516:0,8c5a95579fa9a1104d555821ca293210:528975159,058a8f7482b9655080ea4591cbae202b:0,0e670864ad2525107146ab633341ccaf:528975159</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2023-04-27 13:42:33</sys_created_on>
+        <sys_created_on>2023-04-27 13:43:32</sys_created_on>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
-        <sys_id>38e3ce75f35a49e1ac7195481c306641</sys_id>
-        <sys_metadata>165ebd79c3d1e11068187addd40131df</sys_metadata>
+        <sys_id>0efeb7d455aa40e5ab854321c602fa81</sys_id>
+        <sys_metadata>c65ebd79c3d1e11068187addd40131be</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Interest calculation indicator</sys_name>
+        <sys_name>Cash receipt account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_parent display_value="Ledger Accounts">3d5ebd79c3d1e11068187addd4013195</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_u_interest_calculation_indicator</sys_update_name>
-        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_gl_stg_u_interest_calculation_indicator">1b12d37f83d2e5102aac11b6feaad369</sys_update_version>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_u_cash_receipt_account</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_gl_stg_u_cash_receipt_account">c112537f83d2e5102aac11b6feaad3b5</sys_update_version>
         <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-27 13:42:33</sys_updated_on>
+        <sys_updated_on>2023-04-27 13:43:32</sys_updated_on>
     </sys_metadata_delete>
 </record_update>
