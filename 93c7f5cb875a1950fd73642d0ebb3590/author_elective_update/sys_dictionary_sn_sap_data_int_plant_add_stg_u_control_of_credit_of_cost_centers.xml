@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="DELETE" element="u_node_type_supply_chain_network" table="sn_sap_data_int_plant_add_stg">
+    <sys_dictionary action="DELETE" element="u_control_of_credit_of_cost_centers" table="sn_sap_data_int_plant_add_stg">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Node type supply chain network</column_label>
+        <column_label>Control of credit of cost centers</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_node_type_supply_chain_network</element>
+        <element>u_control_of_credit_of_cost_centers</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>3</max_length>
+        <max_length>1</max_length>
         <name>sn_sap_data_int_plant_add_stg</name>
         <next_element/>
         <primary>false</primary>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-01 11:05:29</sys_created_on>
-        <sys_name>Node type supply chain network</sys_name>
+        <sys_created_on>2023-03-01 11:05:28</sys_created_on>
+        <sys_name>Control of credit of cost centers</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_node_type_supply_chain_network</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_control_of_credit_of_cost_centers</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-21 18:01:08</sys_updated_on>
+        <sys_updated_on>2023-04-21 18:01:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -72,9 +72,9 @@
         <file_path/>
         <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
         <instance_name>psmdevint</instance_name>
-        <name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_node_type_supply_chain_network</name>
+        <name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_control_of_credit_of_cost_centers</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_node_type_supply_chain_network" table="sn_sap_data_int_plant_add_stg">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_control_of_credit_of_cost_centers" table="sn_sap_data_int_plant_add_stg">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
@@ -83,7 +83,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Node type supply chain network</column_label>
+        <column_label>Control of credit of cost centers</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -96,7 +96,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_node_type_supply_chain_network</element>
+        <element>u_control_of_credit_of_cost_centers</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -104,7 +104,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>3</max_length>
+        <max_length>1</max_length>
         <name>sn_sap_data_int_plant_add_stg</name>
         <next_element/>
         <primary>false</primary>
@@ -121,14 +121,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-01 11:05:29</sys_created_on>
-        <sys_name>Node type supply chain network</sys_name>
+        <sys_created_on>2023-03-01 11:05:28</sys_created_on>
+        <sys_name>Control of credit of cost centers</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_node_type_supply_chain_network</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_control_of_credit_of_cost_centers</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-21 18:01:08</sys_updated_on>
+        <sys_updated_on>2023-04-21 18:01:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -142,41 +142,41 @@
         <xml_view>false</xml_view>
     </sys_dictionary>
 </record_update>]]></payload>
-        <payload_hash>713852439</payload_hash>
-        <record_name>Plant Address.Node type supply chain network</record_name>
+        <payload_hash>-1900155567</payload_hash>
+        <record_name>Plant Address.Control of credit of cost centers</record_name>
         <reverted_from/>
         <source>fdcf8f3783d2e5102aac11b6feaad36e</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
         <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2023-04-26 15:22:59</sys_created_on>
-        <sys_id>bb5253bf83d2e5102aac11b6feaad39f</sys_id>
+        <sys_created_on>2023-04-26 15:22:53</sys_created_on>
+        <sys_id>d65213bf83d2e5102aac11b6feaad37d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>187be2923a70000001</sys_recorded_at>
+        <sys_recorded_at>187be290aac0000001</sys_recorded_at>
         <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-26 15:22:59</sys_updated_on>
+        <sys_updated_on>2023-04-26 15:22:53</sys_updated_on>
         <type>Dictionary</type>
-        <update_guid>f75253bf32d2e5109ef732f5fefadc9f</update_guid>
-        <update_guid_history>f75253bf32d2e5109ef732f5fefadc9f:0,29f74e1aaa1e2190b4a22c1dd9d4e732:1702451157,ef964e561c1e219005f32c93acc89beb:1702451157,1f6a919744a9a1102dc070c7eee3a88a:0,576a91973aa9a110fa8d4c93095c3385:1879187827,fbda0fb4c2b965503cc18e881c04de6b:0,8cc704a4d425251039dae6c8018ee36a:1879187827</update_guid_history>
+        <update_guid>165213bfc7d2e510b8cff6a5c947ec7d</update_guid>
+        <update_guid_history>165213bfc7d2e510b8cff6a5c947ec7d:0,4df70e1aac1e21907d797ed33a9684da:1662774625,4b960e56901e21907e9758c4ecd75ec4:1662774625,6a6a519735a9a1100d9a22a08207277b:0,a26a519715a9a1106a9729e352f28676:-2048448159,99dacbb411b965508636d8b8a43f8527:0,b9b7c0a40425251095cb63452261aa5f:-2048448159</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
-        <sys_created_on>2023-04-27 14:27:48</sys_created_on>
+        <sys_created_on>2023-04-27 14:27:17</sys_created_on>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
-        <sys_id>3cf7402a82b842d0b1c20c3f755dfc24</sys_id>
-        <sys_metadata>a96e31b9c3d1e11068187addd40131bf</sys_metadata>
+        <sys_id>130bb31413f840ac93ed30502a5260e1</sys_id>
+        <sys_metadata>996e31b9c3d1e11068187addd4013197</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Node type supply chain network</sys_name>
+        <sys_name>Control of credit of cost centers</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_parent display_value="Plant Address">996e31b9c3d1e11068187addd4013174</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_node_type_supply_chain_network</sys_update_name>
-        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_plant_add_stg_u_node_type_supply_chain_network">bb5253bf83d2e5102aac11b6feaad39f</sys_update_version>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_plant_add_stg_u_control_of_credit_of_cost_centers</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_plant_add_stg_u_control_of_credit_of_cost_centers">d65213bf83d2e5102aac11b6feaad37d</sys_update_version>
         <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-27 14:27:48</sys_updated_on>
+        <sys_updated_on>2023-04-27 14:27:17</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

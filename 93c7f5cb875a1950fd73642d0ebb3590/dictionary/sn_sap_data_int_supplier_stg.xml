@@ -283,7 +283,9 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Terms of Payment Key" label="Terms of payment key" max_length="40" name="terms_of_payment_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Terms of Payment Key (IK)" label="Terms of payment key ik" max_length="40" name="terms_of_payment_key_ik" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Time of Last Change Confirmation" label="Time of last change confirmation" max_length="40" name="time_of_last_change_confirmation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time of Last Change Confirmation (GV)" label="Time of last change confirmation gv" max_length="40" name="time_of_last_change_confirmation_gv" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="40" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title (EG)" label="Title eg" max_length="40" name="title_eg" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Tolerance group for the business partner/G/L account" label="Tolerance group for the business partner g l account" max_length="40" name="tolerance_group_for_the_business_partner_g_l_account" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Tolerance group; Invoice Verification" label="Tolerance group invoice verification" max_length="40" name="tolerance_group_invoice_verification" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Train station" label="Train station" max_length="40" name="train_station" type="string"/>
@@ -295,8 +297,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Uniform resource locator" label="Uniform resource locator" max_length="40" name="uniform_resource_locator" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Unit of Measure Group" label="Unit of measure group" max_length="40" name="unit_of_measure_group" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=US Federal Government Vendor Master Data Additional Fields" label="Us federal government vendor master data additional fields" max_length="40" name="us_federal_government_vendor_master_data_additional_fields" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time of Last Change Confirmation (GV)" label="Time of last change confirmation gv" max_length="40" name="time_of_last_change_confirmation_gv" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title (EG)" label="Title eg" max_length="40" name="title_eg" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Validity date for withholding tax exemption certificate" label="Validity date for withholding tax exemption certificate" max_length="40" name="validity_date_for_withholding_tax_exemption_certificate" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Validity date of certification" label="Validity date of certification" max_length="40" name="validity_date_of_certification" type="string"/>
         <element label="Valid from" max_length="40" name="valid_from" type="string"/>
