@@ -15,8 +15,8 @@
         <element attributes="edge_encryption_enabled=true" label="Erp source" max_length="32" name="erp_source" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Field status group" max_length="10" name="field_status_group" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Financial budget item" max_length="3" name="financial_budget_item" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="G l account additional text" max_length="50" name="g_l_account_additional_text" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="G l account number" mandatory="true" max_length="20" name="g_l_account_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="General ledger account additional text" max_length="50" name="g_l_account_additional_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="General ledger account number" mandatory="true" max_length="20" name="g_l_account_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ID for account details" max_length="5" name="id_for_account_details" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator account managed in external system" max_length="10" name="indicator_account_managed_in_external_system" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator account marked for deletion" max_length="1" name="indicator_account_marked_for_deletion" type="string"/>
@@ -41,7 +41,7 @@
         <element attributes="edge_encryption_enabled=true" label="Recovery indicator" max_length="2" name="recovery_indicator" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short key for a house bank" max_length="5" name="short_key_for_a_house_bank" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Tax category in account master record" max_length="10" name="tax_category_in_account_master_record" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Tolerance group for g l accounts" max_length="4" name="tolerance_group_for_g_l_accounts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tolerance group for general ledger accounts" max_length="4" name="tolerance_group_for_g_l_accounts" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Valuation group" max_length="10" name="valuation_group" type="string"/>
     </element>
 </database>
