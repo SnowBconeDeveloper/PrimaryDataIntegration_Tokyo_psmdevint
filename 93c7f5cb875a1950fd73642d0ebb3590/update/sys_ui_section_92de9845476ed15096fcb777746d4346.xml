@@ -141,7 +141,7 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_po_box</element>
+            <element>u_post_office_box</element>
             <position>10</position>
             <sys_created_by>bcone</sys_created_by>
             <sys_created_on>2022-10-13 03:19:54</sys_created_on>

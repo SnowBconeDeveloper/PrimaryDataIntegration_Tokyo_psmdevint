@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="date_on_which_the_record_was_created" table="sn_sap_data_int_gl_stg">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="vendor_created_date" table="sn_sap_data_int_gl_stg">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>date_on_which_the_record_was_created</element>
+        <element>vendor_created_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -56,7 +56,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_date_on_which_the_record_was_created</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_gl_stg_vendor_created_date</sys_update_name>
         <sys_updated_by>Varun</sys_updated_by>
         <sys_updated_on>2023-04-25 07:50:09</sys_updated_on>
         <table_reference>false</table_reference>
