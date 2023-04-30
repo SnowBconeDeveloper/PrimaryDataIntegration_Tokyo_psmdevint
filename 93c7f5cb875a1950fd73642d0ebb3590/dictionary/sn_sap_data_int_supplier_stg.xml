@@ -110,7 +110,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Incoterms Location 1" label="Incoterms location 1" max_length="40" name="incoterms_location_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Incoterms Location 2" label="Incoterms location 2" max_length="40" name="incoterms_location_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Incoterms part 1" max_length="120" name="incoterms_part_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Incoterms (Part 1)" label="Incoterms part 1" max_length="40" name="incoterms_part_1_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Incoterms (Part 2)" label="Incoterms part 2" max_length="40" name="incoterms_part_2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Incoterms Version" label="Incoterms version" max_length="40" name="incoterms_version" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Indicates whether vendor is returns vendor" label="Indicates whether vendor is returns vendor" max_length="40" name="indicates_whether_vendor_is_returns_vendor" type="string"/>
@@ -147,7 +146,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=International location number (Part 2)" label="International location number part 2" max_length="40" name="international_location_number_part_2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Internet address of partner company clerk" label="Internet address of partner company clerk" max_length="40" name="internet_address_of_partner_company_clerk" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Issued by" label="Issued by" max_length="40" name="issued_by" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=IS-PS: Data Appendix Vendor Master Record (Company Code)" label="Is ps data appendix vendor master record company code" max_length="40" name="is_ps_data_appendix_vendor_master_record_company_code" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Key Date of Last Interest Calculation" label="Key date of last interest calculation" max_length="40" name="key_date_of_last_interest_calculation" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Key for dunning notice grouping" label="Key for dunning notice grouping" max_length="40" name="key_for_dunning_notice_grouping" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Key for Payment Grouping" label="Key for payment grouping" max_length="40" name="key_for_payment_grouping" type="string"/>
@@ -180,7 +178,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name of Representative" label="Name of representative" max_length="40" name="name_of_representative" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Natural Person" label="Natural person" max_length="40" name="natural_person" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=NEW FIELDS FOR LOCALIZATION" label="New fields for localization" max_length="40" name="new_fields_for_localization" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=new withholding tax rep." label="New withholding tax rep" max_length="40" name="new_withholding_tax_rep" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Offset Method" label="Offset method" max_length="40" name="offset_method" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Offset Percentage" label="Offset percentage" max_length="40" name="offset_percentage" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Order Acknowledgment Requirement" label="Order acknowledgment requirement" max_length="40" name="order_acknowledgment_requirement" type="string"/>
@@ -283,9 +280,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Terms of Payment Key" label="Terms of payment key" max_length="40" name="terms_of_payment_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Terms of Payment Key (IK)" label="Terms of payment key ik" max_length="40" name="terms_of_payment_key_ik" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Time of Last Change Confirmation" label="Time of last change confirmation" max_length="40" name="time_of_last_change_confirmation" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Time of Last Change Confirmation (GV)" label="Time of last change confirmation gv" max_length="40" name="time_of_last_change_confirmation_gv" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="40" name="title" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title (EG)" label="Title eg" max_length="40" name="title_eg" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Tolerance group for the business partner/G/L account" label="Tolerance group for the business partner g l account" max_length="40" name="tolerance_group_for_the_business_partner_g_l_account" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Tolerance group; Invoice Verification" label="Tolerance group invoice verification" max_length="40" name="tolerance_group_invoice_verification" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Train station" label="Train station" max_length="40" name="train_station" type="string"/>
