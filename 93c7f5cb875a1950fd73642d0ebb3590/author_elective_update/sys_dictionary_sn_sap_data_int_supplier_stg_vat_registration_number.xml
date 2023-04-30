@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="vat_registration_number" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=VAT Registration Number</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Vat registration number</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>vat_registration_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:27</sys_created_on>
+        <sys_name>Vat registration number</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_vat_registration_number</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:01:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sys_dictionary_sn_sap_data_int_supplier_stg_vat_registration_number</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="vat_registration_number" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=VAT Registration Number</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Vat registration number</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>vat_registration_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:27</sys_created_on>
+        <sys_name>Vat registration number</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_vat_registration_number</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:01:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>463238228</payload_hash>
+        <record_name>Vendors.Vat registration number</record_name>
+        <reverted_from/>
+        <source>fdcf8f3783d2e5102aac11b6feaad36e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-26 15:25:02</sys_created_on>
+        <sys_id>bdd29bff83d2e5102aac11b6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187be2b037b0000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-26 15:25:02</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>f9d29bffced2e510f3daf17238db2ead</update_guid>
+        <update_guid_history>f9d29bffced2e510f3daf17238db2ead:0,d838865a891e2190e65b9a37754274d3:870281396,a7c682d6151e219005d086bf04bb8dfb:870281396,65aa19d71da9a110fcd4363319a0bbc1:0,adaa19d726a9a110ffd1862781b83dbb:-1962053452,ab7b0738b6b965505b5186760042cc96:0,33580ce4ef252510429dd073b331a74e:-1962053452,240fbdf932d1e1101effdf52172c46f2:0,a80fbdf984d1e110221a3a08de73aaec:-675007767</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-30 09:38:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>3101839fdb774e469f31fd221caa2ba1</sys_id>
+        <sys_metadata>5b7e35b9c3d1e11068187addd401317f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vat registration number</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="Vendors">ef6e71b9c3d1e11068187addd40131eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_vat_registration_number</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_supplier_stg_vat_registration_number">bdd29bff83d2e5102aac11b6feaad3ad</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-30 09:38:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="profile_for_transferring_material_data_via_idoc_proact" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Profile for transferring material data via IDoc PROACT</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Profile for transferring material data via idoc proact</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>profile_for_transferring_material_data_via_idoc_proact</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:37</sys_created_on>
+        <sys_name>Profile for transferring material data via idoc proact</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_profile_for_transferring_material_data_via_idoc_proact</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:14:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sys_dictionary_sn_sap_data_int_supplier_stg_profile_for_transferring_material_data_via_idoc_proact</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="profile_for_transferring_material_data_via_idoc_proact" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Profile for transferring material data via IDoc PROACT</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Profile for transferring material data via idoc proact</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>profile_for_transferring_material_data_via_idoc_proact</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:37</sys_created_on>
+        <sys_name>Profile for transferring material data via idoc proact</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_profile_for_transferring_material_data_via_idoc_proact</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:14:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>1863081377</payload_hash>
+        <record_name>Vendors.Profile for transferring material data via idoc proact</record_name>
+        <reverted_from/>
+        <source>fdcf8f3783d2e5102aac11b6feaad36e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-26 15:24:30</sys_created_on>
+        <sys_id>42b217ff83d2e5102aac11b6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187be2a872f0000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-26 15:24:30</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>8eb217ff3fd2e510610b0dedf6efffc2</update_guid>
+        <update_guid_history>8eb217ff3fd2e510610b0dedf6efffc2:0,caa9c2da1a1e219072db0bb50431fe97:990857171,aa28065a111e2190f8534dd2ecaa5840:-1718433837,9cc64e96981e219003da9ac77c2ccac3:-1718433837,869ad1d738a9a11071afc764ff6c5b8c:0,029ad1d7caa9a110c0d93d942ae35687:-1797765165,215b8ff486b96550b70e7b8f23c4906f:0,f548c4e42a25251086a1332db21ca56e:-1797765165,45ee79f9c7d1e11078d3e899981d6f34:0,89ee79f9b8d1e11040cc185d0a35532e:562997288</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-30 09:38:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2936def6d17144d796db1c5173a7b8f9</sys_id>
+        <sys_metadata>0e7ef1b9c3d1e11068187addd401319e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Profile for transferring material data via idoc proact</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="Vendors">ef6e71b9c3d1e11068187addd40131eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_profile_for_transferring_material_data_via_idoc_proact</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_supplier_stg_profile_for_transferring_material_data_via_idoc_proact">42b217ff83d2e5102aac11b6feaad3c3</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-30 09:38:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

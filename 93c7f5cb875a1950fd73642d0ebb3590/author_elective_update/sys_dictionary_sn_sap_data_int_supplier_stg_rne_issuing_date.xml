@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="rne_issuing_date" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=RNE Issuing Date</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Rne issuing date</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rne_issuing_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:20</sys_created_on>
+        <sys_name>Rne issuing date</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_rne_issuing_date</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:01:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sys_dictionary_sn_sap_data_int_supplier_stg_rne_issuing_date</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="rne_issuing_date" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=RNE Issuing Date</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Rne issuing date</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rne_issuing_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:20</sys_created_on>
+        <sys_name>Rne issuing date</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_rne_issuing_date</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:01:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-778369696</payload_hash>
+        <record_name>Vendors.Rne issuing date</record_name>
+        <reverted_from/>
+        <source>fdcf8f3783d2e5102aac11b6feaad36e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-26 15:24:38</sys_created_on>
+        <sys_id>b3b297ff83d2e5102aac11b6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187be2aa5810000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-26 15:24:38</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>ffb297ff71d2e510053606c326d2a951</update_guid>
+        <update_guid_history>ffb297ff71d2e510053606c326d2a951:0,c728465ad21e2190796ea274477faf96:-369531916,95c6ce96551e2190a89af2fd94272042:-369531916,039a15d725a9a1107fb0c94e797f53f5:0,4b9a15d7fda9a110ff185d93adf3e8ef:-1343915020,7f5b03384ab9655058e29dcf219f4820:0,af4808e41f252510680cdbb5c312ffba:-1343915020,c7eeb9f911d1e110c505f3e281f4639f:0,0feeb9f985d1e110f9e6e70271dbb299:340922727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-30 09:38:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0cc16ffb6ce545e28f798956c5a2d9c4</sys_id>
+        <sys_metadata>e67ef1b9c3d1e11068187addd40131d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rne issuing date</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="Vendors">ef6e71b9c3d1e11068187addd40131eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_rne_issuing_date</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_supplier_stg_rne_issuing_date">b3b297ff83d2e5102aac11b6feaad352</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-30 09:38:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

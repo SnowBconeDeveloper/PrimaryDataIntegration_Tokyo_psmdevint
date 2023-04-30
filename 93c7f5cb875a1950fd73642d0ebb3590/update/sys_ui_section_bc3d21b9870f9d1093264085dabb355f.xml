@@ -560,6 +560,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>economic_activity_national_classification</element>
+            <position>40</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2023-04-30 09:35:49</sys_created_on>
+            <sys_id>8d49a201c32a211031c77addd40131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2023-04-30 09:35:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="authorization_group_fa" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Authorization Group (FA)</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Authorization group fa</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>authorization_group_fa</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:03</sys_created_on>
+        <sys_name>Authorization group fa</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_authorization_group_fa</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:01:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sys_dictionary_sn_sap_data_int_supplier_stg_authorization_group_fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="authorization_group_fa" table="sn_sap_data_int_supplier_stg">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Authorization Group (FA)</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Authorization group fa</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>authorization_group_fa</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sn_sap_data_int_supplier_stg</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-12-02 11:45:03</sys_created_on>
+        <sys_name>Authorization group fa</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_authorization_group_fa</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-04-21 18:01:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-1876517719</payload_hash>
+        <record_name>Vendors.Authorization group fa </record_name>
+        <reverted_from/>
+        <source>fdcf8f3783d2e5102aac11b6feaad36e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-26 15:23:30</sys_created_on>
+        <sys_id>d7721bbf83d2e5102aac11b6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187be299b9f0000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-26 15:23:30</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>17721bbfc5d2e510d31fbaabb7e41620</update_guid>
+        <update_guid_history>17721bbfc5d2e510d31fbaabb7e41620:0,6908ce1ae01e2190f0122006b7a626ae:100972547,0ea68296861e2190eda646977a40914e:100972547,d67a1997e0a9a1102d939c0a56fc344b:0,127a199743a9a110db99034e62c8a446:573334261,610b83f48ab96550242868ee9dc94b49:0,b8184ca4eb2525104f0284644ec7ff30:573334261,f39e79b95ed1e110c6dba72c0e339070:0,2b9e79b996d1e11096e42b52ed8af56a:-68381050</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-04-30 09:38:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>8463da5e530a4a7086122b1ebdb073c4</sys_id>
+        <sys_metadata>c87eb1b9c3d1e11068187addd4013129</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization group fa</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="Vendors">ef6e71b9c3d1e11068187addd40131eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_authorization_group_fa</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sn_sap_data_int_supplier_stg_authorization_group_fa">d7721bbf83d2e5102aac11b6feaad320</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-04-30 09:38:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
