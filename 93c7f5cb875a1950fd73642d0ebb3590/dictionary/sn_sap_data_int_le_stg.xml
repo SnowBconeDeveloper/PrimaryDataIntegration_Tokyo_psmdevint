@@ -24,7 +24,7 @@
         <element attributes="edge_encryption_enabled=true" label="Document type for provisions for taxes on services received" max_length="40" name="document_type_for_provisions_for_taxes_on_services_received" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Document type for remittance challans" max_length="40" name="document_type_for_remittance_challans" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Enable amount split" max_length="40" name="enable_amount_split" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Erp source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="ERP source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Field status variant" max_length="40" name="field_status_variant" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Financial management area" max_length="40" name="financial_management_area" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Fiscal year variant" max_length="40" name="fiscal_year_variant" type="string"/>
@@ -53,15 +53,15 @@
         <element attributes="edge_encryption_enabled=true" label="Indicator hedge request active" max_length="40" name="indicator_hedge_request_active" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator jva active" max_length="40" name="indicator_jva_active" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator negative postings permitted" max_length="40" name="indicator_negative_postings_permitted" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Indicator no ex Rate difference when clearing in local crcy" max_length="40" name="indicator_no_ex_rate_difference_when_clearing_in_local_crcy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator number exchange rate difference when clearing in local crcy" max_length="40" name="indicator_no_ex_rate_difference_when_clearing_in_local_crcy" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator post translations for exchange rate differences" max_length="40" name="indicator_post_translations_for_exchange_rate_differences" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator productive company code" max_length="40" name="indicator_productive_company_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator project cash management active" max_length="40" name="indicator_project_cash_management_active" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator propose current date as value date" max_length="40" name="indicator_propose_current_date_as_value_date" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator propose fiscal year" max_length="40" name="indicator_propose_fiscal_year" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator purchase account processing is active" max_length="40" name="indicator_purchase_account_processing_is_active" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Indicator updating mm in cash mgmt forecast activated" max_length="40" name="indicator_updating_mm_in_cash_mgmt_forecast_activated" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Indicator updating sd in cash mgmt forecast activated" max_length="40" name="indicator_updating_sd_in_cash_mgmt_forecast_activated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator updating material movement in cash management forecast activated" max_length="40" name="indicator_updating_mm_in_cash_mgmt_forecast_activated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator updating sd in cash management forecast activated" max_length="40" name="indicator_updating_sd_in_cash_mgmt_forecast_activated" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Inflation method" max_length="40" name="inflation_method" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Input tax code for non taxable transactions" max_length="40" name="input_tax_code_for_non_taxable_transactions" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Jurisdiction for tax calculation tax jurisdiction code" max_length="40" name="jurisdiction_for_tax_calculation_tax_jurisdiction_code" type="string"/>

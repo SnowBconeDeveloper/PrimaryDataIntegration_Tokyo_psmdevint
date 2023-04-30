@@ -4,7 +4,7 @@
         <element attributes="edge_encryption_enabled=true" label="Client" max_length="10" name="client" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Currency key" max_length="100" name="currency_key" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date until which the currency is valid" max_length="100" name="date_until_which_the_currency_is_valid" type="string"/>
-        <element attributes="encode_utf8=false" label="Erp source" max_length="32" name="erp_source" type="string"/>
+        <element attributes="encode_utf8=false" label="ERP source" max_length="32" name="erp_source" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ISO currency code" max_length="100" name="iso_currency_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Long text" max_length="400" name="long_text" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Primary sap currency code for ISO code" max_length="100" name="primary_sap_currency_code_for_iso_code" type="string"/>
