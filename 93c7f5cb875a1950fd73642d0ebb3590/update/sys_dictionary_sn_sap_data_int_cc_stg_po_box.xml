@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="post_office_box" table="sn_sap_data_int_cc_stg">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="po_box" table="sn_sap_data_int_cc_stg">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Post office box</column_label>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>post_office_box</element>
+        <element>po_box</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -51,9 +51,9 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_cc_stg_post_office_box</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-21 18:00:37</sys_updated_on>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_cc_stg_po_box</sys_update_name>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-04-29 05:33:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

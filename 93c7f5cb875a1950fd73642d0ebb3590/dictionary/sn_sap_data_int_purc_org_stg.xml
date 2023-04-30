@@ -7,7 +7,7 @@
         <element attributes="edge_encryption_enabled=true" label="Complimentary close" max_length="40" name="complimentary_close" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description of purchasing organisation" max_length="40" name="description_of_purchasing_organisation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Effective price" max_length="40" name="effective_price" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Erp source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="ERP source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Footer lines" max_length="40" name="footer_lines" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Group for calculation schema purchasing organization" max_length="40" name="group_for_calculation_schema_purchasing_organization" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Letter heading" max_length="40" name="letter_heading" type="string"/>
