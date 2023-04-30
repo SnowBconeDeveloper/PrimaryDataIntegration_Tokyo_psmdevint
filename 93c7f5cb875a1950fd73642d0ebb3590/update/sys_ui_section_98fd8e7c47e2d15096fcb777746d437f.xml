@@ -169,7 +169,7 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_date_on_which_the_record_was_created</element>
+            <element>u_vendor_created_date</element>
             <position>12</position>
             <sys_created_by>bcone</sys_created_by>
             <sys_created_on>2022-10-12 16:46:48</sys_created_on>
@@ -687,7 +687,7 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_on_which_the_record_was_created</element>
+            <element>vendor_created_date</element>
             <position>49</position>
             <sys_created_by>Varun</sys_created_by>
             <sys_created_on>2023-04-25 07:50:15</sys_created_on>
