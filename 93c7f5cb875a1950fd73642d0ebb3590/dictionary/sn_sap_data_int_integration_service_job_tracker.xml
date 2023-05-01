@@ -11,8 +11,8 @@
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Integrations job tracker" max_length="32" name="integrations_job_tracker" reference="sn_sap_data_int_integration_job_tracker" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Integration service" max_length="32" name="integration_service" reference="sn_sap_data_int_integrations_service" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Last run date" max_length="40" name="last_run_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Load ended at" max_length="40" name="load_ended_at" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Load started at" max_length="40" name="load_started_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Load end" max_length="40" name="load_ended_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Load start" max_length="40" name="load_started_at" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Batch resume counter" max_length="40" name="resume_count" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Sets" max_length="4000" name="sets" reference="sys_import_set" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="running" label="State" max_length="40" name="state" type="choice">
@@ -30,8 +30,8 @@
                 <element inactive_on_update="false" label="Running" value="running"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Transform ended at" max_length="40" name="transform_ended_at" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Transform started at" max_length="40" name="transform_started_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Transform end" max_length="40" name="transform_ended_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Transform start" max_length="40" name="transform_started_at" type="glide_date_time"/>
         <index name="index">
             <element name="integration_service"/>
         </index>

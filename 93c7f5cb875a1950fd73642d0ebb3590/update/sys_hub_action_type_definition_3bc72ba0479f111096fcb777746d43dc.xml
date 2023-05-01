@@ -10,7 +10,48 @@
         <category/>
         <copied_from>28dbdc7847ea915096fcb777746d43fa</copied_from>
         <copied_from_name>Segregate Purchasing Organisatio</copied_from_name>
-        <description/>
+        <description>&lt;p&gt;Segregates purchase organisation JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs&amp;nbsp;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP&amp;nbsp;purchase organisation JSON payload.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt;&amp;nbsp;- Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Purchasing Organisation&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;strong&gt;Purchasing Organisation&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+        &lt;ul&gt;
+          &lt;li&gt;Group for Calculation Schema (Purchasing Organization)&lt;/li&gt;
+          &lt;li&gt;Calculation Schema for Market Price&lt;/li&gt;
+          &lt;li&gt;Effective Price&lt;/li&gt;
+          &lt;li&gt;Client&lt;/li&gt;
+          &lt;li&gt;Purchasing Organization&lt;/li&gt;
+          &lt;li&gt;Description of purchasing organization&lt;/li&gt;
+          &lt;li&gt;Company Code&lt;/li&gt;
+          &lt;li&gt;Text Name: Sender Line&lt;/li&gt;
+          &lt;li&gt;Text Name: Complimentary Close&lt;/li&gt;
+          &lt;li&gt;Text Name: Footer Lines&lt;/li&gt;
+          &lt;li&gt;Text Name: Letter Heading&lt;/li&gt;
+          &lt;li&gt;Company code for subsequent settlement&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Total Rows -&amp;nbsp;&lt;/strong&gt;Return the total number of records present in SAP&amp;nbsp;Payload.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use.&amp;nbsp;&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>segregate_purchasing_organisation_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDb92c38a7b7482550b84a4c4862bd1088","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"3ffb2f23-e87c-44b8-8c25-0ae89ac02833"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5ad2f221-696e-449e-a015-ba3bae962421"}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].__step_status__.code}}","label":"step➛Processing Input String➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].__step_status__.message}}","label":"step➛Processing Input String➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].purchasing_organisation}}","label":"step➛Processing Input String➛Purchasing Organisation","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDa24f3b68d9df1110f11f24447148fda0","child_label":"Purchasing Organisation","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"purchasing_organisation_child","child_uiUniqueId":"a3520364-66c0-4fb6-93fd-db07c3ee6ab1","uiUniqueId":"6e77715d-926f-4155-939d-d3349b4c7eed"}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].total_rows}}","label":"step➛Processing Input String➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"bf5d8c43-9bc0-4b29-b080-ca742d433b85"}}]</label_cache>
@@ -27,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3bc72ba0479f111096fcb777746d43dc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segregate Purchase Organization Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
@@ -35,7 +76,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3bc72ba0479f111096fcb777746d43dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-17 06:37:31</sys_updated_on>
+        <sys_updated_on>2023-05-01 07:51:45</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -618,7 +659,7 @@
         <sys_created_on>2022-11-19 13:10:06</sys_created_on>
         <sys_id>34c84dc947d3511096fcb777746d4344</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -641,7 +682,7 @@
         <sys_created_on>2022-11-18 13:10:39</sys_created_on>
         <sys_id>7e4f3b6847df111096fcb777746d43d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1209,7 +1250,7 @@
         <sys_created_on>2023-01-03 13:26:55</sys_created_on>
         <sys_id>462c38a787482550a3e3cbb4dabb358f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1232,7 +1273,7 @@
         <sys_created_on>2022-11-18 11:34:29</sys_created_on>
         <sys_id>c6492324479f111096fcb777746d439f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1257,7 +1298,7 @@
         <sys_created_on>2022-11-18 13:00:25</sys_created_on>
         <sys_id>34fc33e447df111096fcb777746d43be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1280,7 +1321,7 @@
         <sys_created_on>2022-11-18 13:00:26</sys_created_on>
         <sys_id>91fc73e447df111096fcb777746d434c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1303,7 +1344,7 @@
         <sys_created_on>2022-11-18 13:00:22</sys_created_on>
         <sys_id>c4fc33e447df111096fcb777746d43b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1326,7 +1367,7 @@
         <sys_created_on>2022-11-19 13:10:09</sys_created_on>
         <sys_id>d9c84dc947d3511096fcb777746d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1341,17 +1382,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Segregate Purchase Organization Response">3bc72ba0479f111096fcb777746d43dc</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"72e008f847df111096fcb777746d43ac","name":"plan","plan_signature":null}}</plan>
-        <snapshot>eec34374c39ae15068187addd4013118</snapshot>
+        <snapshot>e29b970dc3ea211031c77addd40131a9</snapshot>
         <sys_created_by>Midhat</sys_created_by>
         <sys_created_on>2022-11-18 13:17:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72e008f847df111096fcb777746d43ac</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-17 06:37:33</sys_updated_on>
+        <sys_updated_by>varun</sys_updated_by>
+        <sys_updated_on>2023-04-30 13:15:45</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1363,7 +1404,48 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates purchase organisation JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs&amp;nbsp;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP&amp;nbsp;purchase organisation JSON payload.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt;&amp;nbsp;- Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Purchasing Organisation&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;strong&gt;Purchasing Organisation&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+        &lt;ul&gt;
+          &lt;li&gt;Group for Calculation Schema (Purchasing Organization)&lt;/li&gt;
+          &lt;li&gt;Calculation Schema for Market Price&lt;/li&gt;
+          &lt;li&gt;Effective Price&lt;/li&gt;
+          &lt;li&gt;Client&lt;/li&gt;
+          &lt;li&gt;Purchasing Organization&lt;/li&gt;
+          &lt;li&gt;Description of purchasing organization&lt;/li&gt;
+          &lt;li&gt;Company Code&lt;/li&gt;
+          &lt;li&gt;Text Name: Sender Line&lt;/li&gt;
+          &lt;li&gt;Text Name: Complimentary Close&lt;/li&gt;
+          &lt;li&gt;Text Name: Footer Lines&lt;/li&gt;
+          &lt;li&gt;Text Name: Letter Heading&lt;/li&gt;
+          &lt;li&gt;Company code for subsequent settlement&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Total Rows -&amp;nbsp;&lt;/strong&gt;Return the total number of records present in SAP&amp;nbsp;Payload.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use.&amp;nbsp;&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>segregate_purchasing_organisation_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDb92c38a7b7482550b84a4c4862bd1088","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"3ffb2f23-e87c-44b8-8c25-0ae89ac02833"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5ad2f221-696e-449e-a015-ba3bae962421"}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].__step_status__.code}}","label":"step➛Processing Input String➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].__step_status__.message}}","label":"step➛Processing Input String➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].purchasing_organisation}}","label":"step➛Processing Input String➛Purchasing Organisation","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDa24f3b68d9df1110f11f24447148fda0","child_label":"Purchasing Organisation","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"purchasing_organisation_child","child_uiUniqueId":"a3520364-66c0-4fb6-93fd-db07c3ee6ab1","uiUniqueId":"6e77715d-926f-4155-939d-d3349b4c7eed"}},{"name":"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].total_rows}}","label":"step➛Processing Input String➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"bf5d8c43-9bc0-4b29-b080-ca742d433b85"}}]</label_cache>
         <master>true</master>
@@ -1378,15 +1460,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>31d0c4f847df111096fcb777746d4307</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-17 06:37:30</sys_updated_on>
+        <sys_updated_by>varun</sys_updated_by>
+        <sys_updated_on>2023-05-01 06:24:37</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1931,7 +2013,7 @@
         <sys_created_on>2022-11-18 13:17:34</sys_created_on>
         <sys_id>58e0c4f847df111096fcb777746d438a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1954,7 +2036,7 @@
         <sys_created_on>2022-11-19 13:10:21</sys_created_on>
         <sys_id>a4d88dc947d3511096fcb777746d4398</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2493,7 +2575,7 @@
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 13:17:39</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=11e0c4f847df111096fcb777746d43f7^sys_idNOT INa2c34374c39ae15068187addd4013118"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=11e0c4f847df111096fcb777746d43f7^sys_idNOT IN5217c3d58366611067a211b6feaad337"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2022-11-18 05:17:39">11e0c4f847df111096fcb777746d43f7</action_status_metadata_id>
         <condition>{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].__step_status__.code}}!=0</condition>
@@ -2501,12 +2583,12 @@
         <label>Processing Input String fails</label>
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[5c90cdc8-c85d-48e4-aca1-ad195d154069].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-17 06:37:31</sys_created_on>
-        <sys_id>a2c34374c39ae15068187addd4013118</sys_id>
+        <sys_created_by>varun</sys_created_by>
+        <sys_created_on>2023-05-01 06:24:38</sys_created_on>
+        <sys_id>5217c3d58366611067a211b6feaad337</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-17 06:37:31</sys_updated_on>
+        <sys_updated_by>varun</sys_updated_by>
+        <sys_updated_on>2023-05-01 06:24:38</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_31d0c4f847df111096fcb777746d4307^sys_idNOT IN73d0c4f847df111096fcb777746d4351,b32cb8a787482550a3e3cbb4dabb351c"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -2522,7 +2604,7 @@
         <sys_created_on>2022-11-18 13:17:32</sys_created_on>
         <sys_id>73d0c4f847df111096fcb777746d4351</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2545,7 +2627,7 @@
         <sys_created_on>2023-01-03 13:27:03</sys_created_on>
         <sys_id>b32cb8a787482550a3e3cbb4dabb351c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2570,7 +2652,7 @@
         <sys_created_on>2022-11-18 13:17:36</sys_created_on>
         <sys_id>30e0c4f847df111096fcb777746d439b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2593,7 +2675,7 @@
         <sys_created_on>2022-11-18 13:17:37</sys_created_on>
         <sys_id>45e0c4f847df111096fcb777746d43ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2616,7 +2698,7 @@
         <sys_created_on>2022-11-19 13:10:23</sys_created_on>
         <sys_id>7cd88dc947d3511096fcb777746d43bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2639,7 +2721,7 @@
         <sys_created_on>2022-11-18 13:17:38</sys_created_on>
         <sys_id>95e0c4f847df111096fcb777746d43f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Purchasing Organisation</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2653,6 +2735,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>3bc72ba0479f111096fcb777746d43dc</sys_id>
         <latest_snapshot>31d0c4f847df111096fcb777746d4307</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7-02-16-2023_02-28-2023_1844.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

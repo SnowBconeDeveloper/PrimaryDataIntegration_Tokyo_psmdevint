@@ -7,10 +7,10 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Action&amp;nbsp;calculates the batches and intervals to fetch the data from SAP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Inputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Total Count&lt;/strong&gt; - Input gives the total count of the records returned from SAP system&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Row Count&lt;/strong&gt; - Input&amp;nbsp;determines the number of record fetched in one call.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Service Record&lt;/strong&gt; - Input is integration service job tracker record that contains the details about the executed service or job.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Outputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Intervals&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Output will return the number of intervals to fetch data from SAP.&lt;/li&gt;&lt;li&gt;&lt;div class="form-label"&gt;&lt;strong&gt;&lt;label id="label_batch_count_1" class="control-label " for="batch_count" data-for="ah_tooltipTop"&gt;Batch Count&amp;nbsp;&lt;/label&gt;&lt;/strong&gt;- Output will return the number of batcheds required to fetch the total records from SAP.&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use.&amp;nbsp;&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>get_interval_range</internal_name>
         <label_cache>[{"name":"{{action.total_count}}","label":"action➛Total Count","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"522ccb3c-16c6-4a3f-bffb-8ffeccd8c681"}},{"name":"{{action.row_count}}","label":"action➛Row Count","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"13dbf2f3-778d-4f82-a09e-80d40e7dc03c"}},{"name":"{{action.service_record}}","label":"action➛Service Record","type":"action","ref":"sn_sap_data_int_integration_service_job_tracker","reference_display":"Integration Service Job Tracker","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"db343117-d0fc-4de6-a6e3-cac2760a7b56"}},{"name":"{{action.service_record.sys_id}}","label":"action➛Service Record➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sn_sap_data_int_integration_service_job_tracker","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[b47ec1ac-142e-40b6-bbf6-455fd9845d24].interval_range}}","label":"step➛Script step➛Interval Range","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD0ed2f2b66a2f9910e185d1cd3892fb05","child_label":"Interval Range_child","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Interval_Range_child","child_uiUniqueId":"c0446f40-0243-4bad-a7a7-fac318e9422c","uiUniqueId":"af97d736-ff16-405f-a572-2454d4f49498"}},{"name":"{{step[b47ec1ac-142e-40b6-bbf6-455fd9845d24].batch_count}}","label":"step➛Script step➛Batch Count","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"3238c409-3731-456f-b646-674d7d4b6b59"}}]</label_cache>
@@ -34,8 +34,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4102b636872f9910a3e3cbb4dabb3596</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:18:42</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-05-01 06:54:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1560,17 +1560,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c7e99edb876b1d10a3e3cbb4dabb359c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>79db57edc38ee11031c77addd401313f</snapshot>
+        <snapshot>e20acbd98366611067a211b6feaad3d1</snapshot>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2022-12-09 05:06:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7e99edb876b1d10a3e3cbb4dabb359c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:02:22</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-05-01 06:37:30</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1579,10 +1579,10 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Action&amp;nbsp;calculates the batches and intervals to fetch the data from SAP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Inputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Total Count&lt;/strong&gt; - Input gives the total count of the records returned from SAP system&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Row Count&lt;/strong&gt; - Input&amp;nbsp;determines the number of record fetched in one call.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Service Record&lt;/strong&gt; - Input is integration service job tracker record that contains the details about the executed service or job.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Outputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Intervals&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Output will return the number of intervals to fetch data from SAP.&lt;/li&gt;&lt;li&gt;&lt;div class="form-label"&gt;&lt;strong&gt;&lt;label id="label_batch_count_1" class="control-label " for="batch_count" data-for="ah_tooltipTop"&gt;Batch Count&amp;nbsp;&lt;/label&gt;&lt;/strong&gt;- Output will return the number of batcheds required to fetch the total records from SAP.&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use.&amp;nbsp;&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>get_interval_range</internal_name>
         <label_cache>[{"name":"{{action.total_count}}","label":"action➛Total Count","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"522ccb3c-16c6-4a3f-bffb-8ffeccd8c681"}},{"name":"{{action.row_count}}","label":"action➛Row Count","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"13dbf2f3-778d-4f82-a09e-80d40e7dc03c"}},{"name":"{{action.service_record}}","label":"action➛Service Record","type":"action","ref":"sn_sap_data_int_integration_service_job_tracker","reference_display":"Integration Service Job Tracker","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"db343117-d0fc-4de6-a6e3-cac2760a7b56"}},{"name":"{{action.service_record.sys_id}}","label":"action➛Service Record➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sn_sap_data_int_integration_service_job_tracker","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[b47ec1ac-142e-40b6-bbf6-455fd9845d24].interval_range}}","label":"step➛Script step➛Interval Range","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD0ed2f2b66a2f9910e185d1cd3892fb05","child_label":"Interval Range_child","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Interval_Range_child","child_uiUniqueId":"c0446f40-0243-4bad-a7a7-fac318e9422c","uiUniqueId":"af97d736-ff16-405f-a572-2454d4f49498"}},{"name":"{{step[b47ec1ac-142e-40b6-bbf6-455fd9845d24].batch_count}}","label":"step➛Script step➛Batch Count","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"3238c409-3731-456f-b646-674d7d4b6b59"}}]</label_cache>
         <master>true</master>
@@ -1597,15 +1597,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>63f2b6b6872f9910a3e3cbb4dabb350d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:02:19</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-05-01 06:39:11</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3115,6 +3115,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>4102b636872f9910a3e3cbb4dabb3596</sys_id>
         <latest_snapshot>63f2b6b6872f9910a3e3cbb4dabb350d</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7-02-16-2023_02-28-2023_1844.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

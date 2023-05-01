@@ -7,10 +7,46 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates purchasing group JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs &lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP purchasing group JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;div class="form-label"&gt;&lt;strong&gt;&lt;label class="control-label " data-for="ah_tooltipTop"&gt;Purchase Group &lt;/label&gt;&lt;/strong&gt;- Array of objects containing below fields:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Purchase Group Data - Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Purchasing Group&lt;/li&gt;
+&lt;li&gt;Description of purchasing group&lt;/li&gt;
+&lt;li&gt;Telephone number of purchasing group (buyer group)&lt;/li&gt;
+&lt;li&gt;Spool: Output device&lt;/li&gt;
+&lt;li&gt;Fax number of purchasing (buyer) group&lt;/li&gt;
+&lt;li&gt;Telephone no dialling code+number&lt;/li&gt;
+&lt;li&gt;Telephone no Extension&lt;/li&gt;
+&lt;li&gt;E-Mail Address&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows - &lt;/strong&gt;Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;span class="ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>segregate_purchasing_group_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"5e160a83-32db-46dd-88e1-962be10a4b28"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"234bd2c0-d118-4477-9477-0b7de15067e8"}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].__step_status__.code}}","label":"step➛Script step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].__step_status__.message}}","label":"step➛Script step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].purchase_group}}","label":"step➛Script step➛Purchase Group","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD56adec3f25cbd15088f2c49baf51748b","child_label":"Purchase Group Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Purchase_Group_Data","child_uiUniqueId":"04de4072-bee9-4ab2-9e8f-2f3222bbddc7","uiUniqueId":"a48c3ba2-fea7-4f37-ab16-c825e8582b75"}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4f272483-d00a-49d6-a2ef-82ac70a80590"}}]</label_cache>
@@ -35,7 +71,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_13889873473a111086887562846d4303</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-07 04:38:52</sys_updated_on>
+        <sys_updated_on>2023-05-01 05:55:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1332,10 +1368,46 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates purchasing group JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs &lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP purchasing group JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;div class="form-label"&gt;&lt;strong&gt;&lt;label class="control-label " data-for="ah_tooltipTop"&gt;Purchase Group &lt;/label&gt;&lt;/strong&gt;- Array of objects containing below fields:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Purchase Group Data - Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Purchasing Group&lt;/li&gt;
+&lt;li&gt;Description of purchasing group&lt;/li&gt;
+&lt;li&gt;Telephone number of purchasing group (buyer group)&lt;/li&gt;
+&lt;li&gt;Spool: Output device&lt;/li&gt;
+&lt;li&gt;Fax number of purchasing (buyer) group&lt;/li&gt;
+&lt;li&gt;Telephone no dialling code+number&lt;/li&gt;
+&lt;li&gt;Telephone no Extension&lt;/li&gt;
+&lt;li&gt;E-Mail Address&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows - &lt;/strong&gt;Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;span class="ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>segregate_purchasing_group_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"5e160a83-32db-46dd-88e1-962be10a4b28"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"234bd2c0-d118-4477-9477-0b7de15067e8"}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].__step_status__.code}}","label":"step➛Script step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].__step_status__.message}}","label":"step➛Script step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].purchase_group}}","label":"step➛Script step➛Purchase Group","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD56adec3f25cbd15088f2c49baf51748b","child_label":"Purchase Group Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Purchase_Group_Data","child_uiUniqueId":"04de4072-bee9-4ab2-9e8f-2f3222bbddc7","uiUniqueId":"a48c3ba2-fea7-4f37-ab16-c825e8582b75"}},{"name":"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4f272483-d00a-49d6-a2ef-82ac70a80590"}}]</label_cache>
         <master>true</master>
@@ -1350,7 +1422,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d597588474f511086887562846d43f8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1358,7 +1430,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Krishna</sys_updated_by>
-        <sys_updated_on>2023-04-07 04:22:28</sys_updated_on>
+        <sys_updated_on>2023-04-30 14:33:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2475,7 +2547,7 @@
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-04 03:52:45</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=0e59b588474f511086887562846d437f^sys_idNOT IN4bf44361830a251067a211b6feaad3b5"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=0e59b588474f511086887562846d437f^sys_idNOT INe97de30183e6211067a211b6feaad3e0"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2022-11-03 20:52:45">0e59b588474f511086887562846d437f</action_status_metadata_id>
         <condition>{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].__step_status__.code}}=0</condition>
@@ -2484,11 +2556,11 @@
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[4015fb9d-1c6d-4869-bdf1-1b1d686c246f].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>Krishna</sys_created_by>
-        <sys_created_on>2023-04-07 04:22:29</sys_created_on>
-        <sys_id>4bf44361830a251067a211b6feaad3b5</sys_id>
+        <sys_created_on>2023-04-30 14:33:45</sys_created_on>
+        <sys_id>e97de30183e6211067a211b6feaad3e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Krishna</sys_updated_by>
-        <sys_updated_on>2023-04-07 04:22:29</sys_updated_on>
+        <sys_updated_on>2023-04-30 14:33:45</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_4d597588474f511086887562846d43f8^sys_idNOT IN71cda07f47cbd15096fcb777746d43e9,bf0a6fc887ab1110a3e3cbb4dabb3581"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -2635,6 +2707,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>13889873473a111086887562846d4303</sys_id>
         <latest_snapshot>4d597588474f511086887562846d43f8</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7-02-16-2023_02-28-2023_1844.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

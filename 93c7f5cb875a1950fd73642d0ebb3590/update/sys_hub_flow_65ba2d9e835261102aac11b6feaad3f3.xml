@@ -5,10 +5,10 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Subflow helps to determine the inputs for dynamic subflows.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Inputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Service Record&lt;/strong&gt;&amp;nbsp;- Input is integration service job tracker record that contains the details about the executed service or job.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Connection Name&lt;/strong&gt;&amp;nbsp;- Input is a Connection and Credential alias record used to connect to the target system.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ERP Source&lt;/strong&gt;&amp;nbsp;- Input to determine the target system.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Last Successful Service Record -&amp;nbsp;&lt;/strong&gt;Input to determine the last&amp;nbsp;integration service job tracker record&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Outputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;&amp;nbsp;- Will be set to "1", if the request is "Success" or will be set to "2", if the request is "Error&amp;rdquo;.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Error&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use.&amp;nbsp;&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>template_integrations_service</internal_name>
         <label_cache>[]</label_cache>
         <master_snapshot>ab1ce912839261102aac11b6feaad3c0</master_snapshot>
@@ -22,14 +22,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2023-04-21 15:59:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65ba2d9e835261102aac11b6feaad3f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Template Integrations Service</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_65ba2d9e835261102aac11b6feaad3f3</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-04-21 16:05:24</sys_updated_on>
+        <sys_updated_on>2023-05-01 06:54:47</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=65ba2d9e835261102aac11b6feaad3f3"/>
@@ -648,11 +648,11 @@
         <sys_created_on>2023-04-21 16:05:19</sys_created_on>
         <sys_id>031ce912839261102aac11b6feaad370</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Last Successful Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_65ba2d9e835261102aac11b6feaad3f3_last_successful_service_record_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:19</sys_updated_on>
         <url/>
@@ -671,11 +671,11 @@
         <sys_created_on>2023-04-21 16:05:19</sys_created_on>
         <sys_id>4f1ce912839261102aac11b6feaad374</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_65ba2d9e835261102aac11b6feaad3f3_connection_name_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:19</sys_updated_on>
         <url/>
@@ -694,11 +694,11 @@
         <sys_created_on>2023-04-21 16:05:19</sys_created_on>
         <sys_id>f21ce912839261102aac11b6feaad36b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_65ba2d9e835261102aac11b6feaad3f3_service_record_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:19</sys_updated_on>
         <url/>
@@ -717,11 +717,11 @@
         <sys_created_on>2023-04-21 16:05:19</sys_created_on>
         <sys_id>fe1ce912839261102aac11b6feaad359</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ERP Source</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_65ba2d9e835261102aac11b6feaad3f3_erp_source_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:19</sys_updated_on>
         <url/>
@@ -742,11 +742,11 @@
         <sys_created_on>2023-04-21 16:05:19</sys_created_on>
         <sys_id>071ce912839261102aac11b6feaad37b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_65ba2d9e835261102aac11b6feaad3f3_error_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:19</sys_updated_on>
         <url/>
@@ -765,11 +765,11 @@
         <sys_created_on>2023-04-21 16:05:19</sys_created_on>
         <sys_id>471ce912839261102aac11b6feaad381</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_65ba2d9e835261102aac11b6feaad3f3_status_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:19</sys_updated_on>
         <url/>
@@ -1482,11 +1482,11 @@
         <sys_created_on>2023-04-21 16:05:22</sys_created_on>
         <sys_id>3b1ce912839261102aac11b6feaad3ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ab1ce912839261102aac11b6feaad3c0_service_record_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:22</sys_updated_on>
         <url/>
@@ -1505,11 +1505,11 @@
         <sys_created_on>2023-04-21 16:05:22</sys_created_on>
         <sys_id>bb1c2d12839261102aac11b6feaad305</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Last Successful Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ab1ce912839261102aac11b6feaad3c0_last_successful_service_record_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:22</sys_updated_on>
         <url/>
@@ -1528,11 +1528,11 @@
         <sys_created_on>2023-04-21 16:05:22</sys_created_on>
         <sys_id>ef1ce912839261102aac11b6feaad3e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ERP Source</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ab1ce912839261102aac11b6feaad3c0_erp_source_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:22</sys_updated_on>
         <url/>
@@ -1551,11 +1551,11 @@
         <sys_created_on>2023-04-21 16:05:22</sys_created_on>
         <sys_id>f71c2d12839261102aac11b6feaad311</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ab1ce912839261102aac11b6feaad3c0_connection_name_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:22</sys_updated_on>
         <url/>
@@ -1576,11 +1576,11 @@
         <sys_created_on>2023-04-21 16:05:23</sys_created_on>
         <sys_id>771c2d12839261102aac11b6feaad343</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_ab1ce912839261102aac11b6feaad3c0_status_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:23</sys_updated_on>
         <url/>
@@ -1599,11 +1599,11 @@
         <sys_created_on>2023-04-21 16:05:22</sys_created_on>
         <sys_id>f31c2d12839261102aac11b6feaad31c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_ab1ce912839261102aac11b6feaad3c0_error_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-04-21 16:05:22</sys_updated_on>
         <url/>

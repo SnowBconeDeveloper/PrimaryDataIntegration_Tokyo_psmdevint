@@ -10,7 +10,112 @@
         <category/>
         <copied_from>907ba6cb475e991086887562846d43fe</copied_from>
         <copied_from_name>Segregate Legal Entity Response</copied_from_name>
-        <description/>
+        <description>&lt;p&gt;Segregates cost center JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP cost center JSON payload.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cost Center&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;strong&gt;Cost Center&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+        &lt;ul&gt;
+          &lt;li&gt;Cost Center&lt;/li&gt;
+          &lt;li&gt;Controlling Area&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Plan Primary Cost&lt;/li&gt;
+          &lt;li&gt;Company Code&lt;/li&gt;
+          &lt;li&gt;Profit Center&lt;/li&gt;
+          &lt;li&gt;Valid to Date&lt;/li&gt;
+          &lt;li&gt;Valid from Date&lt;/li&gt;
+          &lt;li&gt;Cost Center Category&lt;/li&gt;
+          &lt;li&gt;User Responsible&lt;/li&gt;
+          &lt;li&gt;Name1&lt;/li&gt;
+          &lt;li&gt;Postal Code&lt;/li&gt;
+          &lt;li&gt;Currency Key&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Actual Primary Postings&lt;/li&gt;
+          &lt;li&gt;Business Area&lt;/li&gt;
+          &lt;li&gt;Person Responsible&lt;/li&gt;
+          &lt;li&gt;Costing Sheet&lt;/li&gt;
+          &lt;li&gt;Tax Jurisdiction&lt;/li&gt;
+          &lt;li&gt;Plant&lt;/li&gt;
+          &lt;li&gt;Logical System&lt;/li&gt;
+          &lt;li&gt;Created on&lt;/li&gt;
+          &lt;li&gt;Entered by&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Actual Secondary Costs&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Actual Revenue Postings&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Commitment Update&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Plan Secondary Costs&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Planning Revenues&lt;/li&gt;
+          &lt;li&gt;Indicator for Allowed Allocation Methods&lt;/li&gt;
+          &lt;li&gt;Indicator for Recording Consumption Quantities&lt;/li&gt;
+          &lt;li&gt;Department&lt;/li&gt;
+          &lt;li&gt;Subsequent cost center&lt;/li&gt;
+          &lt;li&gt;Usage of the condition table&lt;/li&gt;
+          &lt;li&gt;Application&lt;/li&gt;
+          &lt;li&gt;CO-CCA Overhead Key&lt;/li&gt;
+          &lt;li&gt;Country Key&lt;/li&gt;
+          &lt;li&gt;Title&lt;/li&gt;
+          &lt;li&gt;Name 2&lt;/li&gt;
+          &lt;li&gt;Name 3&lt;/li&gt;
+          &lt;li&gt;Name 4&lt;/li&gt;
+          &lt;li&gt;City&lt;/li&gt;
+          &lt;li&gt;District&lt;/li&gt;
+          &lt;li&gt;Street and House Number&lt;/li&gt;
+          &lt;li&gt;Post office box&lt;/li&gt;
+          &lt;li&gt;P.O. Box Postal Code&lt;/li&gt;
+          &lt;li&gt;Region (State, Province, County)&lt;/li&gt;
+          &lt;li&gt;Language Key&lt;/li&gt;
+          &lt;li&gt;Telebox number&lt;/li&gt;
+          &lt;li&gt;First telephone number&lt;/li&gt;
+          &lt;li&gt;Second telephone number&lt;/li&gt;
+          &lt;li&gt;Fax Number&lt;/li&gt;
+          &lt;li&gt;Teletex number&lt;/li&gt;
+          &lt;li&gt;Telex number&lt;/li&gt;
+          &lt;li&gt;Data communication line number.&lt;/li&gt;
+          &lt;li&gt;Printer destination for CCtr report&lt;/li&gt;
+          &lt;li&gt;Standard Hierarchy Area&lt;/li&gt;
+          &lt;li&gt;Cost collector key&lt;/li&gt;
+          &lt;li&gt;Completion flag for the cost center master record&lt;/li&gt;
+          &lt;li&gt;Indicator. object is statistical&lt;/li&gt;
+          &lt;li&gt;Object number&lt;/li&gt;
+          &lt;li&gt;Function of cost center&lt;/li&gt;
+          &lt;li&gt;Alternative function of cost center&lt;/li&gt;
+          &lt;li&gt;Template for Activity-Independent Formula Planning&lt;/li&gt;
+          &lt;li&gt;Template for Activity-Dependent Formula Planning&lt;/li&gt;
+          &lt;li&gt;Functional Area&lt;/li&gt;
+          &lt;li&gt;Template: Activity-Independent Allocation to Cost Center&lt;/li&gt;
+          &lt;li&gt;Template: Activity-Dependent Allocation to Cost Center&lt;/li&gt;
+          &lt;li&gt;Template: Actual Statistical Key Figure on Cost Center&lt;/li&gt;
+          &lt;li&gt;Template: Act. Stat. Key Figure - Cost Center/Activity Type&lt;/li&gt;
+          &lt;li&gt;Joint venture&lt;/li&gt;
+          &lt;li&gt;Recovery Indicator&lt;/li&gt;
+          &lt;li&gt;Equity type&lt;/li&gt;
+          &lt;li&gt;Joint Venture Object Type&lt;/li&gt;
+          &lt;li&gt;JIB/JIBE Class&lt;/li&gt;
+          &lt;li&gt;JIB/JIBE Subclass A&lt;/li&gt;
+          &lt;li&gt;Append structure for Regulatory Reporting&lt;/li&gt;
+          &lt;li&gt;Regulatory indicator&lt;/li&gt;
+          &lt;li&gt;Client&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>segregate_legal_entity_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"59c36a67-76a5-4e4b-9b53-a484b44387a6"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"272b1f93-102c-40b9-97df-14101a2c12b2"}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.code}}","label":"step➛Script step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.message}}","label":"step➛Script step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].legal_entity}}","label":"step➛Script step➛Legal Entity","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD0ec9b32f924f1150c62c427bf7330287","child_label":"Legal Entity Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"legal_entity_data","child_uiUniqueId":"212d96aa-866c-448d-9a39-6dcc2334b65b","uiUniqueId":"25912fc5-686c-4a01-8e76-539f4290f3ac"}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"19a2faeb-f380-47cb-b103-b6f3a84574fe"}}]</label_cache>
@@ -35,7 +140,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_11b5b367474f115086887562846d436a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:19:52</sys_updated_on>
+        <sys_updated_on>2023-05-01 07:51:31</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1313,17 +1418,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Segregate Legal Entity Response">11b5b367474f115086887562846d436a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c00a883b47cf115086887562846d434d","name":"plan","plan_signature":null}}</plan>
-        <snapshot>5c7ae3df87c02550a3e3cbb4dabb3551</snapshot>
+        <snapshot>f51e5b41c32e211031c77addd4013188</snapshot>
         <sys_created_by>akash</sys_created_by>
         <sys_created_on>2022-11-15 11:23:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c00a883b47cf115086887562846d434d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>Akash</sys_updated_by>
-        <sys_updated_on>2023-01-03 07:30:06</sys_updated_on>
+        <sys_updated_by>varun</sys_updated_by>
+        <sys_updated_on>2023-04-30 13:26:39</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1335,7 +1440,112 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates cost center JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP cost center JSON payload.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cost Center&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;strong&gt;Cost Center&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+        &lt;ul&gt;
+          &lt;li&gt;Cost Center&lt;/li&gt;
+          &lt;li&gt;Controlling Area&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Plan Primary Cost&lt;/li&gt;
+          &lt;li&gt;Company Code&lt;/li&gt;
+          &lt;li&gt;Profit Center&lt;/li&gt;
+          &lt;li&gt;Valid to Date&lt;/li&gt;
+          &lt;li&gt;Valid from Date&lt;/li&gt;
+          &lt;li&gt;Cost Center Category&lt;/li&gt;
+          &lt;li&gt;User Responsible&lt;/li&gt;
+          &lt;li&gt;Name1&lt;/li&gt;
+          &lt;li&gt;Postal Code&lt;/li&gt;
+          &lt;li&gt;Currency Key&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Actual Primary Postings&lt;/li&gt;
+          &lt;li&gt;Business Area&lt;/li&gt;
+          &lt;li&gt;Person Responsible&lt;/li&gt;
+          &lt;li&gt;Costing Sheet&lt;/li&gt;
+          &lt;li&gt;Tax Jurisdiction&lt;/li&gt;
+          &lt;li&gt;Plant&lt;/li&gt;
+          &lt;li&gt;Logical System&lt;/li&gt;
+          &lt;li&gt;Created on&lt;/li&gt;
+          &lt;li&gt;Entered by&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Actual Secondary Costs&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Actual Revenue Postings&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Commitment Update&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Plan Secondary Costs&lt;/li&gt;
+          &lt;li&gt;Lock Indicator for Planning Revenues&lt;/li&gt;
+          &lt;li&gt;Indicator for Allowed Allocation Methods&lt;/li&gt;
+          &lt;li&gt;Indicator for Recording Consumption Quantities&lt;/li&gt;
+          &lt;li&gt;Department&lt;/li&gt;
+          &lt;li&gt;Subsequent cost center&lt;/li&gt;
+          &lt;li&gt;Usage of the condition table&lt;/li&gt;
+          &lt;li&gt;Application&lt;/li&gt;
+          &lt;li&gt;CO-CCA Overhead Key&lt;/li&gt;
+          &lt;li&gt;Country Key&lt;/li&gt;
+          &lt;li&gt;Title&lt;/li&gt;
+          &lt;li&gt;Name 2&lt;/li&gt;
+          &lt;li&gt;Name 3&lt;/li&gt;
+          &lt;li&gt;Name 4&lt;/li&gt;
+          &lt;li&gt;City&lt;/li&gt;
+          &lt;li&gt;District&lt;/li&gt;
+          &lt;li&gt;Street and House Number&lt;/li&gt;
+          &lt;li&gt;Post office box&lt;/li&gt;
+          &lt;li&gt;P.O. Box Postal Code&lt;/li&gt;
+          &lt;li&gt;Region (State, Province, County)&lt;/li&gt;
+          &lt;li&gt;Language Key&lt;/li&gt;
+          &lt;li&gt;Telebox number&lt;/li&gt;
+          &lt;li&gt;First telephone number&lt;/li&gt;
+          &lt;li&gt;Second telephone number&lt;/li&gt;
+          &lt;li&gt;Fax Number&lt;/li&gt;
+          &lt;li&gt;Teletex number&lt;/li&gt;
+          &lt;li&gt;Telex number&lt;/li&gt;
+          &lt;li&gt;Data communication line number.&lt;/li&gt;
+          &lt;li&gt;Printer destination for CCtr report&lt;/li&gt;
+          &lt;li&gt;Standard Hierarchy Area&lt;/li&gt;
+          &lt;li&gt;Cost collector key&lt;/li&gt;
+          &lt;li&gt;Completion flag for the cost center master record&lt;/li&gt;
+          &lt;li&gt;Indicator. object is statistical&lt;/li&gt;
+          &lt;li&gt;Object number&lt;/li&gt;
+          &lt;li&gt;Function of cost center&lt;/li&gt;
+          &lt;li&gt;Alternative function of cost center&lt;/li&gt;
+          &lt;li&gt;Template for Activity-Independent Formula Planning&lt;/li&gt;
+          &lt;li&gt;Template for Activity-Dependent Formula Planning&lt;/li&gt;
+          &lt;li&gt;Functional Area&lt;/li&gt;
+          &lt;li&gt;Template: Activity-Independent Allocation to Cost Center&lt;/li&gt;
+          &lt;li&gt;Template: Activity-Dependent Allocation to Cost Center&lt;/li&gt;
+          &lt;li&gt;Template: Actual Statistical Key Figure on Cost Center&lt;/li&gt;
+          &lt;li&gt;Template: Act. Stat. Key Figure - Cost Center/Activity Type&lt;/li&gt;
+          &lt;li&gt;Joint venture&lt;/li&gt;
+          &lt;li&gt;Recovery Indicator&lt;/li&gt;
+          &lt;li&gt;Equity type&lt;/li&gt;
+          &lt;li&gt;Joint Venture Object Type&lt;/li&gt;
+          &lt;li&gt;JIB/JIBE Class&lt;/li&gt;
+          &lt;li&gt;JIB/JIBE Subclass A&lt;/li&gt;
+          &lt;li&gt;Append structure for Regulatory Reporting&lt;/li&gt;
+          &lt;li&gt;Regulatory indicator&lt;/li&gt;
+          &lt;li&gt;Client&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>segregate_legal_entity_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"59c36a67-76a5-4e4b-9b53-a484b44387a6"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"272b1f93-102c-40b9-97df-14101a2c12b2"}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.code}}","label":"step➛Script step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.message}}","label":"step➛Script step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].legal_entity}}","label":"step➛Script step➛Legal Entity","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD0ec9b32f924f1150c62c427bf7330287","child_label":"Legal Entity Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"legal_entity_data","child_uiUniqueId":"212d96aa-866c-448d-9a39-6dcc2334b65b","uiUniqueId":"25912fc5-686c-4a01-8e76-539f4290f3ac"}},{"name":"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"19a2faeb-f380-47cb-b103-b6f3a84574fe"}}]</label_cache>
         <master>true</master>
@@ -1350,7 +1560,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0f9083b47cf115086887562846d4397</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1358,7 +1568,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
         <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:13:09</sys_updated_on>
+        <sys_updated_on>2023-05-01 06:24:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2463,7 +2673,7 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2022-11-15 11:23:24</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e2f9483b47cf115086887562846d43c9^sys_idNOT IN605e1f61c3cee11031c77addd40131ae"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e2f9483b47cf115086887562846d43c9^sys_idNOT INb6f6cf958366611067a211b6feaad306"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2022-11-15 03:23:24">e2f9483b47cf115086887562846d43c9</action_status_metadata_id>
         <condition>{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.code}}!=0</condition>
@@ -2472,11 +2682,11 @@
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-04-07 06:13:10</sys_created_on>
-        <sys_id>605e1f61c3cee11031c77addd40131ae</sys_id>
+        <sys_created_on>2023-05-01 06:24:07</sys_created_on>
+        <sys_id>b6f6cf958366611067a211b6feaad306</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-07 06:13:10</sys_updated_on>
+        <sys_updated_on>2023-05-01 06:24:07</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c0f9083b47cf115086887562846d4397^sys_idNOT IN85f9083b47cf115086887562846d43dd,9df9083b47cf115086887562846d43e1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -2623,6 +2833,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>11b5b367474f115086887562846d436a</sys_id>
         <latest_snapshot>c0f9083b47cf115086887562846d4397</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7-02-16-2023_02-28-2023_1844.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

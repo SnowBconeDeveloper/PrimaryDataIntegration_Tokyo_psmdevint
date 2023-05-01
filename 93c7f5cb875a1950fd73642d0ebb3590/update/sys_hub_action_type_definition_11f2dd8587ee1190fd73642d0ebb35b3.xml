@@ -7,10 +7,10 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from>f5ccfea3c3122010289bac8b8640dd22</copied_from>
         <copied_from_name>Get Source Property Value</copied_from_name>
-        <description>&lt;p id = "short_desc"&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Properties&lt;/b&gt; - &lt;/li&gt;&lt;li&gt;&lt;b&gt;Property Name&lt;/b&gt; - &lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Property Value&lt;/b&gt; - &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Invalid Credentials.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding HR Service Delivery Integrations Framework connection and credential must be created and associated with the HR Service Delivery Integrations Framework Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
+        <description>&lt;p&gt;Action fetches the propery passed by the user in integration service.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Inputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Properties&lt;/strong&gt; - Input&amp;nbsp;contains all the properties.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Property Name&lt;/strong&gt; - Input&amp;nbsp;determines the property name.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Default Value&lt;/strong&gt; -&amp;nbsp;Default value if any.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Outputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Property Value&lt;/strong&gt;-&amp;nbsp;Output will return the value of the property.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use.&amp;nbsp;&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>get_source_property_value</internal_name>
         <label_cache>[{"name":"{{action.property_name}}","label":"action➛Property Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c79fb66f-1cac-47d0-84e1-c2fe22491c28"}},{"name":"{{action.default_value}}","label":"action➛Default Value","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"760a199d-1964-49b2-85e2-9c7d383e11ae"}},{"name":"{{action.properties}}","label":"action➛Properties","type":"action","ref":"","reference_display":"","base_type":"simple_name_values","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Name-Value Pairs","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"simple_name_values","uiUniqueId":"c85bd28b-6bc4-4c62-ae66-a357519319f7"}},{"name":"{{step[855d66f4-947f-433f-b853-dacb352e89ba].property_value}}","label":"step➛Script step➛property_value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"eeba3261-ec52-4825-91c0-4860e97d66e7"}}]</label_cache>
@@ -34,8 +34,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_11f2dd8587ee1190fd73642d0ebb35b3</sys_update_name>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-04-08 07:14:55</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-05-01 06:54:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1437,10 +1437,10 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description>&lt;p id = "short_desc"&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Properties&lt;/b&gt; - &lt;/li&gt;&lt;li&gt;&lt;b&gt;Property Name&lt;/b&gt; - &lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Property Value&lt;/b&gt; - &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Invalid Credentials.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding HR Service Delivery Integrations Framework connection and credential must be created and associated with the HR Service Delivery Integrations Framework Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
+        <description>&lt;p&gt;Action fetches the propery passed by the user in integration service.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Inputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Properties&lt;/strong&gt; - Input&amp;nbsp;contains all the properties.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Property Name&lt;/strong&gt; - Input&amp;nbsp;determines the property name.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Default Value&lt;/strong&gt; -&amp;nbsp;Default value if any.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Outputs:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Property Value&lt;/strong&gt;-&amp;nbsp;Output will return the value of the property.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use.&amp;nbsp;&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>get_source_property_value</internal_name>
         <label_cache>[{"name":"{{action.property_name}}","label":"action➛Property Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c79fb66f-1cac-47d0-84e1-c2fe22491c28"}},{"name":"{{action.default_value}}","label":"action➛Default Value","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"760a199d-1964-49b2-85e2-9c7d383e11ae"}},{"name":"{{action.properties}}","label":"action➛Properties","type":"action","ref":"","reference_display":"","base_type":"simple_name_values","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Name-Value Pairs","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"simple_name_values","uiUniqueId":"c85bd28b-6bc4-4c62-ae66-a357519319f7"}},{"name":"{{step[855d66f4-947f-433f-b853-dacb352e89ba].property_value}}","label":"step➛Script step➛property_value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"eeba3261-ec52-4825-91c0-4860e97d66e7"}}]</label_cache>
         <master>true</master>
@@ -1455,15 +1455,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9427c9f47265d5096fcb777746d43bd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-07 07:26:21</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-05-01 06:51:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2833,6 +2833,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>11f2dd8587ee1190fd73642d0ebb35b3</sys_id>
         <latest_snapshot>e9427c9f47265d5096fcb777746d43bd</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7-02-16-2023_02-28-2023_1844.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
