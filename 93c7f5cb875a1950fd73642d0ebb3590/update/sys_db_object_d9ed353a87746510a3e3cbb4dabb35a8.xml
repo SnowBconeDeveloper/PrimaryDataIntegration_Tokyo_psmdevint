@@ -22,16 +22,16 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2023-02-07 17:06:58</sys_created_on>
         <sys_id>d9ed353a87746510a3e3cbb4dabb35a8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Master Data Error Handler</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_db_object_d9ed353a87746510a3e3cbb4dabb35a8</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-03-21 04:25:51</sys_updated_on>
+        <sys_updated_on>2023-05-01 11:50:29</sys_updated_on>
         <update_access>true</update_access>
-        <user_role display_value="sn_sap_data_int.master_data_error_handler_user" name="sn_sap_data_int.master_data_error_handler_user">ce2e353a87746510a3e3cbb4dabb35b2</user_role>
+        <user_role display_value="sn_shop.procurement_administrator" name="sn_shop.procurement_administrator">2675e65953de001046bcddeeff7b1269</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

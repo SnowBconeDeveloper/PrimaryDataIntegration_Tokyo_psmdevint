@@ -29,10 +29,10 @@
         <element attributes="edge_encryption_enabled=true" label="Financial management area" max_length="40" name="financial_management_area" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Fiscal year variant" max_length="40" name="fiscal_year_variant" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Foreign currency translation for tax items" max_length="40" name="foreign_currency_translation_for_tax_items" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Foreign trade import data control in mm purchase orders" max_length="40" name="foreign_trade_import_data_control_in_mm_purchase_orders" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Foreign trade import data control in material movement purchase orders" max_length="40" name="foreign_trade_import_data_control_in_mm_purchase_orders" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Foreign trade import data copying control for goods receipt" max_length="40" name="foreign_trade_import_data_copying_control_for_gr" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Foreign trade screen ctrl of imp Data f Mm goods rececipt" max_length="40" name="foreign_trade_screen_ctrl_of_imp_data_f_mm_goods_rececipt" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Funds center can be assigned to an account in hr from" max_length="40" name="funds_center_can_be_assigned_to_an_account_in_hr_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Foreign trade screen control of important data material movement goods receipt" max_length="40" name="foreign_trade_screen_ctrl_of_imp_data_f_mm_goods_rececipt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Funds center can be assigned to an account in human resource from" max_length="40" name="funds_center_can_be_assigned_to_an_account_in_hr_from" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Funds reservation field status var" max_length="40" name="funds_reservation_field_status_var" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="General ledger account authorization check in contracts" max_length="40" name="g_l_account_authorization_check_in_contracts" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="General ledger account authorization check in inventory management" max_length="40" name="g_l_account_authorization_check_in_inventory_management" type="string"/>
@@ -51,7 +51,7 @@
         <element attributes="edge_encryption_enabled=true" label="Indicator extended withholding tax active" max_length="40" name="indicator_extended_withholding_tax_active" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator financial assets management active" max_length="40" name="indicator_financial_assets_management_active" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator hedge request active" max_length="40" name="indicator_hedge_request_active" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Indicator JVA active" max_length="40" name="indicator_jva_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator joint venture accounting active" max_length="40" name="indicator_jva_active" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator negative postings permitted" max_length="40" name="indicator_negative_postings_permitted" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator number exchange rate difference when clearing in local crcy" max_length="40" name="indicator_no_ex_rate_difference_when_clearing_in_local_crcy" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator post translations for exchange rate differences" max_length="40" name="indicator_post_translations_for_exchange_rate_differences" type="string"/>
@@ -61,7 +61,7 @@
         <element attributes="edge_encryption_enabled=true" label="Indicator propose fiscal year" max_length="40" name="indicator_propose_fiscal_year" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator purchase account processing is active" max_length="40" name="indicator_purchase_account_processing_is_active" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator updating material movement in cash management forecast activated" max_length="40" name="indicator_updating_mm_in_cash_mgmt_forecast_activated" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Indicator updating sd in cash management forecast activated" max_length="40" name="indicator_updating_sd_in_cash_mgmt_forecast_activated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator updating sales and disturbution in cash management forecast activated" max_length="40" name="indicator_updating_sd_in_cash_mgmt_forecast_activated" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Inflation method" max_length="40" name="inflation_method" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Input tax code for non taxable transactions" max_length="40" name="input_tax_code_for_non_taxable_transactions" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Jurisdiction for tax calculation tax jurisdiction code" max_length="40" name="jurisdiction_for_tax_calculation_tax_jurisdiction_code" type="string"/>

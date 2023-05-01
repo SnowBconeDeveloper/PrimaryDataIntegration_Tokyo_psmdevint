@@ -10,7 +10,7 @@
         <element attributes="edge_encryption_enabled=true" label="Client" max_length="3" name="client" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Commitment item" max_length="14" name="commitment_item" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Company code" max_length="10" name="company_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Date of the last interest calculation run" max_length="10" name="date_of_the_last_interest_calculation_run" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of the last interest calculation" max_length="10" name="date_of_the_last_interest_calculation_run" type="string"/>
         <element label="Date on which the record was created" max_length="50" name="date_on_which_the_record_was_created" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Erp source" max_length="32" name="erp_source" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Field status group" max_length="10" name="field_status_group" type="string"/>
@@ -25,16 +25,16 @@
         <element attributes="edge_encryption_enabled=true" label="Indicator is account only posted to automatically" max_length="1" name="indicator_is_account_only_posted_to_automatically" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator manage balances in local currency only" max_length="1" name="indicator_manage_balances_in_local_currency_only" type="string"/>
         <element label="Indicator open item management" max_length="10" name="indicator_open_item_management" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Indicator reconcil Acct ready for input at time of posting" max_length="1" name="indicator_reconcil_acct_ready_for_input_at_time_of_posting" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator reconcil account ready for input at time of posting" max_length="1" name="indicator_reconcil_acct_ready_for_input_at_time_of_posting" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator supplement for automatic postings" max_length="1" name="indicator_supplement_for_automatic_postings" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator tax code is not a required field" max_length="1" name="indicator_tax_code_is_not_a_required_field" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Inflation key" max_length="8" name="inflation_key" type="string"/>
         <element label="Interest calculation indicator" max_length="5" name="interest_calculations_indicator" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Interest calculation frequency in months" max_length="10" name="interest_calculation_frequency_in_months" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Key date of last interest calculation" max_length="10" name="key_date_of_last_interest_calculation" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Key for exchange rate differences in foreign currency accts" max_length="10" name="key_for_exchange_rate_differences_in_foreign_currency_accts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key for exchange rate differences in foreign currency accounts" max_length="10" name="key_for_exchange_rate_differences_in_foreign_currency_accts" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Key for sorting according to assignment numbers" max_length="1" name="key_for_sorting_according_to_assignment_numbers" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Mca key" max_length="5" name="mca_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Multi currency accounting key" max_length="5" name="mca_key" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name of person who created the object" max_length="20" name="name_of_person_who_created_the_object" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Planning group" max_length="20" name="planning_group" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Planning level" max_length="10" name="planning_level" type="string"/>
@@ -43,5 +43,6 @@
         <element attributes="edge_encryption_enabled=true" label="Tax category in account master record" max_length="10" name="tax_category_in_account_master_record" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Tolerance group for general ledger accounts" max_length="4" name="tolerance_group_for_g_l_accounts" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Valuation group" max_length="10" name="valuation_group" type="string"/>
+        <element label="Date on which the record was created" max_length="50" name="vendor_created_date" type="string"/>
     </element>
 </database>
