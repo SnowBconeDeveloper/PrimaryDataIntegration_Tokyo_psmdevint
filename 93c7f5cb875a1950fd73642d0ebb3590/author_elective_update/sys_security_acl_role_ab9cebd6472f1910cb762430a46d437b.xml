@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-12-06 08:34:06</sys_created_on>
+        <sys_id>ab9cebd6472f1910cb762430a46d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_erp_plant_address_mapping.sn_sap_data_int.erp_plant_address_mapping_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_security_acl display_value="sn_sap_data_int_erp_plant_address_mapping">df9cebd6472f1910cb762430a46d4377</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ab9cebd6472f1910cb762430a46d437b</sys_update_name>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-06 08:34:06</sys_updated_on>
+        <sys_user_role display_value="sn_sap_data_int.erp_plant_address_mapping_user" name="sn_sap_data_int.erp_plant_address_mapping_user">f68d8edc4793955096fcb777746d4343</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sys_security_acl_role_ab9cebd6472f1910cb762430a46d437b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>shreenag.araga</sys_created_by><sys_created_on>2022-12-06 08:34:06</sys_created_on><sys_id>ab9cebd6472f1910cb762430a46d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_sap_data_int_erp_plant_address_mapping.sn_sap_data_int.erp_plant_address_mapping_user</sys_name><sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package><sys_policy/><sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope><sys_security_acl display_value="sn_sap_data_int_erp_plant_address_mapping">df9cebd6472f1910cb762430a46d4377</sys_security_acl><sys_update_name>sys_security_acl_role_ab9cebd6472f1910cb762430a46d437b</sys_update_name><sys_updated_by>shreenag.araga</sys_updated_by><sys_updated_on>2022-12-06 08:34:06</sys_updated_on><sys_user_role display_value="sn_sap_data_int.erp_plant_address_mapping_user" name="sn_sap_data_int.erp_plant_address_mapping_user">f68d8edc4793955096fcb777746d4343</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1650251554</payload_hash>
+        <record_name>sn_sap_data_int_erp_plant_address_mapping.sn_sap_data_int.erp_plant_address_mapping_user</record_name>
+        <reverted_from/>
+        <source>067962f9c395e11068187addd40131f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-09 15:27:10</sys_created_on>
+        <sys_id>7c07cc24c325251068187addd401314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186c6fbb5650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 15:27:10</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7407cc24f02525106c224598a9a1a94d</update_guid>
+        <update_guid_history>7407cc24f02525106c224598a9a1a94d:-1650251554,22d10275ed15e1100ec6b524a9773acf:567471924</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_sap_data_int_erp_plant_address_mapping.sn_sap_data_int.erp_plant_address_mapp">cb6aa4a9832a61102aac11b6feaad33f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 13:38:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0b48e548d27443a88732f45e98372390</sys_id>
+        <sys_metadata>ab9cebd6472f1910cb762430a46d437b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_erp_plant_address_mapping.sn_sap_data_int.erp_plant_address_mapping_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="sn_sap_data_int_erp_plant_address_mapping">df9cebd6472f1910cb762430a46d4377</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ab9cebd6472f1910cb762430a46d437b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ab9cebd6472f1910cb762430a46d437b">7c07cc24c325251068187addd401314d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 13:38:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
