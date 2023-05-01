@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>feebdde387c82550a3e3cbb4dabb359f</answer>
+        <condition table="var__m_sys_decision_input_e90322b38711a11046a6322e0ebb352d">type=supplier^event=update^EQ<item display_value="Supplier" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="supplier"/>
+            <item display_value="Update" endquery="false" field="event" goto="false" newquery="false" operator="=" or="false" value="update"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Master Data Policy">e90322b38711a11046a6322e0ebb352d</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_e90322b38711a11046a6322e0ebb352d</input_table>
+        <label>Update Supplier</label>
+        <order>0</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-07 19:06:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28d5ea378711a11046a6322e0ebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Supplier</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_decision_question_28d5ea378711a11046a6322e0ebb35db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-07 19:06:03</sys_updated_on>
+    </sys_decision_question>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>38dcb1acdb11a11c91232f17d4961910</instance_id>
+        <instance_name>psmdevint</instance_name>
+        <name>sys_decision_question_28d5ea378711a11046a6322e0ebb35db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>feebdde387c82550a3e3cbb4dabb359f</answer>
+        <condition table="var__m_sys_decision_input_e90322b38711a11046a6322e0ebb352d">type=supplier^event=update^EQ<item display_value="Supplier" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="supplier"/>
+            <item display_value="Update" endquery="false" field="event" goto="false" newquery="false" operator="=" or="false" value="update"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Master Data Policy">e90322b38711a11046a6322e0ebb352d</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_e90322b38711a11046a6322e0ebb352d</input_table>
+        <label>Update Supplier</label>
+        <order>0</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-07 19:06:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28d5ea378711a11046a6322e0ebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Supplier</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_decision_question_28d5ea378711a11046a6322e0ebb35db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-07 19:06:03</sys_updated_on>
+    </sys_decision_question>
+</record_update>]]></payload>
+        <payload_hash>1063644287</payload_hash>
+        <record_name>Update Supplier</record_name>
+        <reverted_from/>
+        <source>fdcf8f3783d2e5102aac11b6feaad36e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-04-26 15:25:17</sys_created_on>
+        <sys_id>6de29fff83d2e5102aac11b6feaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187be2b3f140000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-26 15:25:17</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>a9e29fff06d2e5106612f21373e55769</update_guid>
+        <update_guid_history>a9e29fff06d2e5106612f21373e55769:0,f3e56e37e811a110a8d09e196a9a807d:1593668853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-05-01 09:35:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>734e3204b1294513b5f7aa816b09a551</sys_id>
+        <sys_metadata>28d5ea378711a11046a6322e0ebb35db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Supplier</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_decision_question_28d5ea378711a11046a6322e0ebb35db</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_28d5ea378711a11046a6322e0ebb35db">6de29fff83d2e5102aac11b6feaad369</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-05-01 09:35:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
