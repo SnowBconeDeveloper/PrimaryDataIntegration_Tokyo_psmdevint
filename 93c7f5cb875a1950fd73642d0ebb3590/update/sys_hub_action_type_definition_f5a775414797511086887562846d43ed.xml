@@ -7,10 +7,79 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates ledger account JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs &lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP ledger account JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;div class="form-label"&gt;&lt;strong&gt;&lt;label class="control-label " data-for="ah_tooltipTop"&gt;Ledger Account&amp;nbsp;&lt;/label&gt;&lt;/strong&gt;- Array of objects containing below fields:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Ledger Account Data - Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;MCA Key&lt;/li&gt;
+&lt;li&gt;Clearing Specific to Ledger Groups&lt;/li&gt;
+&lt;li&gt;Tolerance Group for G/L Accounts&lt;/li&gt;
+&lt;li&gt;Inflation Key&lt;/li&gt;
+&lt;li&gt;Valuation Group&lt;/li&gt;
+&lt;li&gt;Indicator: Manage Balances in Local Currency Only&lt;/li&gt;
+&lt;li&gt;Indicator: Tax code is not a required field&lt;/li&gt;
+&lt;li&gt;Commitment Item&lt;/li&gt;
+&lt;li&gt;Recovery Indicator&lt;/li&gt;
+&lt;li&gt;Indicator: Reconcil.acct ready for input at time of posting&lt;/li&gt;
+&lt;li&gt;Alternative Account Number in Company Code&lt;/li&gt;
+&lt;li&gt;Key for sorting according to assignment numbers&lt;/li&gt;
+&lt;li&gt;Interest Calculation Frequency in Months&lt;/li&gt;
+&lt;li&gt;Key Date of Last Interest Calculation&lt;/li&gt;
+&lt;li&gt;Indicator: Is account blocked for posting&lt;/li&gt;
+&lt;li&gt;Indicator: Open Item Management&lt;/li&gt;
+&lt;li&gt;Indicator: Supplement for automatic postings&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Indicator: Account marked for deletion?&lt;/li&gt;
+&lt;li&gt;Indicator: Can Line Items Be Displayed by Account&lt;/li&gt;
+&lt;li&gt;Indicator: Is account only posted to automatically&lt;/li&gt;
+&lt;li&gt;Cash receipt account / cash disbursement account&lt;/li&gt;
+&lt;li&gt;Indicator: Account Managed in External System&lt;/li&gt;
+&lt;li&gt;Account currency&lt;/li&gt;
+&lt;li&gt;Interest calculation indicator&lt;/li&gt;
+&lt;li&gt;G/L account additional text&lt;/li&gt;
+&lt;li&gt;Tax Category in Account Master Record&lt;/li&gt;
+&lt;li&gt;Account is reconciliation account&lt;/li&gt;
+&lt;li&gt;Key for Exchange Rate Differences in Foreign Currency Accts&lt;/li&gt;
+&lt;li&gt;ID for account details&lt;/li&gt;
+&lt;li&gt;Short key for a house bank&lt;/li&gt;
+&lt;li&gt;Field status group&lt;/li&gt;
+&lt;li&gt;Financial Budget Item&lt;/li&gt;
+&lt;li&gt;Planning Level&lt;/li&gt;
+&lt;li&gt;Planning group&lt;/li&gt;
+&lt;li&gt;Name of Person who Created the Object&lt;/li&gt;
+&lt;li&gt;Date on which the Record Was Created&lt;/li&gt;
+&lt;li&gt;Date of the last interest calculation run&lt;/li&gt;
+&lt;li&gt;Accounting Clerk Abbreviation&lt;/li&gt;
+&lt;li&gt;Authorization Group&lt;/li&gt;
+&lt;li&gt;G/L Account Number&lt;/li&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Company Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows - &lt;/strong&gt;Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;span class="ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>segregate_gl_account_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛Json String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d9100514-3507-4450-bf03-6f5607e0e1eb"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c4fc64d8-601f-4dd7-af17-3aa5c6f5a9a1"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].ledger_account}}","label":"step➛Script step➛Ledger Account","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD6de8f5c1d1975110749276ce86985789","child_label":"Ledger Account Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Ledger_Account_Data","child_uiUniqueId":"042e6424-ea58-4cbf-a6fc-b6aa3bd82078","uiUniqueId":"eb3b316f-4a52-4336-bd95-9a3fcf7d3917"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"98ebe74d-fcd7-48a6-9ba7-adea2658eecf"}}]</label_cache>
@@ -27,7 +96,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5a775414797511086887562846d43ed</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segregate GL Account Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
@@ -35,7 +104,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f5a775414797511086887562846d43ed</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-18 06:59:05</sys_updated_on>
+        <sys_updated_on>2023-05-01 14:18:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -585,7 +654,7 @@
         <sys_created_on>2022-11-19 16:40:27</sys_created_on>
         <sys_id>4ee8f5c14797511086887562846d4391</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -608,7 +677,7 @@
         <sys_created_on>2022-12-29 12:41:23</sys_created_on>
         <sys_id>8ec147f9878ced10a3e3cbb4dabb35d3</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1162,7 +1231,7 @@
         <sys_created_on>2022-11-19 16:40:24</sys_created_on>
         <sys_id>15e8f5c14797511086887562846d4353</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1185,7 +1254,7 @@
         <sys_created_on>2022-11-19 16:40:24</sys_created_on>
         <sys_id>91e8f5c14797511086887562846d434f</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Json String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1210,7 +1279,7 @@
         <sys_created_on>2022-11-19 16:43:04</sys_created_on>
         <sys_id>948935054797511086887562846d4351</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1233,7 +1302,7 @@
         <sys_created_on>2022-11-19 16:40:28</sys_created_on>
         <sys_id>9ee8f5c14797511086887562846d43ca</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1256,7 +1325,7 @@
         <sys_created_on>2022-12-29 12:41:29</sys_created_on>
         <sys_id>afc187f9878ced10a3e3cbb4dabb3566</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1279,7 +1348,7 @@
         <sys_created_on>2022-11-19 16:43:04</sys_created_on>
         <sys_id>dc8935054797511086887562846d434a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1313,10 +1382,79 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Procurement">691e0f45c36a61104dcc9d777d01316e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates ledger account JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs &lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP ledger account JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;div class="form-label"&gt;&lt;strong&gt;&lt;label class="control-label " data-for="ah_tooltipTop"&gt;Ledger Account&amp;nbsp;&lt;/label&gt;&lt;/strong&gt;- Array of objects containing below fields:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Ledger Account Data - Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;MCA Key&lt;/li&gt;
+&lt;li&gt;Clearing Specific to Ledger Groups&lt;/li&gt;
+&lt;li&gt;Tolerance Group for G/L Accounts&lt;/li&gt;
+&lt;li&gt;Inflation Key&lt;/li&gt;
+&lt;li&gt;Valuation Group&lt;/li&gt;
+&lt;li&gt;Indicator: Manage Balances in Local Currency Only&lt;/li&gt;
+&lt;li&gt;Indicator: Tax code is not a required field&lt;/li&gt;
+&lt;li&gt;Commitment Item&lt;/li&gt;
+&lt;li&gt;Recovery Indicator&lt;/li&gt;
+&lt;li&gt;Indicator: Reconcil.acct ready for input at time of posting&lt;/li&gt;
+&lt;li&gt;Alternative Account Number in Company Code&lt;/li&gt;
+&lt;li&gt;Key for sorting according to assignment numbers&lt;/li&gt;
+&lt;li&gt;Interest Calculation Frequency in Months&lt;/li&gt;
+&lt;li&gt;Key Date of Last Interest Calculation&lt;/li&gt;
+&lt;li&gt;Indicator: Is account blocked for posting&lt;/li&gt;
+&lt;li&gt;Indicator: Open Item Management&lt;/li&gt;
+&lt;li&gt;Indicator: Supplement for automatic postings&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Indicator: Account marked for deletion?&lt;/li&gt;
+&lt;li&gt;Indicator: Can Line Items Be Displayed by Account&lt;/li&gt;
+&lt;li&gt;Indicator: Is account only posted to automatically&lt;/li&gt;
+&lt;li&gt;Cash receipt account / cash disbursement account&lt;/li&gt;
+&lt;li&gt;Indicator: Account Managed in External System&lt;/li&gt;
+&lt;li&gt;Account currency&lt;/li&gt;
+&lt;li&gt;Interest calculation indicator&lt;/li&gt;
+&lt;li&gt;G/L account additional text&lt;/li&gt;
+&lt;li&gt;Tax Category in Account Master Record&lt;/li&gt;
+&lt;li&gt;Account is reconciliation account&lt;/li&gt;
+&lt;li&gt;Key for Exchange Rate Differences in Foreign Currency Accts&lt;/li&gt;
+&lt;li&gt;ID for account details&lt;/li&gt;
+&lt;li&gt;Short key for a house bank&lt;/li&gt;
+&lt;li&gt;Field status group&lt;/li&gt;
+&lt;li&gt;Financial Budget Item&lt;/li&gt;
+&lt;li&gt;Planning Level&lt;/li&gt;
+&lt;li&gt;Planning group&lt;/li&gt;
+&lt;li&gt;Name of Person who Created the Object&lt;/li&gt;
+&lt;li&gt;Date on which the Record Was Created&lt;/li&gt;
+&lt;li&gt;Date of the last interest calculation run&lt;/li&gt;
+&lt;li&gt;Accounting Clerk Abbreviation&lt;/li&gt;
+&lt;li&gt;Authorization Group&lt;/li&gt;
+&lt;li&gt;G/L Account Number&lt;/li&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Company Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows - &lt;/strong&gt;Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;span class="ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>segregate_gl_account_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛Json String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d9100514-3507-4450-bf03-6f5607e0e1eb"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c4fc64d8-601f-4dd7-af17-3aa5c6f5a9a1"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].ledger_account}}","label":"step➛Script step➛Ledger Account","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD6de8f5c1d1975110749276ce86985789","child_label":"Ledger Account Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Ledger_Account_Data","child_uiUniqueId":"042e6424-ea58-4cbf-a6fc-b6aa3bd82078","uiUniqueId":"eb3b316f-4a52-4336-bd95-9a3fcf7d3917"}},{"name":"{{step[36d88703-c7a1-4f81-9cf2-3bb4fa6228ce].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"98ebe74d-fcd7-48a6-9ba7-adea2658eecf"}}]</label_cache>
         <master>true</master>
@@ -1331,15 +1469,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>251ef9894797511086887562846d4313</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-18 06:59:04</sys_updated_on>
+        <sys_updated_by>Krishna</sys_updated_by>
+        <sys_updated_on>2023-05-01 14:05:11</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1875,7 +2013,7 @@
         <sys_created_on>2022-12-29 12:44:57</sys_created_on>
         <sys_id>1692c33d878ced10a3e3cbb4dabb35a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1898,7 +2036,7 @@
         <sys_created_on>2022-11-19 17:03:13</sys_created_on>
         <sys_id>e71ef9894797511086887562846d43e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2452,7 +2590,7 @@
         <sys_created_on>2022-11-19 17:03:11</sys_created_on>
         <sys_id>8f1ef9894797511086887562846d43c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2475,7 +2613,7 @@
         <sys_created_on>2022-11-19 17:03:10</sys_created_on>
         <sys_id>f21ef9894797511086887562846d431b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Json String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2500,7 +2638,7 @@
         <sys_created_on>2022-11-19 17:03:15</sys_created_on>
         <sys_id>3f1e3d894797511086887562846d431f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2523,7 +2661,7 @@
         <sys_created_on>2022-11-19 17:03:15</sys_created_on>
         <sys_id>402e3d894797511086887562846d4356</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2546,7 +2684,7 @@
         <sys_created_on>2022-12-29 12:44:58</sys_created_on>
         <sys_id>ee92c33d878ced10a3e3cbb4dabb35c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2569,7 +2707,7 @@
         <sys_created_on>2022-11-19 17:03:14</sys_created_on>
         <sys_id>f71e3d894797511086887562846d4319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2583,6 +2721,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>f5a775414797511086887562846d43ed</sys_id>
         <latest_snapshot>251ef9894797511086887562846d4313</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7-02-16-2023_02-28-2023_1844.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

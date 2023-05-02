@@ -10,7 +10,97 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates&amp;nbsp;plant address JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP legal entity JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plant Address &lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Plant Address Data&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;Superior Department Store&lt;/li&gt;
+&lt;li&gt;Store Category to Differentiate Store, Dep. Store, Shop&lt;/li&gt;
+&lt;li&gt;IPI credit allowed&lt;/li&gt;
+&lt;li&gt;Vendor type (refinery/mill/other) (Brazil)&lt;/li&gt;
+&lt;li&gt;Exchange valuation indicator&lt;/li&gt;
+&lt;li&gt;Control data for fashion BOM maintenance&lt;/li&gt;
+&lt;li&gt;Indicator: Season Active in Inventory Management&lt;/li&gt;
+&lt;li&gt;Order Allocation Run&lt;/li&gt;
+&lt;li&gt;Invoke Added-Function Source Determination via ATP&lt;/li&gt;
+&lt;li&gt;Control of Credit of Cost Centers&lt;/li&gt;
+&lt;li&gt;Update of Activity Consumption in the Quantity Structure&lt;/li&gt;
+&lt;li&gt;Shipping Point/Receiving Point&lt;/li&gt;
+&lt;li&gt;Updating is active in actual costing&lt;/li&gt;
+&lt;li&gt;Updating is active for mixed costing&lt;/li&gt;
+&lt;li&gt;Cost Object Controlling linking active&lt;/li&gt;
+&lt;li&gt;Structure for name formation&lt;/li&gt;
+&lt;li&gt;Node type: supply chain network&lt;/li&gt;
+&lt;li&gt;Batch Record: Type of DMS Used&lt;/li&gt;
+&lt;li&gt;Central archiving marker for master record&lt;/li&gt;
+&lt;li&gt;Distribution profile at plant level&lt;/li&gt;
+&lt;li&gt;Rule for determining the sales area for stock transfers&lt;/li&gt;
+&lt;li&gt;Business Place&lt;/li&gt;
+&lt;li&gt;Number of days for PO tolerance - Compress info records - SU&lt;/li&gt;
+&lt;li&gt;Text name of 3rd dunning of vendor declarations&lt;/li&gt;
+&lt;li&gt;Text name of the 2nd dunning of vendor declarations&lt;/li&gt;
+&lt;li&gt;Text name of 1st dunning of vendor declarations&lt;/li&gt;
+&lt;li&gt;Number of Days for Third Reminder/Expediter&lt;/li&gt;
+&lt;li&gt;Number of Days for Second Reminder/Expediter&lt;/li&gt;
+&lt;li&gt;Number of Days for First Reminder/Expediter&lt;/li&gt;
+&lt;li&gt;Take regular vendor into account&lt;/li&gt;
+&lt;li&gt;Tax Indicator: Plant (Purchasing)&lt;/li&gt;
+&lt;li&gt;Supply region (region supplied)&lt;/li&gt;
+&lt;li&gt;Sales district&lt;/li&gt;
+&lt;li&gt;Plant category&lt;/li&gt;
+&lt;li&gt;Indicator: batch status management active&lt;/li&gt;
+&lt;li&gt;Variance Key&lt;/li&gt;
+&lt;li&gt;SOP plant&lt;/li&gt;
+&lt;li&gt;Language Key&lt;/li&gt;
+&lt;li&gt;Division for intercompany billing&lt;/li&gt;
+&lt;li&gt;Distribution channel for intercompany billing&lt;/li&gt;
+&lt;li&gt;Tax Jurisdiction&lt;/li&gt;
+&lt;li&gt;Maintenance Planning Plant&lt;/li&gt;
+&lt;li&gt;Address&lt;/li&gt;
+&lt;li&gt;City Code&lt;/li&gt;
+&lt;li&gt;County Code&lt;/li&gt;
+&lt;li&gt;Region (State, Province, County)&lt;/li&gt;
+&lt;li&gt;Country Key&lt;/li&gt;
+&lt;li&gt;Indicator: Source list requirement&lt;/li&gt;
+&lt;li&gt;Indicator: Conditions at plant level&lt;/li&gt;
+&lt;li&gt;Sales organization for intercompany billing&lt;/li&gt;
+&lt;li&gt;Purchasing Organization&lt;/li&gt;
+&lt;li&gt;City&lt;/li&gt;
+&lt;li&gt;Postal Code&lt;/li&gt;
+&lt;li&gt;Post office box&lt;/li&gt;
+&lt;li&gt;Name 2&lt;/li&gt;
+&lt;li&gt;Factory calendar key&lt;/li&gt;
+&lt;li&gt;Vendor number of plant&lt;/li&gt;
+&lt;li&gt;Customer number of plant&lt;/li&gt;
+&lt;li&gt;Valuation Area&lt;/li&gt;
+&lt;li&gt;Name&lt;/li&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Plant&lt;/li&gt;
+&lt;li&gt;Street and House Number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>segregate_plant_address_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"521eddc3-1249-4b9e-8e48-30711f893555"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"23e438ba-d358-4d81-900e-222b429365b5"}},{"name":"{{step[31f730f5-fd2f-4ab2-bc00-5dc9f84418ed].plant_address}}","label":"step➛Script step➛Plant Address","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD9270f7b8945b1110a369aedb70e74382","child_label":"Plant Address Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Plant_Address_Data","child_uiUniqueId":"bd4faf78-9567-46b9-91ea-2e7c0159aa59","uiUniqueId":"741aa368-03f4-449d-b2a4-e74e2db8600f"}},{"name":"{{step[31f730f5-fd2f-4ab2-bc00-5dc9f84418ed].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"d4f52deb-c7be-469c-877e-1e65d59ed119"}}]</label_cache>
@@ -27,7 +117,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d4e6ff4475b111086887562846d43ea</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segregate Plant Address Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
@@ -35,7 +125,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4d4e6ff4475b111086887562846d43ea</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-19 05:45:24</sys_updated_on>
+        <sys_updated_on>2023-05-01 14:18:26</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -593,7 +683,7 @@
         <sys_created_on>2022-11-19 06:44:23</sys_created_on>
         <sys_id>6e70f7b8475b111086887562846d43a2</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
+        <sys_name>Plant Address</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -616,7 +706,7 @@
         <sys_created_on>2022-11-19 06:47:14</sys_created_on>
         <sys_id>d021f3f8475b111086887562846d43db</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1170,7 +1260,7 @@
         <sys_created_on>2022-11-19 06:44:19</sys_created_on>
         <sys_id>2d70f7b8475b111086887562846d4353</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1193,7 +1283,7 @@
         <sys_created_on>2022-11-19 06:44:19</sys_created_on>
         <sys_id>e970f7b8475b111086887562846d4358</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1218,7 +1308,7 @@
         <sys_created_on>2022-11-19 06:47:15</sys_created_on>
         <sys_id>2421f3f8475b111086887562846d43f6</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Plant Address</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1241,7 +1331,7 @@
         <sys_created_on>2022-12-28 18:19:42</sys_created_on>
         <sys_id>50a50f6d4708ed1002367562846d436e</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1264,7 +1354,7 @@
         <sys_created_on>2022-11-19 06:47:14</sys_created_on>
         <sys_id>5c21f3f8475b111086887562846d43e9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1287,7 +1377,7 @@
         <sys_created_on>2022-11-19 06:47:15</sys_created_on>
         <sys_id>a021f3f8475b111086887562846d43f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1324,7 +1414,97 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Segregates&amp;nbsp;plant address JSON object to array of object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP legal entity JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plant Address &lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Plant Address Data&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;Superior Department Store&lt;/li&gt;
+&lt;li&gt;Store Category to Differentiate Store, Dep. Store, Shop&lt;/li&gt;
+&lt;li&gt;IPI credit allowed&lt;/li&gt;
+&lt;li&gt;Vendor type (refinery/mill/other) (Brazil)&lt;/li&gt;
+&lt;li&gt;Exchange valuation indicator&lt;/li&gt;
+&lt;li&gt;Control data for fashion BOM maintenance&lt;/li&gt;
+&lt;li&gt;Indicator: Season Active in Inventory Management&lt;/li&gt;
+&lt;li&gt;Order Allocation Run&lt;/li&gt;
+&lt;li&gt;Invoke Added-Function Source Determination via ATP&lt;/li&gt;
+&lt;li&gt;Control of Credit of Cost Centers&lt;/li&gt;
+&lt;li&gt;Update of Activity Consumption in the Quantity Structure&lt;/li&gt;
+&lt;li&gt;Shipping Point/Receiving Point&lt;/li&gt;
+&lt;li&gt;Updating is active in actual costing&lt;/li&gt;
+&lt;li&gt;Updating is active for mixed costing&lt;/li&gt;
+&lt;li&gt;Cost Object Controlling linking active&lt;/li&gt;
+&lt;li&gt;Structure for name formation&lt;/li&gt;
+&lt;li&gt;Node type: supply chain network&lt;/li&gt;
+&lt;li&gt;Batch Record: Type of DMS Used&lt;/li&gt;
+&lt;li&gt;Central archiving marker for master record&lt;/li&gt;
+&lt;li&gt;Distribution profile at plant level&lt;/li&gt;
+&lt;li&gt;Rule for determining the sales area for stock transfers&lt;/li&gt;
+&lt;li&gt;Business Place&lt;/li&gt;
+&lt;li&gt;Number of days for PO tolerance - Compress info records - SU&lt;/li&gt;
+&lt;li&gt;Text name of 3rd dunning of vendor declarations&lt;/li&gt;
+&lt;li&gt;Text name of the 2nd dunning of vendor declarations&lt;/li&gt;
+&lt;li&gt;Text name of 1st dunning of vendor declarations&lt;/li&gt;
+&lt;li&gt;Number of Days for Third Reminder/Expediter&lt;/li&gt;
+&lt;li&gt;Number of Days for Second Reminder/Expediter&lt;/li&gt;
+&lt;li&gt;Number of Days for First Reminder/Expediter&lt;/li&gt;
+&lt;li&gt;Take regular vendor into account&lt;/li&gt;
+&lt;li&gt;Tax Indicator: Plant (Purchasing)&lt;/li&gt;
+&lt;li&gt;Supply region (region supplied)&lt;/li&gt;
+&lt;li&gt;Sales district&lt;/li&gt;
+&lt;li&gt;Plant category&lt;/li&gt;
+&lt;li&gt;Indicator: batch status management active&lt;/li&gt;
+&lt;li&gt;Variance Key&lt;/li&gt;
+&lt;li&gt;SOP plant&lt;/li&gt;
+&lt;li&gt;Language Key&lt;/li&gt;
+&lt;li&gt;Division for intercompany billing&lt;/li&gt;
+&lt;li&gt;Distribution channel for intercompany billing&lt;/li&gt;
+&lt;li&gt;Tax Jurisdiction&lt;/li&gt;
+&lt;li&gt;Maintenance Planning Plant&lt;/li&gt;
+&lt;li&gt;Address&lt;/li&gt;
+&lt;li&gt;City Code&lt;/li&gt;
+&lt;li&gt;County Code&lt;/li&gt;
+&lt;li&gt;Region (State, Province, County)&lt;/li&gt;
+&lt;li&gt;Country Key&lt;/li&gt;
+&lt;li&gt;Indicator: Source list requirement&lt;/li&gt;
+&lt;li&gt;Indicator: Conditions at plant level&lt;/li&gt;
+&lt;li&gt;Sales organization for intercompany billing&lt;/li&gt;
+&lt;li&gt;Purchasing Organization&lt;/li&gt;
+&lt;li&gt;City&lt;/li&gt;
+&lt;li&gt;Postal Code&lt;/li&gt;
+&lt;li&gt;Post office box&lt;/li&gt;
+&lt;li&gt;Name 2&lt;/li&gt;
+&lt;li&gt;Factory calendar key&lt;/li&gt;
+&lt;li&gt;Vendor number of plant&lt;/li&gt;
+&lt;li&gt;Customer number of plant&lt;/li&gt;
+&lt;li&gt;Valuation Area&lt;/li&gt;
+&lt;li&gt;Name&lt;/li&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Plant&lt;/li&gt;
+&lt;li&gt;Street and House Number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>segregate_plant_address_response</internal_name>
         <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"521eddc3-1249-4b9e-8e48-30711f893555"}},{"name":"{{action.delimiter}}","label":"action➛Delimiter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"23e438ba-d358-4d81-900e-222b429365b5"}},{"name":"{{step[31f730f5-fd2f-4ab2-bc00-5dc9f84418ed].plant_address}}","label":"step➛Script step➛Plant Address","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD9270f7b8945b1110a369aedb70e74382","child_label":"Plant Address Data","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Plant_Address_Data","child_uiUniqueId":"bd4faf78-9567-46b9-91ea-2e7c0159aa59","uiUniqueId":"741aa368-03f4-449d-b2a4-e74e2db8600f"}},{"name":"{{step[31f730f5-fd2f-4ab2-bc00-5dc9f84418ed].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"d4f52deb-c7be-469c-877e-1e65d59ed119"}}]</label_cache>
         <master>true</master>
@@ -1339,15 +1519,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>20d3c44147db111086887562846d4330</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2023-04-19 05:45:23</sys_updated_on>
+        <sys_updated_by>varun</sys_updated_by>
+        <sys_updated_on>2023-05-01 13:27:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1891,7 +2071,7 @@
         <sys_created_on>2022-11-19 08:09:05</sys_created_on>
         <sys_id>53d3084147db111086887562846d434b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Plant Address</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1914,7 +2094,7 @@
         <sys_created_on>2022-11-19 08:09:06</sys_created_on>
         <sys_id>63d3084147db111086887562846d434f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2468,7 +2648,7 @@
         <sys_created_on>2022-11-19 08:09:02</sys_created_on>
         <sys_id>a6d3c44147db111086887562846d436a</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2491,7 +2671,7 @@
         <sys_created_on>2022-11-19 08:09:03</sys_created_on>
         <sys_id>bed3c44147db111086887562846d436e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2516,7 +2696,7 @@
         <sys_created_on>2022-11-19 08:09:12</sys_created_on>
         <sys_id>0de3484147db111086887562846d430e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Plant Address</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2539,7 +2719,7 @@
         <sys_created_on>2022-11-19 08:09:10</sys_created_on>
         <sys_id>24e3084147db111086887562846d43fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2562,7 +2742,7 @@
         <sys_created_on>2022-12-28 18:20:16</sys_created_on>
         <sys_id>90c5cf6d4708ed1002367562846d4328</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2585,7 +2765,7 @@
         <sys_created_on>2022-11-19 08:09:09</sys_created_on>
         <sys_id>d0e3084147db111086887562846d43f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2599,6 +2779,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>4d4e6ff4475b111086887562846d43ea</sys_id>
         <latest_snapshot>20d3c44147db111086887562846d4330</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7-02-16-2023_02-28-2023_1844.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

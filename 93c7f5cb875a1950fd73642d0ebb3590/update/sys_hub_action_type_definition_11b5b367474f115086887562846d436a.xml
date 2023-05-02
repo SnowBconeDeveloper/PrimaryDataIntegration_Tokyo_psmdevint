@@ -10,110 +10,112 @@
         <category/>
         <copied_from>907ba6cb475e991086887562846d43fe</copied_from>
         <copied_from_name>Segregate Legal Entity Response</copied_from_name>
-        <description>&lt;p&gt;Segregates cost center JSON object to array of object.&lt;/p&gt;
+        <description>&lt;p&gt;Segregates&amp;nbsp;legal entity JSON object to array of object.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Inputs&lt;/strong&gt; :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP cost center JSON payload.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP legal entity JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Cost Center&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;strong&gt;Cost Center&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
-        &lt;ul&gt;
-          &lt;li&gt;Cost Center&lt;/li&gt;
-          &lt;li&gt;Controlling Area&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Plan Primary Cost&lt;/li&gt;
-          &lt;li&gt;Company Code&lt;/li&gt;
-          &lt;li&gt;Profit Center&lt;/li&gt;
-          &lt;li&gt;Valid to Date&lt;/li&gt;
-          &lt;li&gt;Valid from Date&lt;/li&gt;
-          &lt;li&gt;Cost Center Category&lt;/li&gt;
-          &lt;li&gt;User Responsible&lt;/li&gt;
-          &lt;li&gt;Name1&lt;/li&gt;
-          &lt;li&gt;Postal Code&lt;/li&gt;
-          &lt;li&gt;Currency Key&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Actual Primary Postings&lt;/li&gt;
-          &lt;li&gt;Business Area&lt;/li&gt;
-          &lt;li&gt;Person Responsible&lt;/li&gt;
-          &lt;li&gt;Costing Sheet&lt;/li&gt;
-          &lt;li&gt;Tax Jurisdiction&lt;/li&gt;
-          &lt;li&gt;Plant&lt;/li&gt;
-          &lt;li&gt;Logical System&lt;/li&gt;
-          &lt;li&gt;Created on&lt;/li&gt;
-          &lt;li&gt;Entered by&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Actual Secondary Costs&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Actual Revenue Postings&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Commitment Update&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Plan Secondary Costs&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Planning Revenues&lt;/li&gt;
-          &lt;li&gt;Indicator for Allowed Allocation Methods&lt;/li&gt;
-          &lt;li&gt;Indicator for Recording Consumption Quantities&lt;/li&gt;
-          &lt;li&gt;Department&lt;/li&gt;
-          &lt;li&gt;Subsequent cost center&lt;/li&gt;
-          &lt;li&gt;Usage of the condition table&lt;/li&gt;
-          &lt;li&gt;Application&lt;/li&gt;
-          &lt;li&gt;CO-CCA Overhead Key&lt;/li&gt;
-          &lt;li&gt;Country Key&lt;/li&gt;
-          &lt;li&gt;Title&lt;/li&gt;
-          &lt;li&gt;Name 2&lt;/li&gt;
-          &lt;li&gt;Name 3&lt;/li&gt;
-          &lt;li&gt;Name 4&lt;/li&gt;
-          &lt;li&gt;City&lt;/li&gt;
-          &lt;li&gt;District&lt;/li&gt;
-          &lt;li&gt;Street and House Number&lt;/li&gt;
-          &lt;li&gt;Post office box&lt;/li&gt;
-          &lt;li&gt;P.O. Box Postal Code&lt;/li&gt;
-          &lt;li&gt;Region (State, Province, County)&lt;/li&gt;
-          &lt;li&gt;Language Key&lt;/li&gt;
-          &lt;li&gt;Telebox number&lt;/li&gt;
-          &lt;li&gt;First telephone number&lt;/li&gt;
-          &lt;li&gt;Second telephone number&lt;/li&gt;
-          &lt;li&gt;Fax Number&lt;/li&gt;
-          &lt;li&gt;Teletex number&lt;/li&gt;
-          &lt;li&gt;Telex number&lt;/li&gt;
-          &lt;li&gt;Data communication line number.&lt;/li&gt;
-          &lt;li&gt;Printer destination for CCtr report&lt;/li&gt;
-          &lt;li&gt;Standard Hierarchy Area&lt;/li&gt;
-          &lt;li&gt;Cost collector key&lt;/li&gt;
-          &lt;li&gt;Completion flag for the cost center master record&lt;/li&gt;
-          &lt;li&gt;Indicator. object is statistical&lt;/li&gt;
-          &lt;li&gt;Object number&lt;/li&gt;
-          &lt;li&gt;Function of cost center&lt;/li&gt;
-          &lt;li&gt;Alternative function of cost center&lt;/li&gt;
-          &lt;li&gt;Template for Activity-Independent Formula Planning&lt;/li&gt;
-          &lt;li&gt;Template for Activity-Dependent Formula Planning&lt;/li&gt;
-          &lt;li&gt;Functional Area&lt;/li&gt;
-          &lt;li&gt;Template: Activity-Independent Allocation to Cost Center&lt;/li&gt;
-          &lt;li&gt;Template: Activity-Dependent Allocation to Cost Center&lt;/li&gt;
-          &lt;li&gt;Template: Actual Statistical Key Figure on Cost Center&lt;/li&gt;
-          &lt;li&gt;Template: Act. Stat. Key Figure - Cost Center/Activity Type&lt;/li&gt;
-          &lt;li&gt;Joint venture&lt;/li&gt;
-          &lt;li&gt;Recovery Indicator&lt;/li&gt;
-          &lt;li&gt;Equity type&lt;/li&gt;
-          &lt;li&gt;Joint Venture Object Type&lt;/li&gt;
-          &lt;li&gt;JIB/JIBE Class&lt;/li&gt;
-          &lt;li&gt;JIB/JIBE Subclass A&lt;/li&gt;
-          &lt;li&gt;Append structure for Regulatory Reporting&lt;/li&gt;
-          &lt;li&gt;Regulatory indicator&lt;/li&gt;
-          &lt;li&gt;Client&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;legal Entity&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Legal Entity Data&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Company Code&lt;/li&gt;
+&lt;li&gt;Name of Company Code or Company&lt;/li&gt;
+&lt;li&gt;City&lt;/li&gt;
+&lt;li&gt;Country Key&lt;/li&gt;
+&lt;li&gt;Currency Key&lt;/li&gt;
+&lt;li&gt;Language Key&lt;/li&gt;
+&lt;li&gt;Chart of Accounts&lt;/li&gt;
+&lt;li&gt;Maximum exchange rate deviation in percent&lt;/li&gt;
+&lt;li&gt;Fiscal Year Variant&lt;/li&gt;
+&lt;li&gt;Allocation Indicator&lt;/li&gt;
+&lt;li&gt;Company&lt;/li&gt;
+&lt;li&gt;Address&lt;/li&gt;
+&lt;li&gt;Value added tax registration number&lt;/li&gt;
+&lt;li&gt;Financial Management Area&lt;/li&gt;
+&lt;li&gt;Indicator: Project Cash Management active?&lt;/li&gt;
+&lt;li&gt;Activate Update in Funds Management&lt;/li&gt;
+&lt;li&gt;Jurisdiction for tax calculation - tax jurisdiction code&lt;/li&gt;
+&lt;li&gt;Funds center can be assigned to an account in HR from&lt;/li&gt;
+&lt;li&gt;Company Code Variant (Screen)&lt;/li&gt;
+&lt;li&gt;Cash Management and Forecast Company Code&lt;/li&gt;
+&lt;li&gt;Credit control area&lt;/li&gt;
+&lt;li&gt;Rules for Copying from the Sample Account for G/L Accounts&lt;/li&gt;
+&lt;li&gt;Original Key of the Company Code&lt;/li&gt;
+&lt;li&gt;Chart of Accounts According to Country Legislation&lt;/li&gt;
+&lt;li&gt;Sales/Purchases Tax Group&lt;/li&gt;
+&lt;li&gt;Name of global company code&lt;/li&gt;
+&lt;li&gt;Field Status Variant&lt;/li&gt;
+&lt;li&gt;Posting Period Variant&lt;/li&gt;
+&lt;li&gt;Foreign Currency Translation for Tax Items&lt;/li&gt;
+&lt;li&gt;Workflow variant&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in inventory management&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in PO/scheduling agreement&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in purchase requisitions&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in contracts&lt;/li&gt;
+&lt;li&gt;Input Tax Code for Non-Taxable Transactions&lt;/li&gt;
+&lt;li&gt;Output Tax Code for Non-Taxable Transactions&lt;/li&gt;
+&lt;li&gt;Foreign Trade: Import Data Control in MM Purchase Orders&lt;/li&gt;
+&lt;li&gt;Procedure for Setting the Posting Date&lt;/li&gt;
+&lt;li&gt;Inflation Method&lt;/li&gt;
+&lt;li&gt;Funds reservation field status var.&lt;/li&gt;
+&lt;li&gt;Foreign trade: Import data copying control for GR&lt;/li&gt;
+&lt;li&gt;Method for offsetting account determination&lt;/li&gt;
+&lt;li&gt;Additional settings variant for bus.area financial statemnts&lt;/li&gt;
+&lt;li&gt;Cost of sales accounting status&lt;/li&gt;
+&lt;li&gt;Accounts Receivable Pledging Active&lt;/li&gt;
+&lt;li&gt;Enable Amount Split&lt;/li&gt;
+&lt;li&gt;Surcharge Calculation Method&lt;/li&gt;
+&lt;li&gt;Document Type for Provisions for Taxes on Services Received&lt;/li&gt;
+&lt;li&gt;Document Type for Journal Voucher (Amount Correction)&lt;/li&gt;
+&lt;li&gt;Document Type for Journal Voucher (Tax Code Correction)&lt;/li&gt;
+&lt;li&gt;Document Type for Remittance Challans&lt;/li&gt;
+&lt;li&gt;Deferred Tax Rule&lt;/li&gt;
+&lt;li&gt;Tax Reporting Date Active in Documents&lt;/li&gt;
+&lt;li&gt;Manage Variant of Posting Period for Company Code/Ledger&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in shopping cart&lt;/li&gt;
+&lt;li&gt;Hide Entry in Value Help&lt;/li&gt;
+&lt;li&gt;Activate Account Assignment Derivation in Funds Management&lt;/li&gt;
+&lt;li&gt;Indicator: Cash budget management active&lt;/li&gt;
+&lt;li&gt;Indicator: Cash Management activated?&lt;/li&gt;
+&lt;li&gt;Indicator: Propose current date as value date?&lt;/li&gt;
+&lt;li&gt;Indicator: Discount base amount is the net value&lt;/li&gt;
+&lt;li&gt;Indicator: Base amount for tax is net of discount?&lt;/li&gt;
+&lt;li&gt;Indicator: Business area financial statements required?&lt;/li&gt;
+&lt;li&gt;Indicator: Propose fiscal year?&lt;/li&gt;
+&lt;li&gt;Indicator: Post translations for exchange rate differences?&lt;/li&gt;
+&lt;li&gt;Indicator: Productive company code?&lt;/li&gt;
+&lt;li&gt;Indicator: Purchase Account Processing is Active&lt;/li&gt;
+&lt;li&gt;Indicator: JVA Active&lt;/li&gt;
+&lt;li&gt;Indicator: Financial Assets Management active&lt;/li&gt;
+&lt;li&gt;Indicator: No ex.rate difference when clearing in local crcy&lt;/li&gt;
+&lt;li&gt;Indicator: Updating MM in Cash Mgmt/Forecast activated?&lt;/li&gt;
+&lt;li&gt;Indicator: Updating SD in Cash Mgmt/Forecast activated?&lt;/li&gt;
+&lt;li&gt;Indicator: Company code is in another system&lt;/li&gt;
+&lt;li&gt;Indicator: hedge request active&lt;/li&gt;
+&lt;li&gt;Indicator: Document date as the basis for tax determination&lt;/li&gt;
+&lt;li&gt;Indicator: Negative Postings Permitted&lt;/li&gt;
+&lt;li&gt;Indicator: Can credit control area be overwritten?&lt;/li&gt;
+&lt;li&gt;Indicator: Extended withholding tax active&lt;/li&gt;
+&lt;li&gt;Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
@@ -139,8 +141,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_11b5b367474f115086887562846d436a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-01 07:51:31</sys_updated_on>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2023-05-01 14:18:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1418,17 +1420,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Segregate Legal Entity Response">11b5b367474f115086887562846d436a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c00a883b47cf115086887562846d434d","name":"plan","plan_signature":null}}</plan>
-        <snapshot>f51e5b41c32e211031c77addd4013188</snapshot>
+        <snapshot>7af6cf958366611067a211b6feaad306</snapshot>
         <sys_created_by>akash</sys_created_by>
         <sys_created_on>2022-11-15 11:23:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c00a883b47cf115086887562846d434d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-04-30 13:26:39</sys_updated_on>
+        <sys_updated_on>2023-05-01 06:24:09</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1440,110 +1442,112 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description>&lt;p&gt;Segregates cost center JSON object to array of object.&lt;/p&gt;
+        <description>&lt;p&gt;Segregates&amp;nbsp;legal entity JSON object to array of object.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Inputs&lt;/strong&gt; :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP cost center JSON payload.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON String&lt;/strong&gt;&amp;nbsp;- SAP legal entity JSON payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delimiter&lt;/strong&gt; - Character that separate strings&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Cost Center&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;strong&gt;Cost Center&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
-        &lt;ul&gt;
-          &lt;li&gt;Cost Center&lt;/li&gt;
-          &lt;li&gt;Controlling Area&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Plan Primary Cost&lt;/li&gt;
-          &lt;li&gt;Company Code&lt;/li&gt;
-          &lt;li&gt;Profit Center&lt;/li&gt;
-          &lt;li&gt;Valid to Date&lt;/li&gt;
-          &lt;li&gt;Valid from Date&lt;/li&gt;
-          &lt;li&gt;Cost Center Category&lt;/li&gt;
-          &lt;li&gt;User Responsible&lt;/li&gt;
-          &lt;li&gt;Name1&lt;/li&gt;
-          &lt;li&gt;Postal Code&lt;/li&gt;
-          &lt;li&gt;Currency Key&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Actual Primary Postings&lt;/li&gt;
-          &lt;li&gt;Business Area&lt;/li&gt;
-          &lt;li&gt;Person Responsible&lt;/li&gt;
-          &lt;li&gt;Costing Sheet&lt;/li&gt;
-          &lt;li&gt;Tax Jurisdiction&lt;/li&gt;
-          &lt;li&gt;Plant&lt;/li&gt;
-          &lt;li&gt;Logical System&lt;/li&gt;
-          &lt;li&gt;Created on&lt;/li&gt;
-          &lt;li&gt;Entered by&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Actual Secondary Costs&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Actual Revenue Postings&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Commitment Update&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Plan Secondary Costs&lt;/li&gt;
-          &lt;li&gt;Lock Indicator for Planning Revenues&lt;/li&gt;
-          &lt;li&gt;Indicator for Allowed Allocation Methods&lt;/li&gt;
-          &lt;li&gt;Indicator for Recording Consumption Quantities&lt;/li&gt;
-          &lt;li&gt;Department&lt;/li&gt;
-          &lt;li&gt;Subsequent cost center&lt;/li&gt;
-          &lt;li&gt;Usage of the condition table&lt;/li&gt;
-          &lt;li&gt;Application&lt;/li&gt;
-          &lt;li&gt;CO-CCA Overhead Key&lt;/li&gt;
-          &lt;li&gt;Country Key&lt;/li&gt;
-          &lt;li&gt;Title&lt;/li&gt;
-          &lt;li&gt;Name 2&lt;/li&gt;
-          &lt;li&gt;Name 3&lt;/li&gt;
-          &lt;li&gt;Name 4&lt;/li&gt;
-          &lt;li&gt;City&lt;/li&gt;
-          &lt;li&gt;District&lt;/li&gt;
-          &lt;li&gt;Street and House Number&lt;/li&gt;
-          &lt;li&gt;Post office box&lt;/li&gt;
-          &lt;li&gt;P.O. Box Postal Code&lt;/li&gt;
-          &lt;li&gt;Region (State, Province, County)&lt;/li&gt;
-          &lt;li&gt;Language Key&lt;/li&gt;
-          &lt;li&gt;Telebox number&lt;/li&gt;
-          &lt;li&gt;First telephone number&lt;/li&gt;
-          &lt;li&gt;Second telephone number&lt;/li&gt;
-          &lt;li&gt;Fax Number&lt;/li&gt;
-          &lt;li&gt;Teletex number&lt;/li&gt;
-          &lt;li&gt;Telex number&lt;/li&gt;
-          &lt;li&gt;Data communication line number.&lt;/li&gt;
-          &lt;li&gt;Printer destination for CCtr report&lt;/li&gt;
-          &lt;li&gt;Standard Hierarchy Area&lt;/li&gt;
-          &lt;li&gt;Cost collector key&lt;/li&gt;
-          &lt;li&gt;Completion flag for the cost center master record&lt;/li&gt;
-          &lt;li&gt;Indicator. object is statistical&lt;/li&gt;
-          &lt;li&gt;Object number&lt;/li&gt;
-          &lt;li&gt;Function of cost center&lt;/li&gt;
-          &lt;li&gt;Alternative function of cost center&lt;/li&gt;
-          &lt;li&gt;Template for Activity-Independent Formula Planning&lt;/li&gt;
-          &lt;li&gt;Template for Activity-Dependent Formula Planning&lt;/li&gt;
-          &lt;li&gt;Functional Area&lt;/li&gt;
-          &lt;li&gt;Template: Activity-Independent Allocation to Cost Center&lt;/li&gt;
-          &lt;li&gt;Template: Activity-Dependent Allocation to Cost Center&lt;/li&gt;
-          &lt;li&gt;Template: Actual Statistical Key Figure on Cost Center&lt;/li&gt;
-          &lt;li&gt;Template: Act. Stat. Key Figure - Cost Center/Activity Type&lt;/li&gt;
-          &lt;li&gt;Joint venture&lt;/li&gt;
-          &lt;li&gt;Recovery Indicator&lt;/li&gt;
-          &lt;li&gt;Equity type&lt;/li&gt;
-          &lt;li&gt;Joint Venture Object Type&lt;/li&gt;
-          &lt;li&gt;JIB/JIBE Class&lt;/li&gt;
-          &lt;li&gt;JIB/JIBE Subclass A&lt;/li&gt;
-          &lt;li&gt;Append structure for Regulatory Reporting&lt;/li&gt;
-          &lt;li&gt;Regulatory indicator&lt;/li&gt;
-          &lt;li&gt;Client&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;legal Entity&amp;nbsp;&lt;/strong&gt;- Array of objects containing below fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Legal Entity Data&lt;/strong&gt;&amp;nbsp;- Objects containing these fields:
+&lt;ul&gt;
+&lt;li&gt;Client&lt;/li&gt;
+&lt;li&gt;Company Code&lt;/li&gt;
+&lt;li&gt;Name of Company Code or Company&lt;/li&gt;
+&lt;li&gt;City&lt;/li&gt;
+&lt;li&gt;Country Key&lt;/li&gt;
+&lt;li&gt;Currency Key&lt;/li&gt;
+&lt;li&gt;Language Key&lt;/li&gt;
+&lt;li&gt;Chart of Accounts&lt;/li&gt;
+&lt;li&gt;Maximum exchange rate deviation in percent&lt;/li&gt;
+&lt;li&gt;Fiscal Year Variant&lt;/li&gt;
+&lt;li&gt;Allocation Indicator&lt;/li&gt;
+&lt;li&gt;Company&lt;/li&gt;
+&lt;li&gt;Address&lt;/li&gt;
+&lt;li&gt;Value added tax registration number&lt;/li&gt;
+&lt;li&gt;Financial Management Area&lt;/li&gt;
+&lt;li&gt;Indicator: Project Cash Management active?&lt;/li&gt;
+&lt;li&gt;Activate Update in Funds Management&lt;/li&gt;
+&lt;li&gt;Jurisdiction for tax calculation - tax jurisdiction code&lt;/li&gt;
+&lt;li&gt;Funds center can be assigned to an account in HR from&lt;/li&gt;
+&lt;li&gt;Company Code Variant (Screen)&lt;/li&gt;
+&lt;li&gt;Cash Management and Forecast Company Code&lt;/li&gt;
+&lt;li&gt;Credit control area&lt;/li&gt;
+&lt;li&gt;Rules for Copying from the Sample Account for G/L Accounts&lt;/li&gt;
+&lt;li&gt;Original Key of the Company Code&lt;/li&gt;
+&lt;li&gt;Chart of Accounts According to Country Legislation&lt;/li&gt;
+&lt;li&gt;Sales/Purchases Tax Group&lt;/li&gt;
+&lt;li&gt;Name of global company code&lt;/li&gt;
+&lt;li&gt;Field Status Variant&lt;/li&gt;
+&lt;li&gt;Posting Period Variant&lt;/li&gt;
+&lt;li&gt;Foreign Currency Translation for Tax Items&lt;/li&gt;
+&lt;li&gt;Workflow variant&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in inventory management&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in PO/scheduling agreement&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in purchase requisitions&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in contracts&lt;/li&gt;
+&lt;li&gt;Input Tax Code for Non-Taxable Transactions&lt;/li&gt;
+&lt;li&gt;Output Tax Code for Non-Taxable Transactions&lt;/li&gt;
+&lt;li&gt;Foreign Trade: Import Data Control in MM Purchase Orders&lt;/li&gt;
+&lt;li&gt;Procedure for Setting the Posting Date&lt;/li&gt;
+&lt;li&gt;Inflation Method&lt;/li&gt;
+&lt;li&gt;Funds reservation field status var.&lt;/li&gt;
+&lt;li&gt;Foreign trade: Import data copying control for GR&lt;/li&gt;
+&lt;li&gt;Method for offsetting account determination&lt;/li&gt;
+&lt;li&gt;Additional settings variant for bus.area financial statemnts&lt;/li&gt;
+&lt;li&gt;Cost of sales accounting status&lt;/li&gt;
+&lt;li&gt;Accounts Receivable Pledging Active&lt;/li&gt;
+&lt;li&gt;Enable Amount Split&lt;/li&gt;
+&lt;li&gt;Surcharge Calculation Method&lt;/li&gt;
+&lt;li&gt;Document Type for Provisions for Taxes on Services Received&lt;/li&gt;
+&lt;li&gt;Document Type for Journal Voucher (Amount Correction)&lt;/li&gt;
+&lt;li&gt;Document Type for Journal Voucher (Tax Code Correction)&lt;/li&gt;
+&lt;li&gt;Document Type for Remittance Challans&lt;/li&gt;
+&lt;li&gt;Deferred Tax Rule&lt;/li&gt;
+&lt;li&gt;Tax Reporting Date Active in Documents&lt;/li&gt;
+&lt;li&gt;Manage Variant of Posting Period for Company Code/Ledger&lt;/li&gt;
+&lt;li&gt;G/L account authorization check in shopping cart&lt;/li&gt;
+&lt;li&gt;Hide Entry in Value Help&lt;/li&gt;
+&lt;li&gt;Activate Account Assignment Derivation in Funds Management&lt;/li&gt;
+&lt;li&gt;Indicator: Cash budget management active&lt;/li&gt;
+&lt;li&gt;Indicator: Cash Management activated?&lt;/li&gt;
+&lt;li&gt;Indicator: Propose current date as value date?&lt;/li&gt;
+&lt;li&gt;Indicator: Discount base amount is the net value&lt;/li&gt;
+&lt;li&gt;Indicator: Base amount for tax is net of discount?&lt;/li&gt;
+&lt;li&gt;Indicator: Business area financial statements required?&lt;/li&gt;
+&lt;li&gt;Indicator: Propose fiscal year?&lt;/li&gt;
+&lt;li&gt;Indicator: Post translations for exchange rate differences?&lt;/li&gt;
+&lt;li&gt;Indicator: Productive company code?&lt;/li&gt;
+&lt;li&gt;Indicator: Purchase Account Processing is Active&lt;/li&gt;
+&lt;li&gt;Indicator: JVA Active&lt;/li&gt;
+&lt;li&gt;Indicator: Financial Assets Management active&lt;/li&gt;
+&lt;li&gt;Indicator: No ex.rate difference when clearing in local crcy&lt;/li&gt;
+&lt;li&gt;Indicator: Updating MM in Cash Mgmt/Forecast activated?&lt;/li&gt;
+&lt;li&gt;Indicator: Updating SD in Cash Mgmt/Forecast activated?&lt;/li&gt;
+&lt;li&gt;Indicator: Company code is in another system&lt;/li&gt;
+&lt;li&gt;Indicator: hedge request active&lt;/li&gt;
+&lt;li&gt;Indicator: Document date as the basis for tax determination&lt;/li&gt;
+&lt;li&gt;Indicator: Negative Postings Permitted&lt;/li&gt;
+&lt;li&gt;Indicator: Can credit control area be overwritten?&lt;/li&gt;
+&lt;li&gt;Indicator: Extended withholding tax active&lt;/li&gt;
+&lt;li&gt;Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Rows -&lt;/strong&gt; Return the total number of records present in SAP Payload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action Status&amp;nbsp;&lt;/strong&gt;-&amp;nbsp;Object containing following fields:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;&amp;nbsp;- If the request is executed successfully, code will be set to 0 but if the request failed, code will be set to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;&amp;nbsp;- Reason for error. Populated only when an error occurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>segregate_legal_entity_response</internal_name>
@@ -1560,7 +1564,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0f9083b47cf115086887562846d4397</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1568,7 +1572,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
         <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-05-01 06:24:06</sys_updated_on>
+        <sys_updated_on>2023-05-01 13:20:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2673,7 +2677,7 @@
         <sys_updated_by>akash</sys_updated_by>
         <sys_updated_on>2022-11-15 11:23:24</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e2f9483b47cf115086887562846d43c9^sys_idNOT INb6f6cf958366611067a211b6feaad306"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e2f9483b47cf115086887562846d43c9^sys_idNOT IN1a46eca1832e611067a211b6feaad361"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2022-11-15 03:23:24">e2f9483b47cf115086887562846d43c9</action_status_metadata_id>
         <condition>{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.code}}!=0</condition>
@@ -2682,11 +2686,11 @@
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[455dde94-66a4-459e-a9be-dfbc8ab07665].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-05-01 06:24:07</sys_created_on>
-        <sys_id>b6f6cf958366611067a211b6feaad306</sys_id>
+        <sys_created_on>2023-05-01 13:20:30</sys_created_on>
+        <sys_id>1a46eca1832e611067a211b6feaad361</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-05-01 06:24:07</sys_updated_on>
+        <sys_updated_on>2023-05-01 13:20:30</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c0f9083b47cf115086887562846d4397^sys_idNOT IN85f9083b47cf115086887562846d43dd,9df9083b47cf115086887562846d43e1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
